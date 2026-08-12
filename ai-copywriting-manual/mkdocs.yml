@@ -1,5 +1,25 @@
 site_name: AI Copywriting Manual
 nav:
   - Home: index.md
+  - Part 1:
+      - Introduction: part1/overview.md
+      - Understanding AI in Context:
+        - What Is AI?: part1/what-is-ai.md
+        - What are Large Language Models?: part1/what-are-llms.md
+        - What are GPTs?: part1/what-are-gpts.md
+      - Using AI Tools:
+        - How to Use AI Tools: part1/how-to-use-ai-tools.md
+        - How to Use ChatGPT: part1/how-to-use-chatgpt.md
+        - How to Use Microsoft Copilot: part1/how-to-use-microsoft-copilot.md
+        - How to Use Google Gemini: part1/how-to-use-google-gemini.md
+  - Part 2:
+      - Introduction: part2/overview.md
+      - Prompt Engineering:
+        - What is Prompt Engineering?: part2/what-is-prompt-engineering.md
+        - How to Write Effective Prompts: part2/how-to-write-effective-prompts.md
+        - Prompt Engineering Techniques: part2/prompt-engineering-techniques.md
+      - AI Copywriting:
+        - What is AI Copywriting?: part2/what-is-ai-copywriting.md
+        - How to Use AI for Copywriting: part2/how-to-use-ai-for-copywriting.md
+        - AI Copywriting Best Practices: part2/ai-copywriting-best-practices.md
   - About: about.md
-theme: readthedocs
