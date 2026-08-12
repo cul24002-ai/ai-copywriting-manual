@@ -1,6 +1,6 @@
 ---
-title: "What Are Large Language Models"
-description: "This is the in-depth guide to Large Language Models."
+title: "What Are Large Language Models (LLMs)"
+description: "This is the in-depth guide to Large Language Models (LLMs)."
 tags:
   - ai-tools
 author:
@@ -10,4 +10,4 @@ section: part1
 published: false
 ---
 
-# What are Large Language Models
+# What are Large Language Models (LLMs)
