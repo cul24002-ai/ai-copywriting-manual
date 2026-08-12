@@ -7,7 +7,7 @@ The Purpose of the Manual AI & Copywriting
 
 The purpose of the AI Copywriting Manual is to train Copywriters for BYU-Idaho University Communications on how to responsibly use AI tools in their work effectively, efficiently, and ethically, while complying with CES AI standards and honoring human agency, growth, and work. It is not meant to persuade or dissuade Copywriters from using AI, but to present the facts about the possibilities, limitations, and risks of AI tools.
     
-## **Part 1: cd ai-copywriting-manual && mkdocs build**
+## **Part 1: AI Tools For Copywriters**
 
 ### Understanding AI In Context
 In this part, we exclusively cover how we get from Artificial Intelligence as a concept to specific Chatbots. We explore concepts such as machine learning, neural networks, and natural language processing to see how they relate to the AI tools that Copywriters engage with every day.
