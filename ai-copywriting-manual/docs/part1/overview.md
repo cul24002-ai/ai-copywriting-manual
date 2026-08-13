@@ -66,11 +66,11 @@ When you think of AI, you might think of tools like ChatGPT, Google Gemini, or M
 ```mermaid
 graph LR
     subgraph Step 1: Collection
-      A(Data) -- collection --> B(Machine Learning)
+      A(Data Collection)
     end
-
     
     subgraph AI["GenAI Development"]
+      A --> B(Machine Learning)
         subgraph Step 2: Training
             B --> C(Neural Network)
             C --> D(Transformer Architecture)
@@ -78,15 +78,17 @@ graph LR
         end
         
         subgraph Step 3: Interface
-            E --> F(GPT)
-            F --> G(Chatbot)
+            E --> F(Chatbot)
         end
     end
 ```
+Textual data, such as web pages, books, repositories, articles, blogs, academic papers, Wikipedia, news archives, and public forums, is collected and processed into individual units called **Tokens**. GenAI models use tokens to calculate the statistical relationships across language and train their models on data in a process called **Machine Learning (ML)**.  
 
+In ML, rather than programming the computer to understand this data, an algorithm analyzes the patterns within the data to learn automatically. Through this process, a system of synthesized data emerges called a **Neural Network**. The synthesized data is used to reverse engineer human-like language. Using multiple neural networks, called the **Transformer Architecture**, the data enters the **Natural Language Processing** stage, where it begins to process tokens and track their connections.  
 
+Once the model completes natural language processing, it becomes a **Large Language Model (LLM)**, a model of human-like language. The LLM can read, reason, and generate text that resembles human text. However, despite its capabilities, it still isn't like the chatbots we are using. Converting an LLM into a **Chatbot** requires an additional training stage. In this final stage, it is trained to become a conversational system that manages the dialogue flow, personalizes responses, and serves as a helpful, adaptable assistant. 
 
-> #### AI Terminology
+> #### **AI Terminology**
 > **Artificial Intelligence (AI):** the computer systems that are trained to perform tasks in ways that resemble human intelligence. 
 >
 > **Machine Learning (ML):** the process of training AI, without explicitly programming it, with an algorithm developed from patterns found in data sets. 
@@ -101,6 +103,4 @@ graph LR
 >
 > **Large Language Model (LLM):** the model based on transformer architecture, trained from a large amount of text for natural language processing and language generation. 
 >
-> **Generative Pre-Trained Transformer (GPT):** a type of LLM specifically trained to turn them into helpful and responsive assistance for GenAI chatbots. 
->
-> **Chatbots:** software applications built on LLMs called GPTs that are meant to generate text that resembles human-like conversation, reasoning, and creativity. 
+> **Chatbots:** software applications built on LLMs that are meant to generate text that resembles human-like conversation, reasoning, and creativity. They are specifically trained to provide helpful, responsive assistance for GenAI chatbots.
