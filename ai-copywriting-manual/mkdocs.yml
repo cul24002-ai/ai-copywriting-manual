@@ -1,4 +1,15 @@
 site_name: AI Copywriting Manual
+
+theme:
+  name: material
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
 nav:
   - Home: index.md
   - Part 1:
@@ -23,3 +34,6 @@ nav:
         - How to Use AI for Copywriting: part2/how-to-use-ai-for-copywriting.md
         - AI Copywriting Best Practices: part2/ai-copywriting-best-practices.md
   - About: about.md
+
+plugins:
+  - mermaid2
