@@ -34,11 +34,11 @@ We assume that GenAI is here to stay, and that humanity will address and resolve
 > 
 > **What are the possibilities, limitations, and risks of AI Chatbots?**
 >
-> - *Possibilities:* Human-AI Collaboration, and Accelerated Productivity, Learning, Creativity, Reasoning, Analysis, and Research.
+> - *Possibilities:* Human-AI Collaboration, Accelerated Productivity, Learning, Creativity, Reasoning, Analysis, and Research.
 >
 > - *Limitations:* Tokens, Context Window, Limited Reasoning, No True Understanding, and Limited Data Access.
 >
-> - *Risks:* Hallucinations, Sychophancy, Bias, Cognitive Overreliance, Data Privacy, Copyright, Academic Integrity, and Plagiarism.
+> - *Risks:* Hallucinations, Sycophancy, Bias, Cognitive Overreliance, Data Privacy, Copyright, Academic Integrity, and Plagiarism.
 >
 > **How does AI collect your data?**
 >
