@@ -85,7 +85,11 @@ graph LR
         end
     end
 ```
-Textual data, such as web pages, books, repositories, articles, blogs, academic papers, Wikipedia, news archives, and public forums, is collected and processed into individual units called **Tokens**. GenAI models use tokens to calculate the statistical relationships across language and train their models on data in a process called **Machine Learning (ML)**.  
+Textual data, such as web pages, books, repositories, articles, blogs, academic papers, Wikipedia, news archives, and public forums, is collected and processed into individual units called **Tokens**. GenAI models use tokens to calculate the statistical relationships across language and train their models on data in a process called **Machine Learning (ML)**.
+
+In ML, rather than programming the computer to understand this data, an algorithm analyzes the patterns within the data to learn automatically. Through this process, a system of synthesized data emerges called a **Neural Network**. The synthesized data is used to reverse engineer human-like language. Using multiple neural networks, called the **Transformer Architecture**, the data enters the **Natural Language Processing** stage, where it begins to process tokens and track their connections.  
+
+Once the model completes natural language processing, it becomes a **Large Language Model (LLM)**, a model of human-like language. The LLM can read, reason, and generate text that resembles human text. However, despite its capabilities, it still isn't like the chatbots we are using. Converting an LLM into a **Chatbot** requires an additional training stage. In this final stage, it is trained to become a conversational system that manages the dialogue flow, personalizes responses, and serves as a helpful, adaptable assistant. 
 
 > ### AI Terminology
 > **Artificial Intelligence (AI):** the computer systems that are trained to perform tasks in ways that resemble human intelligence.
