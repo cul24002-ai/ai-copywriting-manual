@@ -22,6 +22,10 @@ GenAI tools are increasingly prevalent across businesses, government institution
 
 We assume that GenAI is here to stay, and that humanity will address and resolve the risks, limitations, and ethical concerns of the technology so that it can increase, not diminish, human dignity and liberty. To play our part, the *AI Copywriting Manual* provides Copywriters the knowledge and strategies they need to use GenAI tools responsibly. Copywriters for BYU-Idaho at University Communications need to understand GenAI tools to use them effectively, efficiently, and ethically.
 
+### *<p align="center">“A computer can never be held accountable, therefore a computer must never make a management decision.”</p>*
+
+<p align="right">– IBM Training Manual, 1979</p> 
+
 > ### Consider This
 >
 > **What is Artificial Intelligence?**
@@ -136,7 +140,7 @@ Copywriters should adapt an apprehensive—*both comprehensive and skeptical*—
 | **Hallucinations** | The generation of plausible, authoritative-sounding text that is factually incorrect or entirely fabricated. |
 | **Sycophancy** | The tendency to for Chatbots to align with user expectations. |
 
-AI chatbots are intentionally designed to generate responses to user requests. They prioritize answering and meeting user expectations over guaranteed truth verification. Hallucination and sycophancy are features of GenAI Chatbots, not a bug.
+##### Tokens & Training
 
 Chatbots such as ChatGPT, Google Gemini, or Microsoft Copilot do not process words the same way that you do. Instead of reading a sentence straightforward they break it down in a process called tokenization. The models are trained to understand the statistical relationship between those words, and the training is saved in their neural networks. Tokens are given a numerical identity, and it changes the way they read text. For example:
 
@@ -168,8 +172,25 @@ AI tokenizes:
 
 When you input a prompt into a chatbot, it calculates the relationship between each token in order to predict the most likely next word. Internal mechanics such as verification and instructions take up tokens, and because each token has a computational cost, it is usually better to train the model to generate certain types of responses. This kind of training is done through **Reinforcement Learning from Human Feedback (RLHF)** and **Direct Preference Optimization (DPO)**.
 
+##### Token Limits & Context Window
+
 Each token competes for space in the model's computational limit, which is called the context window. Every Chatbot has a context window, a maximum number of tokens it can hold at one time. This includes everything: your prompts, the Chatbot's responses, any uploaded documents, and the entire conversation history. No matter how large the context window is, it is still finite. 
 
 This is why usage limits exist in Chatbots. Message limits, document size restrictions, conversation length caps, all of these limits trace back to the context window. A short, focused prompt consumes fewer input tokens than a long, unfocused one. A request that generates a two-paragraph response costs less than one that produces a ten-page document.
 
-The economics are straightforward: tokens are the currency of GenAI Chatbots. However, there is a catch, context is important because Chatbots are more prone to hallucinations without it. There is a fine balance within AI chatbots, as with too much context the processing tokens become clogged up, and it is harder for them to recall what you said, but with too little context they hallucinate information or fail to generate less helpful responses. 
+The economics are straightforward: tokens are the currency of GenAI Chatbots. However, there is a catch, context is important because Chatbots are more prone to hallucinations without it. There is a balance within AI chatbots, as more context improves responses and reduces the hallucination risk, but increasing context also consumes token capacity, creating a tradeoff in performance and information retention.
+
+###### Diminishing Returns
+
+The promised productivity of GenAI is challenged by the limitations of the context window. 
+
+If a Copywriter must spend time tailoring prompts that provide enough guidance and content to ensure helpful responses and avoid hallucinations, then evaluating those outputs to ensure stylistic and factual cohesion, and readjusting for improved output, while also managing the limitations of the context window, then the efficient and effective use of GenAI is diminished because the time required for oversight may be better spent performing the task.
+
+If a Copywriter reduces the time spent reviewing the output in favor of productivity, they risk including hallucinations, misinformation, and poor quality in their copy. While it may be more efficient to utilize generated content, an increase in output volume and speed will not make up for the reduction of output quality, but it does at least guarantee the appearance of productivity.
+
+##### Hallucinations & Sycophancy
+
+AI chatbots are intentionally designed to generate responses to user requests. They prioritize answering and meeting user expectations over guaranteed truth verification. Hallucination and sycophancy are features of GenAI Chatbots, not a bug.
+
+Because AI models are limited in the data they can access and rely on next-word prediction
+
