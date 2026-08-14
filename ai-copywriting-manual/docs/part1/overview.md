@@ -38,11 +38,11 @@ We assume that GenAI is here to stay, and that humanity will address and resolve
 > 
 > **What are the possibilities, limitations, and risks of AI Chatbots?**
 >
-> - *Possibilities:* Human-AI Collaboration, and Accelerated Productivity, Learning, Creativity, Reasoning, Analysis, and Research.
+> - *Possibilities:* Human-AI Collaboration, Accelerated Productivity, Learning, Creativity, Reasoning, Analysis, and Research.
 >
 > - *Limitations:* Tokens, Context Window, Limited Reasoning, No True Understanding, and Limited Data Access.
 >
-> - *Risks:* Hallucinations, Sychophancy, Bias, Cognitive Overreliance, Data Privacy, Copyright, Academic Integrity, and Plagiarism.
+> - *Risks:* Hallucinations, Sycophancy, Bias, Cognitive Overreliance, Data Privacy, Copyright, Academic Integrity, and Plagiarism.
 >
 > **How does AI collect your data?**
 >
@@ -69,11 +69,11 @@ When you think of AI, you might think of tools like ChatGPT, Google Gemini, or M
 ```mermaid
 graph LR
     subgraph Step 1: Collection
-      A(Data) -- collection --> B(Machine Learning)
+      A(Data Collection)
     end
-
     
     subgraph AI["GenAI Development"]
+      A --> B(Machine Learning)
         subgraph Step 2: Training
             B --> C(Neural Network)
             C --> D(Transformer Architecture)
@@ -81,11 +81,11 @@ graph LR
         end
         
         subgraph Step 3: Interface
-            E --> F(GPT)
-            F --> G(Chatbot)
+            E --> F(Chatbot)
         end
     end
 ```
+Textual data, such as web pages, books, repositories, articles, blogs, academic papers, Wikipedia, news archives, and public forums, is collected and processed into individual units called **Tokens**. GenAI models use tokens to calculate the statistical relationships across language and train their models on data in a process called **Machine Learning (ML)**.  
 
 > ### AI Terminology
 > **Artificial Intelligence (AI):** the computer systems that are trained to perform tasks in ways that resemble human intelligence.
