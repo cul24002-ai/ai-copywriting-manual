@@ -122,4 +122,8 @@ As Copywriters, we are promised an increase in productivity and a decrease in me
 - **Citation & Reference Generation**
 - **Content Creation**
 
+GenAI enthusiasts promise what GenAI might be, but those promises does not describe what GenAI currently is. GenAI models have limitations and risks that prevent them from completely replacing the work and effort of Copywriters. 
 
+GenAI enthusiasts may argue that the limitations and risks of AI do not demonstrate that Copywriters cannot be replaced, only that GenAI requires human oversight to govern and verify outputs. The need for human oversight means that GenAI is not prepared to fulfill the enthusiasts' promises. AI may potentially be incorporated into a workflow to increase productivity, but that is not equivalent to the replacement of the Copywriter role.
+
+While human effort may have similar limitations and risks, the difference is that we can take full accountability. Copywriters can explain decisions, accept responsibility, and learn from experience. Because audiences and institutions continue to value human authorship, Copywriters still have a place in the job market
