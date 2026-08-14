@@ -184,7 +184,7 @@ This is why usage limits exist in Chatbots. Message limits, document size restri
 
 The economics are straightforward: tokens are the currency of GenAI Chatbots. However, there is a catch, context is important because Chatbots are more prone to hallucinations without it. There is a balance within AI chatbots, as more context improves responses and reduces the hallucination risk, but increasing context also consumes token capacity, creating a tradeoff in performance and information retention.
 
-###### Diminishing Returns
+###### *Diminishing Returns*
 
 The promised productivity of GenAI is challenged by the limitations of the context window. 
 
@@ -196,5 +196,15 @@ If a Copywriter reduces the time spent reviewing the output in favor of producti
 
 AI chatbots are intentionally designed to generate responses to user requests. They prioritize answering and meeting user expectations over guaranteed truth verification. Hallucination and sycophancy are features of GenAI Chatbots, not a bug.
 
-Because AI models are limited in the data they can access and rely on next-word prediction
+Chatbots have limited:
+- **Accessible Data:** They rely on next-word prediction, not a fact-checking engine. It is extremely difficult for them to verify information for accuracy.
+- **Verification Methods:** They are trained to produce a plausible type of result, not an exact factual result. Whatever facts they get correct are circumstantial and due to statistical frequency.
+- **Research Capacity:** They can potentially fabricate authoritative, but fictional, resources, events, or facts.
+- 
+
+
+
+
+
+
 
