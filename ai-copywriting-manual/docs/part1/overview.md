@@ -87,20 +87,39 @@ graph LR
 
 
 > #### AI Terminology
-> **Artificial Intelligence (AI):** the computer systems that are trained to perform tasks in ways that resemble human intelligence. 
+> **Artificial Intelligence (AI):** the computer systems that are trained to perform tasks in ways that resemble human intelligence.
 >
-> **Machine Learning (ML):** the process of training AI, without explicitly programming it, with an algorithm developed from patterns found in data sets. 
+> **Machine Learning (ML):** the process of training AI, without explicitly programming it, with an algorithm developed from patterns found in data sets.
 >
-> **Neural Network:** the model created by machine learning that resembles the structure and function of the neural networks found in the brain. 
+> **Neural Network:** the model created by machine learning that resembles the structure and function of the neural networks found in the brain.
 >
-> **Transformer Architecture:** the collection of neural networks that helps build AI models by converting text into tokens. 
+> **Transformer Architecture:** the collection of neural networks that helps build AI models by converting text into tokens.
 >
-> **Tokens:** the unit of data processed by AI models during training. In natural language processing, they represent words, parts of a word, or individual characters. 
+> **Tokens:** the unit of data processed by AI models during training. In natural language processing, they represent words, parts of a word, or individual characters.
 >
-> **Natural Language Processing:** the processing of human-like language for a computer system. This includes the process of finding relationships between words in neural networks and converting them into tokens. 
+> **Natural Language Processing:** the processing of human-like language for a computer system. This includes the process of finding relationships between words in neural networks and converting them into tokens.
 >
-> **Large Language Model (LLM):** the model based on transformer architecture, trained from a large amount of text for natural language processing and language generation. 
+> **Large Language Model (LLM):** the model based on transformer architecture, trained from a large amount of text for natural language processing and language generation.
 >
-> **Generative Pre-Trained Transformer (GPT):** a type of LLM specifically trained to turn them into helpful and responsive assistance for GenAI chatbots. 
+> **Generative Pre-Trained Transformer (GPT):** a type of LLM specifically trained to turn them into helpful and responsive assistance for GenAI chatbots.
 >
-> **Chatbots:** software applications built on LLMs called GPTs that are meant to generate text that resembles human-like conversation, reasoning, and creativity. 
+> **Chatbots:** software applications built on LLMs called GPTs that are meant to generate text that resembles human-like conversation, reasoning, and creativity.
+
+### What Are the Possibilities, Limitations, and Risks of AI Chatbots?
+#### What GenAI Promises
+GenAI enthusiasts promise that AI will promote political and economic health while also enabling individual growth across personal relationships, career advancement, and creativity. Furthermore, enthusiasts argue that GenAI tools enable individuals to code, design, build products, and produce media effortlessly because they will have 24/7 access to an AI agent with expertise in every subject.
+
+LLMs have enabled chatbots to generate natural language from a dataset of text so vast that a single human couldn't read it in a lifetime. Human-AI collaboration seems more efficient because GenAI's enormous generating capacity outperforms that of a single human every time. 
+
+As Copywriters, we are promised an increase in productivity and a decrease in mental drudgery because GenAI chatbots can augment and automate many of our tasks, such as:
+
+- **Research**
+- **Planning and Outlining**
+- **Brainstorming and Drafting**
+- **Editing Grammar, Tone, and Style**
+- **Logical Analysis**
+- **Review and Quality Control**
+- **Citation & Reference Generation**
+- **Content Creation**
+
+
