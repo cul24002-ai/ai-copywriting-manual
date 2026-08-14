@@ -138,7 +138,6 @@ Copywriters should adapt an apprehensive—*both comprehensive and skeptical*—
 
 AI chatbots are intentionally designed to generate responses to user requests. They prioritize answering and meeting user expectations over guaranteed truth verification. Hallucination and sycophancy are features of GenAI Chatbots, not a bug.
 
-##### How Tokens Work
 Chatbots such as ChatGPT, Google Gemini, or Microsoft Copilot do not process words the same way that you do. Instead of reading a sentence straightforward they break it down in a process called tokenization. The models are trained to understand the statistical relationship between those words, and the training is saved in their neural networks. Tokens are given a numerical identity, and it changes the way they read text. For example:
 
 Humans read:
@@ -157,14 +156,20 @@ For simple words and characters, it breaks them down one at a time. However, for
 
 Humans read:
 
-    Supercalifragilisticexpialidalicous.
+    Supercalifragilisticexpialidocious.
 
 AI reads:
 
-    ["Super", " cal", " if", " rag", " il", " istic", " exp", " ial", " id", " icous", "."]
+    ["Super", " cal", " if", " rag", " il", " istic", " exp", " ial", " id", " ocious", "."]
 
 AI tokenizes:
 
     [17789, 5842, 366, 17764, 311, 6207, 8067, 563, 315, 170661, 13]
 
-When you input a prompt into a chatbot, it calculates the relationship between each token in order to predict the most likely next word. Internal mechanics such as verification and instructions take up tokens, and because each token has a computational cost, it is usually better to train the model to generate certain types of responses. This kind of training is done through Reinforcement Learning from Human Feedback (RLHF) and Direct Preference Optimization (DPO).
+When you input a prompt into a chatbot, it calculates the relationship between each token in order to predict the most likely next word. Internal mechanics such as verification and instructions take up tokens, and because each token has a computational cost, it is usually better to train the model to generate certain types of responses. This kind of training is done through **Reinforcement Learning from Human Feedback (RLHF)** and **Direct Preference Optimization (DPO)**.
+
+Each token competes for space in the model's computational limit, which is called the context window. Every Chatbot has a context window, a maximum number of tokens it can hold at one time. This includes everything: your prompts, the Chatbot's responses, any uploaded documents, and the entire conversation history. No matter how large the context window is, it is still finite. 
+
+This is why usage limits exist in Chatbots. Message limits, document size restrictions, conversation length caps, all of these limits trace back to the context window. A short, focused prompt consumes fewer input tokens than a long, unfocused one. A request that generates a two-paragraph response costs less than one that produces a ten-page document.
+
+The economics are straightforward: tokens are the currency of GenAI Chatbots. However, there is a catch, context is important because Chatbots are more prone to hallucinations without it. There is a fine balance within AI chatbots, as with too much context the processing tokens become clogged up, and it is harder for them to recall what you said, but with too little context they hallucinate information or fail to generate less helpful responses. 
