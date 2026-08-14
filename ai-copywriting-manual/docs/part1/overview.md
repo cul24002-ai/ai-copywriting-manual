@@ -138,4 +138,33 @@ Copywriters should adapt an apprehensive—*both comprehensive and skeptical*—
 
 AI chatbots are intentionally designed to generate responses to user requests. They prioritize answering and meeting user expectations over guaranteed truth verification. Hallucination and sycophancy are features of GenAI Chatbots, not a bug.
 
+##### How Tokens Work
+Chatbots such as ChatGPT, Google Gemini, or Microsoft Copilot do not process words the same way that you do. Instead of reading a sentence straightforward they break it down in a process called tokenization. The models are trained to understand the statistical relationship between those words, and the training is saved in their neural networks. Tokens are given a numerical identity, and it changes the way they read text. For example:
 
+Humans read:
+
+    The quick brown fox jumps over the lazy dog.
+
+AI reads: 
+
+    ["The", " quick", " brown", " fox", " jumps", " over", " the", " lazy", " dog", " ."]
+
+AI tokenizes: 
+
+    [976, 4853, 19705, 68347, 65613, 1072, 290, 29082, 6446, 30]
+
+For simple words and characters, it breaks them down one at a time. However, for more complicated words, it has to break them down into different sections. For example: 
+
+Humans read:
+
+    Supercalifragilisticexpialidalicous.
+
+AI reads:
+
+    ["Super", " cal", " if", " rag", " il", " istic", " exp", " ial", " id", " icous", "."]
+
+AI tokenizes:
+
+    [17789, 5842, 366, 17764, 311, 6207, 8067, 563, 315, 170661, 13]
+
+When you input a prompt into a chatbot, it calculates the relationship between each token in order to predict the most likely next word. Internal mechanics such as verification and instructions take up tokens, and because each token has a computational cost, it is usually better to train the model to generate certain types of responses. This kind of training is done through Reinforcement Learning from Human Feedback (RLHF) and Direct Preference Optimization (DPO).
