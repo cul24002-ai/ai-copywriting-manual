@@ -62,7 +62,6 @@ The term AI is widely used, but not all AI tools work the same way. We are conce
 When you think of AI, you might think of tools like ChatGPT, Google Gemini, or Microsoft Copilot. However, those tools aren't the extent of AI; they are the product of a multi-step process: data collection and machine learning, model construction and training, and deployment and interface.
 
 ###### ***GenAI Step-By-Step***
-
 ```mermaid
 graph LR
     subgraph Step 1: Collection
@@ -84,9 +83,7 @@ graph LR
     end
 ```
 
-
-
-> #### AI Terminology
+> ### AI Terminology
 > **Artificial Intelligence (AI):** the computer systems that are trained to perform tasks in ways that resemble human intelligence.
 >
 > **Machine Learning (ML):** the process of training AI, without explicitly programming it, with an algorithm developed from patterns found in data sets.
@@ -95,7 +92,7 @@ graph LR
 >
 > **Transformer Architecture:** the collection of neural networks that helps build AI models by converting text into tokens.
 >
-> **Tokens:** the unit of data processed by AI models during training. In natural language processing, they represent words, parts of a word, or individual characters.
+> **Tokens:** the unit of data processed by AI models during training.
 >
 > **Natural Language Processing:** the processing of human-like language for a computer system. This includes the process of finding relationships between words in neural networks and converting them into tokens.
 >
@@ -126,4 +123,15 @@ GenAI enthusiasts promise what GenAI might be, but those promises does not descr
 
 GenAI enthusiasts may argue that the limitations and risks of AI do not demonstrate that Copywriters cannot be replaced, only that GenAI requires human oversight to govern and verify outputs. The need for human oversight means that GenAI is not prepared to fulfill the enthusiasts' promises. AI may potentially be incorporated into a workflow to increase productivity, but that is not equivalent to the replacement of the Copywriter role.
 
-While human effort may have similar limitations and risks, the difference is that we can take full accountability. Copywriters can explain decisions, accept responsibility, and learn from experience. Because audiences and institutions continue to value human authorship, Copywriters still have a place in the job market
+While human effort may have similar limitations and risks, the difference is that we can take full accountability. Copywriters can explain decisions, accept responsibility, and learn from experience. Copywriters who choose to employ GenAI in their work can overcome its limitations and weaknesses, showcasing its possible use-cases in effective, efficient, and ethical ways. You can find effective strategies for copywriters in [part2](../part2/overview.md).
+
+#### AI Limitations & Risks
+
+| Chatbot Mechanics | Definition |
+|:--|:-----|
+| **Tokens** | The basic units of text (roughly ¾ of a word, including punctuation and formatting) that a Chatbot uses to process and calculate language. |
+| **Context** refers to the set of tokens that are included when it generates a response. | The set of tokens included to generate a response. It represents the information available to a Chatbot during a session, including user prompts, uploaded files, system instructions, and prior chat history. |
+| **Hallucinations** | The generation of plausible, authoritative-sounding text that is factually incorrect or entirely fabricated. |
+| **Context window** | The limit on the total volume of text that a Chatbot can hold in its active working memory at any single moment. |
+
+
