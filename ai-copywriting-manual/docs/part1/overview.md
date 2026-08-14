@@ -14,7 +14,7 @@ published: false
 
 # Introduction
 
-***Key Takeaway:** For copywriters to use AI responsibly, they must know how to use it effectively, efficiently, and ethically.*
+***Key Takeaway:** For copywriters to use AI responsibly, they must know its possibilities, risks, and limitations to use it effectively, efficiently, and ethically.*
 
 ## Copywriting In The Age of AI 
 
@@ -126,12 +126,16 @@ GenAI enthusiasts may argue that the limitations and risks of AI do not demonstr
 While human effort may have similar limitations and risks, the difference is that we can take full accountability. Copywriters can explain decisions, accept responsibility, and learn from experience. Copywriters who choose to employ GenAI in their work can overcome its limitations and weaknesses, showcasing its possible use-cases in effective, efficient, and ethical ways. You can find effective strategies for copywriters in [part2](../part2/overview.md).
 
 #### AI Limitations & Risks
+Copywriters should adapt an apprehensive—*both comprehensive and skeptical*—approach to using Chatbots by exploring their underlying mechanics.  
 
 | Chatbot Mechanics | Definition |
 |:--|:-----|
 | **Tokens** | The basic units of text (roughly ¾ of a word, including punctuation and formatting) that a Chatbot uses to process and calculate language. |
-| **Context** refers to the set of tokens that are included when it generates a response. | The set of tokens included to generate a response. It represents the information available to a Chatbot during a session, including user prompts, uploaded files, system instructions, and prior chat history. |
-| **Hallucinations** | The generation of plausible, authoritative-sounding text that is factually incorrect or entirely fabricated. |
+| **Context** | The set of tokens included to generate a response. It represents the information available to a Chatbot during a session, including user prompts, uploaded files, system instructions, and prior chat history. |
 | **Context window** | The limit on the total volume of text that a Chatbot can hold in its active working memory at any single moment. |
+| **Hallucinations** | The generation of plausible, authoritative-sounding text that is factually incorrect or entirely fabricated. |
+| **Sycophancy** | The tendency to for Chatbots to align with user expectations. |
+
+AI chatbots are intentionally designed to generate responses to user requests. They prioritize answering and meeting user expectations over guaranteed truth verification. Hallucination and sycophancy are features of GenAI Chatbots, not a bug.
 
 
