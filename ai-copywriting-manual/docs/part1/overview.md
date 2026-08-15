@@ -199,8 +199,9 @@ AI chatbots are intentionally designed to generate responses to user requests. T
 Chatbots have limited:
 - **Accessible Data:** They rely on next-word prediction, not a fact-checking engine. It is extremely difficult for them to verify the accuracy of information.
 - **Verification Methods:** They are trained to produce a plausible type of result, not an exact factual result. Whatever facts they get correct are circumstantial and due to statistical frequency.
-- **Research Capacity:** They can potentially fabricate authoritative, but fictional, resources, events, or facts.
-- 
+- **Research Capacity:** They can potentially fabricate fictional resources, events, or facts that appear authoratative.
+- **Language Processing:** They may be adept at processing superficial text that appears grammatically accurate, professionally sophisticated, and logically sound at a glance, but deeper inspection reveals the content lacks substantive thought, contextual grounding, or applicability. Functionally, they don't understand language on a semantic level; they aggregate patterns of writing using tokenization algorithms.
+- **Content Restraints:** They don't have hard restraints that limit access of content, instead they are trained to suppress undesired outputs, but they ca
 
 
 
