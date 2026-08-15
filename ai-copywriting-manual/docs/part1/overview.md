@@ -127,11 +127,11 @@ As Copywriters, we are promised an increase in productivity and a decrease in me
 - **Citation & Reference Generation**
 - **Content Creation**
 
-GenAI enthusiasts promise what GenAI might be, but those promises does not describe what GenAI currently is. GenAI models have limitations and risks that prevent them from completely replacing the work and effort of Copywriters. 
+GenAI enthusiasts promise what GenAI might be, but those promises do not describe what GenAI currently is. GenAI models have limitations and risks that prevent them from completely replacing the work and effort of Copywriters. 
 
-GenAI enthusiasts may argue that the limitations and risks of AI do not demonstrate that Copywriters cannot be replaced, only that GenAI requires human oversight to govern and verify outputs. The need for human oversight means that GenAI is not prepared to fulfill the enthusiasts' promises. AI may potentially be incorporated into a workflow to increase productivity, but that is not equivalent to the replacement of the Copywriter role.
+GenAI enthusiasts may argue that the limitations and risks of AI do not demonstrate that Copywriters cannot be replaced, only that GenAI requires human oversight to govern and verify outputs. The need for human oversight means that GenAI is not prepared to fulfill the enthusiasts' promises. AI could potentially be incorporated into a Copywriter's workflow to increase productivity, but that is not equivalent to the Copywriter role itself.
 
-While human effort may have similar limitations and risks, the difference is that we can take full accountability. Copywriters can explain decisions, accept responsibility, and learn from experience. Copywriters who choose to employ GenAI in their work can overcome its limitations and weaknesses, showcasing its possible use-cases in effective, efficient, and ethical ways. You can find effective strategies for copywriters in [part2](../part2/overview.md).
+While human effort may have similar limitations and risks, the difference is that we can take full accountability. Copywriters can explain decisions, accept responsibility, and learn from experience. Copywriters who choose to employ GenAI in their work can overcome its limitations and weaknesses, showcasing its potential use cases in effective, efficient, and ethical ways. You can find effective strategies for copywriters in [part2](../part2/overview.md).
 
 #### AI Limitations & Risks
 Copywriters should adapt an apprehensive—*both comprehensive and skeptical*—approach to using Chatbots by exploring their underlying mechanics.  
@@ -142,11 +142,11 @@ Copywriters should adapt an apprehensive—*both comprehensive and skeptical*—
 | **Context** | The set of tokens included to generate a response. It represents the information available to a Chatbot during a session, including user prompts, uploaded files, system instructions, and prior chat history. |
 | **Context window** | The limit on the total volume of text that a Chatbot can hold in its active working memory at any single moment. |
 | **Hallucinations** | The generation of plausible, authoritative-sounding text that is factually incorrect or entirely fabricated. |
-| **Sycophancy** | The tendency to for Chatbots to align with user expectations. |
+| **Sycophancy** | The tendency for Chatbots to align with user expectations. |
 
 ##### Tokens & Training
 
-Chatbots such as ChatGPT, Google Gemini, or Microsoft Copilot do not process words the same way that you do. Instead of reading a sentence straightforward they break it down in a process called tokenization. The models are trained to understand the statistical relationship between those words, and the training is saved in their neural networks. Tokens are given a numerical identity, and it changes the way they read text. For example:
+Chatbots such as ChatGPT, Google Gemini, or Microsoft Copilot do not process words the same way that you do. Instead of reading a sentence straightforwardly, they break it down in a process called tokenization. The models are trained to understand the statistical relationships among those words, and that training is stored in their neural networks. Tokens are given a numerical identity, which changes how they read text. For example:
 
 Humans read:
 
@@ -174,30 +174,30 @@ AI tokenizes:
 
     [17789, 5842, 366, 17764, 311, 6207, 8067, 563, 315, 170661, 13]
 
-When you input a prompt into a chatbot, it calculates the relationship between each token in order to predict the most likely next word. Internal mechanics such as verification and instructions take up tokens, and because each token has a computational cost, it is usually better to train the model to generate certain types of responses. This kind of training is done through **Reinforcement Learning from Human Feedback (RLHF)** and **Direct Preference Optimization (DPO)**.
+When you input a prompt into a chatbot, it calculates the relationship between each token to predict the most likely next word. Internal mechanics, such as verification and instructions, consume tokens. Since each token incurs computational cost, it is usually better to train the model to generate certain types of responses. This kind of training is done through **Reinforcement Learning from Human Feedback (RLHF)** and **Direct Preference Optimization (DPO)**.
 
 ##### Token Limits & Context Window
 
-Each token competes for space in the model's computational limit, which is called the context window. Every Chatbot has a context window, a maximum number of tokens it can hold at one time. This includes everything: your prompts, the Chatbot's responses, any uploaded documents, and the entire conversation history. No matter how large the context window is, it is still finite. 
+Each token competes for space within the model's computational limit, called the context window. Every Chatbot has a context window, a maximum number of tokens it can hold at one time. This includes everything: your prompts, the Chatbot's responses, any uploaded documents, and the entire conversation history. No matter how large the context window is, it is still finite. 
 
-This is why usage limits exist in Chatbots. Message limits, document size restrictions, conversation length caps, all of these limits trace back to the context window. A short, focused prompt consumes fewer input tokens than a long, unfocused one. A request that generates a two-paragraph response costs less than one that produces a ten-page document.
+This is why usage limits exist in Chatbots. Message limits, document size restrictions, and conversation length caps trace back to the context window. A short, focused prompt consumes fewer input tokens than a long, unfocused one. A request that generates a two-paragraph response costs less than one that produces a ten-page document.
 
-The economics are straightforward: tokens are the currency of GenAI Chatbots. However, there is a catch, context is important because Chatbots are more prone to hallucinations without it. There is a balance within AI chatbots, as more context improves responses and reduces the hallucination risk, but increasing context also consumes token capacity, creating a tradeoff in performance and information retention.
+The economics are straightforward: tokens are the currency of GenAI Chatbots. However, there is a catch: context is important because Chatbots are more prone to hallucinations without it. There is a balance for AI chatbots. More context improves responses and reduces the risk of hallucinations, but increasing context also consumes token capacity, creating a trade-off between performance and information retention.
 
 ###### *Diminishing Returns*
 
-The promised productivity of GenAI is challenged by the limitations of the context window. 
+The promises of GenAI productivity are challenged by the limitations of the context window. 
 
 If a Copywriter must spend time tailoring prompts that provide enough guidance and content to ensure helpful responses and avoid hallucinations, then evaluating those outputs to ensure stylistic and factual cohesion, and readjusting for improved output, while also managing the limitations of the context window, then the efficient and effective use of GenAI is diminished because the time required for oversight may be better spent performing the task.
 
-If a Copywriter reduces the time spent reviewing the output in favor of productivity, they risk including hallucinations, misinformation, and poor quality in their copy. While it may be more efficient to utilize generated content, an increase in output volume and speed will not make up for the reduction of output quality, but it does at least guarantee the appearance of productivity.
+If a Copywriter reduces the time spent reviewing the output to improve productivity, they risk including hallucinations, misinformation, and poor-quality copy. While it may be more efficient to utilize generated content, an increase in output volume and speed will not compensate for the reduction in output quality. Still, it does at least guarantee the appearance of productivity.
 
 ##### Hallucinations & Sycophancy
 
-AI chatbots are intentionally designed to generate responses to user requests. They prioritize answering and meeting user expectations over guaranteed truth verification. Hallucination and sycophancy are features of GenAI Chatbots, not a bug.
+AI chatbots are intentionally designed to generate responses to user requests. They prioritize answering and meeting user expectations over guaranteed truth verification. Hallucinations and sycophancy are features of GenAI Chatbots, not a bug.
 
 Chatbots have limited:
-- **Accessible Data:** They rely on next-word prediction, not a fact-checking engine. It is extremely difficult for them to verify information for accuracy.
+- **Accessible Data:** They rely on next-word prediction, not a fact-checking engine. It is extremely difficult for them to verify the accuracy of information.
 - **Verification Methods:** They are trained to produce a plausible type of result, not an exact factual result. Whatever facts they get correct are circumstantial and due to statistical frequency.
 - **Research Capacity:** They can potentially fabricate authoritative, but fictional, resources, events, or facts.
 - 
