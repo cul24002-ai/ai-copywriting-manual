@@ -129,7 +129,7 @@ As Copywriters, we are promised an increase in productivity and a decrease in me
 
 GenAI enthusiasts promise what GenAI might be, but those promises do not describe what GenAI currently is. GenAI models have limitations and risks that prevent them from completely replacing the work and effort of Copywriters. 
 
-GenAI enthusiasts may argue that the limitations and risks of AI do not demonstrate that Copywriters cannot be replaced, only that GenAI requires human oversight to govern and verify outputs. The need for human oversight means that GenAI is not prepared to fulfill the enthusiasts' promises. AI could potentially be incorporated into a Copywriter's workflow to increase productivity, but that is not equivalent to the Copywriter role itself.
+GenAI enthusiasts may argue that the limitations and risks of AI do not demonstrate that Copywriters cannot be replaced, only that GenAI requires human oversight to govern and verify outputs. The need for human oversight means that GenAI is not prepared to fulfill the enthusiasts' promises. Potentially, AI could be incorporated into a Copywriter's workflow to increase productivity, but that is not equivalent to the Copywriter role itself.
 
 While human effort may have similar limitations and risks, the difference is that we can take full accountability. Copywriters can explain decisions, accept responsibility, and learn from experience. Copywriters who choose to employ GenAI in their work can overcome its limitations and weaknesses, showcasing its potential use cases in effective, efficient, and ethical ways. You can find effective strategies for copywriters in [part2](../part2/overview.md).
 
@@ -160,7 +160,7 @@ AI tokenizes:
 
     [976, 4853, 19705, 68347, 65613, 1072, 290, 29082, 6446, 30]
 
-For simple words and characters, it breaks them down one at a time. However, for more complicated words, it has to break them down into different sections. For example: 
+For simple words and characters, it breaks them down into IDs. However, for more complicated words, it has to break them down into different sections. For example: 
 
 Humans read:
 
@@ -186,7 +186,7 @@ The economics are straightforward: tokens are the currency of GenAI Chatbots. Ho
 
 ###### *Diminishing Returns*
 
-The promises of GenAI productivity are challenged by the limitations of the context window. 
+Context window limitations and GenAI's tendency for hallucinations challenge the promises of greater productivity.
 
 If a Copywriter must spend time tailoring prompts that provide enough guidance and content to ensure helpful responses and avoid hallucinations, then evaluating those outputs to ensure stylistic and factual cohesion, and readjusting for improved output, while also managing the limitations of the context window, then the efficient and effective use of GenAI is diminished because the time required for oversight may be better spent performing the task.
 
@@ -194,7 +194,7 @@ If a Copywriter reduces the time spent reviewing the output to improve productiv
 
 ##### Hallucinations & Sycophancy
 
-AI chatbots are intentionally designed to generate responses to user requests. They prioritize answering and meeting user expectations over guaranteed truth verification. Hallucinations and sycophancy are features of GenAI Chatbots, not a bug.
+AI chatbots are intentionally designed to generate responses to user requests. They prioritize answering and meeting user expectations over guaranteed truth verification. Hallucinations and sycophancy are features of GenAI Chatbots, not bugs.
 
 Chatbots have limited:
 - **Accessible Data:** They rely on next-word prediction, not a fact-checking engine. It is extremely difficult for them to verify the accuracy of information.
