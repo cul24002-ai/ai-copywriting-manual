@@ -24,7 +24,7 @@ We assume that GenAI is here to stay, and that humanity will address and resolve
 
 ### *<p align="center">“A computer can never be held accountable, therefore a computer must never make a management decision.”</p>*
 
-<p align="right">– IBM Training Manual, 1979</p> 
+<p align="right">– *IBM Training Manual, 1979*</p> 
 
 > ### Consider This
 >
