@@ -194,9 +194,8 @@ If a Copywriter reduces the time spent reviewing the output to improve productiv
 
 ##### Hallucinations & Sycophancy
 
-AI chatbots are intentionally designed to generate responses to user requests. They prioritize answering and meeting user expectations over guaranteed truth verification. Hallucinations and sycophancy are features of GenAI Chatbots, not bugs.
+AI chatbots are intentionally designed to always generate useful responses to user requests, rather than guaranteed truth verification. Hallucinations and sycophancy are features of GenAI Chatbots, not bugs. These features's are required for GenAI chatbots, because they are supposed to act as highly adaptable assistants for any given scenario. This adaptability creates hallucinations and sycophancy because Chatbots have limited:
 
-Chatbots have limited:
 - **Accessible Data:** They rely on next-word prediction, not a fact-checking engine. It is extremely difficult for them to verify the accuracy of information.
 - **Verification Methods:** They are trained to produce a plausible type of result, not an exact factual result. Whatever facts they get correct are circumstantial and due to statistical frequency.
 - **Research Capacity:** They can potentially fabricate fictional resources, events, or facts that appear authoratative.
