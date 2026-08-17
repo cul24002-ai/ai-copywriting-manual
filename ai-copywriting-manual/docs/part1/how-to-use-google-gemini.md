@@ -1,5 +1,5 @@
 ---
-title: "How to Use Google Gemini"
+title: "How To Use Google Gemini"
 description: "This is the in-depth how-to guide for Copywriters using Google Gemini."
 tags:
   - ai-tools
@@ -14,6 +14,8 @@ published: false
 
 # How to Use Google Gemini
 One of the Chatbots available to BYU-Idaho students is Google Gemini, a multimodal AI technology developed by Google. It functions as a family of AI models built to process and generate text, code, images, audio, and video that can access Google Workspace, Search, and developer tools.
+
+Beyond the basics of using AI Tools, found here: [How To Use AI Tools](how-to-use-ai-tools.md), this guide helps Copywriters understand and use the features of Google Gemini.
 
 **How Gemini Operates**
 * The website and app **[https://gemini.google.com/app](https://gemini.google.com/app)** functions as an multimodal AI chatbot.
@@ -55,31 +57,28 @@ Here is the step-by-step instructions to setting up Gemini:
 > #### :warning: **Use Your Institutional Account**
 > ***If you use a personal Google account, no institutional data protections are in place—treat it as Public-level only.***
 
-### Personal Intelligence
+### Connected Apps
 
-Gemini has an opt-in *Personal Intelligence* feature that connects to your chat history, Google and third-party apps, and AI instructions. This feature is available to provide tailored assistance, but it is turned-off by default.
+Gemini has an opt-in *Connected Apps* feature that connects to your account to other Google apps. 
 
-After you have signed in to your *@byui.edu* account, navigate to the Settings icon: :gear:, and find and click the icon labeled *Personal Intelligence*.
+After you have signed in to your *@byui.edu* account, navigate to the Settings icon: :gear:, and find and click the icon labeled *"Connected Apps"*.
 
-Once you are at that page you will see three blocks: *Memory*, *Connected Apps*, and *Instructions for Gemini*.
+Once you are at that page you will be able to toggle the switch, allowing you the ability to provide access to the account or not.
 
-#### Memory
+## Gemini Gem's
 
-#### Connected Apps
+Gemini has a feature called *Gems*, custom versions of Google Gemini designed to act as specialized AI assistants for specific, repetitive tasks. Instead of repeating similar instructions from previous tasks every time you start a new chat, a custom Gem retains those baseline rules.
 
-#### Instructions for Gemini
+Google includes built-in Gems ready to use, such as Brainstormer, Career Guide, Coding Partner, and Writing Editor. You can use them right away, or you can copy them and tailor them to suit your needs.
 
+After you have signed in to your *@byui.edu* account, navigate to the Settings icon: :gear:, and find and click the icon labeled *"Gems"*. Near the top you will see a list of premade gems. If you click the three-dots (ellipsis menu) you can make a copy to edit, or if you click the *"+ New Gem"* button you can create a new one from scratch.
 
+More on creating a Gem for Copywriters will be found here: [AI Agents for Copywriters]()
 
+**Key Features of Gems:** 
 
-3. Sign-in with your @byui.edu account.
-4. 
-5. Navigate to the Settings icon: :gear:
-6. 
-
-## Prompting & Features
-
-
+* **Custom Instructions & Personas:** You can define a specific role, tone, output structure, or strict set of rules for the Gem to follow.
+* **Knowledge Base Uploads:** You can attach source files (PDFs, style guides, product specs) or connect Google Drive documents directly to a Gem so it always grounds its responses in your specific references.
 
 ## Session Management & Forking
 
