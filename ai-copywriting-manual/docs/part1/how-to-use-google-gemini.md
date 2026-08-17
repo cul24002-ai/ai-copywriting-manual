@@ -65,7 +65,7 @@ After you have signed in to your *@byui.edu* account, navigate to the Settings i
 
 Once you are at that page you will be able to toggle the switch, allowing you the ability to provide access to the account or not.
 
-## Gemini Gem's
+## Gems
 
 Gemini has a feature called *Gems*, custom versions of Google Gemini designed to act as specialized AI assistants for specific, repetitive tasks. Instead of repeating similar instructions from previous tasks every time you start a new chat, a custom Gem retains those baseline rules.
 
@@ -79,6 +79,10 @@ More on creating a Gem for Copywriters will be found here: [AI Agents for Copywr
 
 * **Custom Instructions & Personas:** You can define a specific role, tone, output structure, or strict set of rules for the Gem to follow.
 * **Knowledge Base Uploads:** You can attach source files (PDFs, style guides, product specs) or connect Google Drive documents directly to a Gem so it always grounds its responses in your specific references.
+
+## Your Public Links
+
+## NotebookLM
 
 ## Session Management & Forking
 
