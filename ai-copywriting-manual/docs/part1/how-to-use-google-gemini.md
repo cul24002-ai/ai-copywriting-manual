@@ -57,6 +57,14 @@ Here is the step-by-step instructions to setting up Gemini:
 > #### :warning: **Use Your Institutional Account**
 > ***If you use a personal Google account, no institutional data protections are in place—treat it as Public-level only.***
 
+### Library 
+Gemini has a *Library* feature that holds your saved, pinned, and recent assets stored for easy access found in the sidebar. Key components include:
+
+* **Pinned & Recent Chats:** Access to important conversation threads, research sessions, or ongoing projects.
+* **Custom Gems:** A collection of all the personalized AI assistants you have created or copied with the *Gem* tool.
+* **Saved Prompts & Canvas Files:** Links to prompt templates or draft documents you are developing with the *Canvas* tool.
+* **Notebooks:** Direct links to your created *Gemini Notebooks (NotebookLM)*.
+
 ### Connected Apps
 
 Gemini has an opt-in *Connected Apps* feature that connects to your account to other Google apps. 
@@ -65,15 +73,15 @@ After you have signed in to your *@byui.edu* account, navigate to the Settings i
 
 Once you are at that page you will be able to toggle the switch, allowing you the ability to provide access to the account or not.
 
-> #### Shortcut Tags
-> Shortcut tags (e.g., the `@` symbol) are used to pull information form or execute commands across specific **Connected Apps** directly within your prompt thread, allowing you to direct Gemini to query specific apps.
-> 
-> | Common `@` Commands | What It Does | Example |
-> |:---:|:-----|:-----|
-> | `@Gmail` | Search, summarize, or draft emails from your primary inbox. | *@Gmail summarize the key points from the latest email sent by John*
-> | `@Google Drive` | Retrieve notes, analyze spreadsheets, or extract details from files stored in your Drive. | *@Google Drive find the project proposal draft and outline the budget section.*
-> | `@Google Calendar` | Check availability or manage upcoming schedule details. | *@Google Calendar what meetings do I have scheduled for tomorrow afternoon?* |
-> | `@Youtube` | Find specific video summaries, pull timestamps, or search for video topics. | *@Youtube find a beginner tutorial on Python functions and summarize it.* |
+ #### Shortcut Tags
+ Shortcut tags (e.g., the `@` symbol) are used to pull information form or execute commands across specific **Connected Apps** directly within your prompt thread, allowing you to direct Gemini to query specific apps.
+ 
+ | Common `@` Commands | What It Does | Example |
+ |:---:|:-----|:-----|
+ | `@Gmail` | Search, summarize, or draft emails from your primary inbox. | *@Gmail summarize the key points from the latest email sent by John*
+ | `@Google Drive` | Retrieve notes, analyze spreadsheets, or extract details from files stored in your Drive. | *@Google Drive find the project proposal draft and outline the budget section.*
+ | `@Google Calendar` | Check availability or manage upcoming schedule details. | *@Google Calendar what meetings do I have scheduled for tomorrow afternoon?* |
+ | `@Youtube` | Find specific video summaries, pull timestamps, or search for video topics. | *@Youtube find a beginner tutorial on Python functions and summarize it.* |
 
 ### Gems
 
