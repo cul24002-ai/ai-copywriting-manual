@@ -4,6 +4,25 @@ theme:
   name: material
 
 markdown_extensions:
+  - admonition
+  - pymdownx.blocks.admonition:
+      types:
+        - note
+        - abstract
+        - info
+        - tip
+        - success
+        - question
+        - example
+        - quote
+        - warning
+        - failure
+        - danger
+        - bug
+        - attention
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -35,5 +54,5 @@ nav:
         - AI Copywriting Best Practices: part2/ai-copywriting-best-practices.md
   - About: about.md
 
-plugins:
-  - mermaid2
+plugins: []
+  # - mermaid2  # Plugin not available, using pymdownx.superfences instead

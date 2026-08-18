@@ -44,17 +44,19 @@ Here is the step-by-step instructions to setting up Gemini:
 > * Navigate to **[https://gemini.google.com/app](https://gemini.google.com/app)**. Click the **"Sign In"** button in the top-right corner.  
 > * *(If you are already signed in to a personal Google account, click your profile icon in the top right and select Add another account).*
 
+
 > #### 2. **Enter Your BYU-Idaho Email Address**.
 > * On the Google sign-in page, enter your full **BYU-Idaho email address** (e.g., *username@byui.edu*) and click Next.
 > * *(You must use your full **@byui.edu email** address rather than just your username).*
+
 
 > #### 3. **Complete Authentication**.
 > * You will be redirected to the single sign-on page. Enter your Church account credentials and complete **Multi-Factor Authentication (MFA)** if prompted.
 > * Once authenticated, you will return to Gemini. Click your profile icon in the top-right corner to ensure your *@byui.edu* email is listed.
 > * *(You may be signed in automatically if you already have an active BYU-Idaho SSO session in your browser).*
 
->[!WARNING]
-> #### :warning: **Use Your Institutional Account**
+> [!WARNING]
+>:warning: **Use Your Institutional Account**
 > ***If you use a personal Google account, no institutional data protections are in place—treat it as Public-level only.***
 
 ### Library 
@@ -126,6 +128,7 @@ These models differ in token usage, with the more advanced models taking up more
 The model you should use depends on how advanced the task is and how much help you need in a given time.
 
 **Differences Between the Models**
+
 * **Flash:** Designed to be responsive and efficient. It handles routine, everyday tasks nearly instantaneously.
 * **Thinking:** Features built-in logical reasoning steps. Before returning a response it breaks down prompts and cross-checks its own answers. It excels at math, troubleshooting, prompt execution, and problem-solving.
 * **Pro:** Provides contextual analysis for multi-file projects and maintains coherence across long conversations.
