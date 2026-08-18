@@ -205,8 +205,11 @@ AI chatbots are intentionally designed to always generate useful responses to us
 #### AI Possibilities
 When the promises of GenAI are tested against the limitations and risks these models currently have, they are only as effective and efficient as the Copywriter using them. A Copywriter who embraces the technology without preparing to handle the limitations may create copy with errors that were easily preventable with human overview. A Copywriter who uses the technology with cation and strategy fight not be as fast as the first copywriter, but they are more likely to create error-free, helpful copy.
 
-
 ###### *<p align="center">AI Promises - Risks & Limitations + Human Governance = AI Possibilities</p>*
+
+
+
+
 
 
 
