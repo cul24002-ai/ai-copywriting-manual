@@ -24,7 +24,7 @@ We assume that GenAI is here to stay, and that humanity will address and resolve
 
 ### *<p align="center">“A computer can never be held accountable, therefore a computer must never make a management decision.”</p>*
 
-<p align="right">– *IBM Training Manual, 1979*</p> 
+*<p align="right">– IBM Training Manual, 1979</p>*
 
 > ### Consider This
 >
@@ -202,7 +202,11 @@ AI chatbots are intentionally designed to always generate useful responses to us
 - **Language Processing:** They may be adept at processing superficial text that appears grammatically accurate, professionally sophisticated, and logically sound at a glance, but deeper inspection reveals the content lacks substantive thought, contextual grounding, or applicability. Functionally, they don't understand language on a semantic level; they aggregate patterns of writing using tokenization algorithms.
 - **Content Restraints:** They don't have hard-coded restraints that limit specific types of content, instead they are trained to suppress undesired outputs. However, those restraints can be bypassed. This means they can generate content that is inappropriate, illegal, deceptive, biased, manipulative, dangerous, or completely fabricated.
 
+#### AI Possibilities
+When the promises of GenAI are tested against the limitations and risks these models currently have, they are only as effective and efficient as the Copywriter using them. A Copywriter who embraces the technology without preparing to handle the limitations may create copy with errors that were easily preventable with human overview. A Copywriter who uses the technology with cation and strategy fight not be as fast as the first copywriter, but they are more likely to create error-free, helpful copy.
 
+
+###### *<p align="center">AI Promises - Risks & Limitations + Human Governance = AI Possibilities</p>*
 
 
 
