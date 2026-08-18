@@ -206,14 +206,27 @@ GenAI has the ability to write all of your work for you, but human governance is
 ##### *<p align="center">AI Possibilities = Human Governance + AI Promises - Risks & Limitations</p>*
 
 #### ***Find***
-GenAI's hallucinations prevent it from becoming a truly effective researching, summarizing, and notetaking tool. There is never a guarantee that GenAI has sufficiently generated an accurate response, even if its reasoning and syntax appear authoritative. Copywriters should not leverage GenAI as a replacement for traditional research methods and tools, but by taking advantage of GenAI's LLMs and search systems, they can efficiently augment the hunt for relevant sources. 
+GenAI's hallucinations prevent it from becoming a truly effective researching, summarizing, and notetaking tool. There is never a guarantee that it has sufficiently generated an accurate response, even if its reasoning and syntax appear authoritative. Copywriters should not leverage GenAI as a replacement for traditional research methods and tools, but by taking advantage of the integrated LLMs and search systems, they can efficiently augment the search for relevant sources.  
 
-For instance, tools like Google's Gemini are connected to systems like Google Search and Google Scholar. By using it as a search tool for research materials you are able to quickly find sources that relate directly at a greater rate. It will still be up to you to verify appropriateness, accuracy, and authority of each source.
+By using GenAI as a search tool for research materials you are able to quickly find sources that relate directly at a greater rate. It will still be up to you to verify appropriateness, accuracy, and authority of each source. Tools like Google's Gemini, which are connected to systems like Google Search and Google Scholar, could easily be introduced into the Copywriter's research strategy.
+
+You can find more effective strategies for Find here:
 
 #### ***Challenge***
+Copywriters can assign GenAI tools user personas to test stress points and friction within their copy. It can offer various perspectives to challenge the Copywriter's assumptions, offering a fast-paced review with various audiences. While not a total replacement, during the drafting and revising period, this feature can be used to sharpen thinking, especially when used with skepticism.
 
+The principle behind Challenge is using GenAI to sharpen the Copywriters work rather than replace it, by evaluating underlying assumptions, casual connections, logical thinking, and rhetorical strategy. GenAI shouldn't suggest methods to overcome these gaps, but it may help the Copywriter see an issue they weren't aware of.
+
+The goal with Challenge is to use GenAI as a tool that strengthens Copy through rigorous testing, not automatic rewriting. By assigning testing and analytical personas the Copywriter will be able to better reason through, defend, and explain decisions that they made.
+
+You can find more effective strategies for Challenge here:
 
 #### ***Inspect***
+GenAI is able to process large amounts of text almost instantaneously. Through that process, they are able to analyze, evaluate, and critique texts' weaknesses and strengths. The issue is that even with context and prompt engineering, GenAI will still make erroneous mistakes. GenAI should not be used as the only editing tool. Tone, style, and grammar should always be reviewed by humans.
+
+GenAI should be given specific parameters before evaluating text, such as persona, style guidelines, and objectives. When going through the final audit, the Copywriter can evaluate the AI-reviews one at a time and still use their own judgment to determine what is best.
+
+You can find more effective strategies for Inspect here:
 
 - **Research**
 - **Planning and Outlining**
