@@ -11,22 +11,21 @@ author:
 section: part1
 published: false
 ---
-## Copywriting In The Age of AI 
+## Copywriting In the Age of AI 
 ***Key Takeaway:** For copywriters to use AI responsibly, they must know its possibilities, risks, and limitations to use it effectively, efficiently, and ethically.*
 
-GenAI tools are increasingly prevalent across businesses, government institutions, universities, social media, and anywhere content is created for user access.
+Generative Artificial Intelligence tools have become prevalent across many creative, tech, and knowledge sectors, promising to automate repetitive tasks and increase productivity.<a id="ref-1"></a><sup>[1](#cite-1)</sup> 
 
-Generative Artificial Intelligence tools have become prevalent across many creative, tech, and knowledge sectors. Artificial intelligence promises to 
+BYU-Idaho is preparing students for the future workforce by employing GenAI tools in faculty and student workflows<a id="ref-2"></a><sup>[2](#cite-2)</sup>, but it isn't easy because navigating the future of Human-AI collaboration requires both understanding and applying Gen AI tools to serve humanity, not to harm or hinder it.<a id="ref-3"></a><sup>[3](#cite-3)</sup>
 
-<a id="ref-1"></a>According to the documentation<sup>[1](#cite-1)</sup>
+The capacity of multimodal AI tools makes it easy for people to replace their own effort with machine-generated content, but current research demonstrates that this approach has an overall net negative impact on quality and performance across many areas.<a id="ref-4"></a><sup>[4](#cite-4),</sup><a id="ref-5"></a><sup>[5](#cite-5),</sup><a id="ref-6"></a><sup>[6](#cite-6)</sup> Yet, there is also evidence that Human-AI collaboration can complement our capabilities, giving to us rather than taking away from us.</sup><a id="ref-7"></a><sup>[7](#cite-7)</sup> 
+
+The conflicting data suggests there is an appropriate middle ground for GenAI, but the current AI models require an apprehensive—*both comprehensive and skeptical*—approach. The apprehensive approach assumes that GenAI tools are going to stay relevant in the future, that humanity will address and resolve the issues with GenAI, but in the meantime individuals and organizations must define specific policies and guardrails to protect against overreliance of AI.
+
+The purpose of *The AI Copywriting Manual* is to provide Copywriters for BYU-Idaho at University Communications the knowledge and strategies they need to responsibly use GenAI tools effectively, efficiently, and ethically. This section provides an introduction to GenAI, exploring its development and training processes, its proposed capabilities weighed against its limitations and risks, and its appropriate potential use cases for Copywriters. 
 
 
-
-At BYU-Idaho, we are employing GenAI tools in faculty and student workflows, navigating this adaptable technology in ways that enhance human experience rather than detract from it. It hasn't been easy. As GenAI is being examined by my policy writers for regulation and advanced by corporations for profits, our future of Human-AI collaboration is unpredictable.  
-
-We assume that GenAI is here to stay, and that humanity will address and resolve the risks, limitations, and ethical concerns of the technology so that it can increase, not diminish, human dignity and liberty. To play our part, the *AI Copywriting Manual* provides Copywriters the knowledge and strategies they need to use GenAI tools responsibly. Copywriters for BYU-Idaho at University Communications need to understand GenAI tools to use them effectively, efficiently, and ethically.
-
-### *<p align="center">“A computer can never be held accountable, therefore a computer must never make a management decision.”</p>*
+### *<p align="center">“A computer can never be held accountable; therefore, a computer must never make a management decision.”</p>*
 
 *<p align="right">– IBM Training Manual, 1979</p>*
 
@@ -247,7 +246,15 @@ You can find more effective strategies for Inspect here:
 
 # Citations
 
-1. <a id="cite-1"></a> Standard Markdown & HTML Specification. [↩ Back to text](#ref-1)
+1. <a id="cite-1"></a> https://www.goldmansachs.com/insights/articles/how-will-ai-affect-the-us-labor-market [↩ Back to text](#ref-1)
+2. <a id="cite-2"></a> https://www.byui.edu/ai/academics [↩ Back to text](#ref-2)
+3. <a id="cite-3"></a> https://www.unesco.org/en/artificial-intelligence/recommendation-ethics [↩ Back to text](#ref-3)
+4. <a id="cite-4"></a> https://www.mdpi.com/2075-4698/15/1/6 [↩ Back to text](#ref-4)
+5. <a id="cite-5"></a> https://news.harvard.edu/gazette/story/2025/11/is-ai-dulling-our-minds/ [↩ Back to text](#ref-5)
+6. <a id="cite-6"></a> https://tulanehullabaloo.com/74464/data/ai-reliance-may-have-detrimental-cognitive-effects-new-study-finds/ [↩ Back to text](#ref-6)
+7. <a id="cite-7"></a> https://mitsloan.mit.edu/press/new-mit-sloan-research-suggests-ai-more-likely-to-complement-not-replace-human-workers [↩ Back to text](#ref-7)
+
+
 
 
 
