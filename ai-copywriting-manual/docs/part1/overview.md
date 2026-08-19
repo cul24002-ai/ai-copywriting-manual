@@ -14,7 +14,15 @@ published: false
 ## Copywriting In The Age of AI 
 ***Key Takeaway:** For copywriters to use AI responsibly, they must know its possibilities, risks, and limitations to use it effectively, efficiently, and ethically.*
 
-GenAI tools are increasingly prevalent across businesses, government institutions, universities, social media, and anywhere content is created for user access. At BYU-Idaho, we are employing GenAI tools in faculty and student workflows, navigating this adaptable technology in ways that enhance human experience rather than detract from it. It hasn't been easy. As GenAI is being examined by my policy writers for regulation and advanced by corporations for profits, our future of Human-AI collaboration is unpredictable.  
+GenAI tools are increasingly prevalent across businesses, government institutions, universities, social media, and anywhere content is created for user access.
+
+Generative Artificial Intelligence tools have become prevalent across many creative, tech, and knowledge sectors. Artificial intelligence promises to 
+
+<a id="ref-1"></a>According to the documentation<sup>[1](#cite-1)</sup>
+
+
+
+At BYU-Idaho, we are employing GenAI tools in faculty and student workflows, navigating this adaptable technology in ways that enhance human experience rather than detract from it. It hasn't been easy. As GenAI is being examined by my policy writers for regulation and advanced by corporations for profits, our future of Human-AI collaboration is unpredictable.  
 
 We assume that GenAI is here to stay, and that humanity will address and resolve the risks, limitations, and ethical concerns of the technology so that it can increase, not diminish, human dignity and liberty. To play our part, the *AI Copywriting Manual* provides Copywriters the knowledge and strategies they need to use GenAI tools responsibly. Copywriters for BYU-Idaho at University Communications need to understand GenAI tools to use them effectively, efficiently, and ethically.
 
@@ -236,6 +244,11 @@ You can find more effective strategies for Inspect here:
 - **Review and Quality Control**
 - **Citation & Reference Generation**
 - **Content Creation**
+
+# Citations
+
+1. <a id="cite-1"></a> Standard Markdown & HTML Specification. [↩ Back to text](#ref-1)
+
 
 
 
