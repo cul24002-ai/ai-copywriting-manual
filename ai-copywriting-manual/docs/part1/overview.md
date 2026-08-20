@@ -12,7 +12,8 @@ section: part1
 published: false
 ---
 # Copywriting In the Age of AI 
-***Key Takeaway:** For copywriters to use AI responsibly, they must know its possibilities, risks, and limitations to use it effectively, efficiently, and ethically.*
+***Key Takeaways:** For copywriters to use AI responsibly, they must know its possibilities, risks, and limitations to use it effectively, efficiently, and ethically.*
+
 
 Generative Artificial Intelligence tools have become prevalent across many creative, tech, and knowledge sectors, promising to automate repetitive tasks and increase productivity.<a id="ref-1"></a><sup>[1](#cite-1)</sup> 
 
@@ -153,7 +154,9 @@ Moreover, some AI models, like Google Gemini, have access to search and retrieva
 
 *Tokens are the currency of GenAI.* In an AI model's context window, each token competes for space. The context window is a set of tokens included to generate a response; it represents the information available to an AI model including user prompts, uploaded files, system instructions, and textual data. The more tokens you use the more AI has to decide which context it needs to keep for a response or drop. Hallucinations become enhanced because the generative process is bogged down by every single word or phrase. 
 
-**Remember:** each work comes with statistical weight, which pulls the models processing in different directions. Since it is trained to prioritize a natural and helpful response over factual verification, it will start to hallucinate at a more extreme rate. The mechanics for turning textual data into words are still probabilistic even it is more advanced.
+**Remember:** Each word comes with statistical weight, which pulls the model's natural language processing in different directions. Since it is trained to prioritize a natural and helpful response over factual verification, it will start to hallucinate at a more extreme rate when there is more textual data. The mechanics for turning textual data into words are still probabilistic even it is more advanced.
+
+
 
 ### ***Phase 3***
 
@@ -161,39 +164,10 @@ Once the model completes natural language processing, it becomes a **Large Langu
 
 Converting an LLM into a **Chatbot** requires an additional training stage. In this final stage, it is trained to become a conversational system that manages the dialogue flow, personalizes responses, and serves as a helpful, adaptable assistant.
 
-## What Are the Possibilities, Limitations, and Risks of AI Chatbots?
-### What GenAI Promises
-
-While human effort may have similar limitations and risks, the difference is that we can take full accountability. Copywriters can explain decisions, accept responsibility, and learn from experience. Copywriters who choose to employ GenAI in their work can overcome its limitations and weaknesses, showcasing its potential use cases in effective, efficient, and ethical ways. You can find effective strategies for copywriters in [part2](../part2/overview.md).
-
-### AI Limitations & Risks
-Copywriters should adapt an apprehensive—*both comprehensive and skeptical*—approach to using Chatbots by exploring their underlying mechanics.  
-
-| Chatbot Mechanics ||
-|:--|:-----|
-| **Tokens** | The basic units of text (roughly ¾ of a word, including punctuation and formatting) that a Chatbot uses to process and calculate language. |
-| **Context** | The set of tokens included to generate a response. It represents the information available to a Chatbot during a session, including user prompts, uploaded files, system instructions, and prior chat history. |
-| **Context window** | The limit on the total volume of text that a Chatbot can hold in its active working memory at any single moment. |
-| **Hallucinations** | The generation of plausible, authoritative-sounding text that is factually incorrect or entirely fabricated. |
-| **Sycophancy** | The tendency for Chatbots to align with user expectations. |
-
-#### Tokens & Training
-When you input a prompt into a chatbot, it calculates the relationship between each token to predict the most likely next word. Internal mechanics, such as verification and instructions, consume tokens. Since each token incurs computational cost, it is usually better to train the model to generate certain types of responses. This kind of training is done through **Reinforcement Learning from Human Feedback (RLHF)** and **Direct Preference Optimization (DPO)**.
-
-#### Token Limits & Context Window
+This kind of training is done through **Reinforcement Learning from Human Feedback (RLHF)** and **Direct Preference Optimization (DPO)**.
 
 
-##### *Diminishing Returns*
-
-Context window limitations and GenAI's tendency for hallucinations challenge the promises of greater productivity.
-
-If a Copywriter must spend time tailoring prompts that provide enough guidance and content to ensure helpful responses and avoid hallucinations, then evaluating those outputs to ensure stylistic and factual cohesion, and readjusting for improved output, while also managing the limitations of the context window, then the efficient and effective use of GenAI is diminished because the time required for oversight may be better spent performing the task.
-
-If a Copywriter reduces the time spent reviewing the output to improve productivity, they risk including hallucinations, misinformation, and poor-quality copy. While it may be more efficient to utilize generated content, an increase in output volume and speed will not compensate for the reduction in output quality. Still, it does at least guarantee the appearance of productivity.
-
-#### Hallucinations & Sycophancy
-
-AI chatbots are intentionally designed to always generate useful responses to user requests, rather than guaranteed truth verification. Hallucinations and sycophancy are features of GenAI Chatbots, not bugs. These features are required for GenAI chatbots, because they are supposed to act as highly adaptable assistants for any given scenario. This adaptability creates hallucinations and sycophancy because Chatbots have limited:
+Hallucination and sycophancy are a features, not bugs:
 
 - **Accessible Data:** They rely on next-word prediction, not a fact-checking engine. It is extremely difficult for them to verify the accuracy of information.
 - **Verification Methods:** They are trained to produce a plausible type of result, not an exact factual result. Whatever facts they get correct are circumstantial and due to statistical frequency.
@@ -201,12 +175,23 @@ AI chatbots are intentionally designed to always generate useful responses to us
 - **Language Processing:** They may be adept at processing superficial text that appears grammatically accurate, professionally sophisticated, and logically sound at a glance, but deeper inspection reveals the content lacks substantive thought, contextual grounding, or applicability. Functionally, they don't understand language on a semantic level; they aggregate patterns of writing using tokenization algorithms.
 - **Content Restraints:** They don't have hard-coded restraints that limit specific types of content, instead they are trained to suppress undesired outputs. However, those restraints can be bypassed. This means they can generate content that is inappropriate, illegal, deceptive, biased, manipulative, dangerous, or completely fabricated.
 
+
+
+#### Tokens & Training
+When you input a prompt into a chatbot, it calculates the relationship between each token to predict the most likely next word. Internal mechanics, such as verification and instructions, consume tokens. Since each token incurs computational cost, it is usually better to train the model to generate certain types of responses. 
+
+
+##### *Diminishing Returns*
+
+* If a Copywriter must spend time tailoring prompts that provide enough guidance and content to ensure helpful responses and avoid hallucinations, then evaluating those outputs to ensure stylistic and factual cohesion, and readjusting for improved output, while also managing the limitations of the context window, then the efficient and effective use of GenAI is diminished because the time required for oversight may be better spent performing the task.
+
+* If a Copywriter reduces the time spent reviewing the output to improve productivity, they risk including hallucinations, misinformation, and poor-quality copy. While it may be more efficient to utilize generated content, an increase in output volume and speed will not compensate for the reduction in output quality. Still, it does at least guarantee the appearance of productivity.
+
 ### AI Possibilities
 When the promises of GenAI are tested against the limitations and risks these models currently have, they are only as effective and efficient as the Copywriter using them. A Copywriter who embraces the technology without preparing to handle the limitations may create copy with errors that were easily preventable with human overview. A Copywriter who uses the technology with cation and strategy fight is not as fast as the first copywriter, but they are more likely to create error-free, helpful copy.
 
 GenAI has the ability to write all of your work for you, but human governance is in every sentence and word, not just prompting the machine. Copywriters should use GenAI with skepticism, reserving GenAI to three specific roles: Find, Challenge, and Inspect.
 
-##### *<p align="center">AI Possibilities = Human Governance + AI Promises - Risks & Limitations</p>*
 
 #### ***Find***
 GenAI's hallucinations prevent it from becoming a truly effective researching, summarizing, and notetaking tool. There is never a guarantee that it has sufficiently generated an accurate response, even if its reasoning and syntax appear authoritative. Copywriters should not leverage GenAI as a replacement for traditional research methods and tools, but by taking advantage of the integrated LLMs and search systems, they can efficiently augment the search for relevant sources.  
@@ -231,14 +216,12 @@ GenAI should be given specific parameters before evaluating text, such as person
 
 You can find more effective strategies for Inspect here:
 
-- **Research**
-- **Planning and Outlining**
-- **Brainstorming and Drafting**
-- **Editing Grammar, Tone, and Style**
-- **Logical Analysis**
-- **Review and Quality Control**
-- **Citation & Reference Generation**
-- **Content Creation**
+
+
+
+
+While human effort may have similar limitations and risks, the difference is that we can take full accountability. Copywriters can explain decisions, accept responsibility, and learn from experience. Copywriters who choose to employ GenAI in their work can overcome its limitations and weaknesses, showcasing its potential use cases in effective, efficient, and ethical ways. You can find effective strategies for copywriters in [part2](../part2/overview.md).
+
 
 GenAI multimodal chatbots like ChatGPT, Google Gemini, or Microsoft Copilot are tools that BYU-Idaho Copywriters will have access to through their official `@byui.edu` accounts.
 
