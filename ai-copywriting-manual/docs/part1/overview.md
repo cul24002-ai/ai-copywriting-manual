@@ -74,6 +74,26 @@ GenAI tools now have a capacity to generate large volumes of text almost instant
 
 GenAI wasn't created by a team of programmers meticulously coding every single prompt and output one-by-one. AI engineers built GenAI through a three-phase process: (1) collecting large amounts of text and training machines to read it, (2) constructing a language processing model and training it to respond, and (3) preparing the model to become an adaptable and helpful assistant.
 
+***GenAI Step-By-Step***
+```mermaid
+graph LR
+    subgraph Step 1: Phase 1
+      A(Data Collection) --> B(Machine Learning)
+    end
+    
+    subgraph AI["GenAI Development"]
+        subgraph Phase 2: Training
+            B --> C(Neural Network)
+            C --> D(Transformer Architecture)
+            D --> E(LLM)
+        end
+        
+        subgraph Phase 3: Interface
+            E --> F(Chatbot)
+        end
+    end
+```
+
 ### ***Phase 1***
 
 AI models are trained in a process called **Machine Learning**, a branch of AI that performs data analysis tasks, using mathematics and statistics to understand text. By giving using a large amount of data, Machine Learning can start to guess relationships and recognize patterns between things without explicit programming. Machine learning can understand textual data by converting text into individual units called **Tokens** (roughly ¾ of a word, including punctuation and formatting). Each token is assigned a numerical id which the AI can use to start finding patterns. For example:<a id="ref-11"></a><sup>[11](#cite-11)</sup> 
@@ -134,26 +154,6 @@ Once the model completes natural language processing, it becomes a **Large Langu
 ### ***Phase 3***
 
 Converting an LLM into a **Chatbot** requires an additional training stage. In this final stage, it is trained to become a conversational system that manages the dialogue flow, personalizes responses, and serves as a helpful, adaptable assistant.
-
-***GenAI Step-By-Step***
-```mermaid
-graph LR
-    subgraph Step 1: Phase 1
-      A(Data Collection) --> B(Machine Learning)
-    end
-    
-    subgraph AI["GenAI Development"]
-        subgraph Phase 2: Training
-            B --> C(Neural Network)
-            C --> D(Transformer Architecture)
-            D --> E(LLM)
-        end
-        
-        subgraph Phase 3: Interface
-            E --> F(Chatbot)
-        end
-    end
-```
 
 ## What Are the Possibilities, Limitations, and Risks of AI Chatbots?
 ### What GenAI Promises
