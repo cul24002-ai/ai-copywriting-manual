@@ -77,19 +77,20 @@ GenAI wasn't created by a team of programmers meticulously coding every single p
 ***GenAI Step-By-Step***
 ```mermaid
 graph LR
-    subgraph Step 1: Phase 1
+    subgraph Phase 1
       A(Data Collection) --> B(Machine Learning)
     end
     
     subgraph AI["GenAI Development"]
         subgraph Phase 2: Training
-            B --> C(Neural Network)
-            C --> D(Transformer Architecture)
-            D --> E(LLM)
+            B --> C(Deep Learning)
+            C --> D(Neural Network)
+            D --> E(Transformer Architecture)
         end
         
         subgraph Phase 3: Interface
-            E --> F(Chatbot)
+            E --> F(LLM)
+            F --> G(Chatbot)
         end
     end
 ```
@@ -130,6 +131,7 @@ The collection of textual data also introduces other risks:
 - The collection and training process itself is expensive, requiring large data centers that have negative impacts on the environments around them.
 - There are ethical and legal concerns with data collection that include intellectual property rights and data privacy violations.
 - Textual data is made-up of contradicting contexts, styles, and types of text.
+- Models can learn 
 
 Some of these risks are negated by a preprocessing step where data scientists clean the data by filtering out bad day, and setting a specific standard for the machine to learn. <a id="ref-14"></a><sup>[14](#cite-14)</sup> However, many GenAI tools, such as Google Gemini, were trained on mixed datasets with contradictive textual data (e.g. reddit forums), and with such high volumes of textual data there is no guarantee that it is perfectly error-free.<a id="ref-15"></a><sup>[15](#cite-15)</sup>
 
@@ -137,21 +139,25 @@ Once the Machine Learning model has been completely trained on the textual data,
 
 ### ***Phase 2***
 
-**Deep Learning** is a more advanced version of Machine learning, that emerges when the statistical relationships created in phase one are re-engineered to have multiple-layers of networks which resemble neural patterns found in the brain. This process is extremely complicated, but what emerges is a system called a **Neural Network**. Neural Networks are helpful because the AI model is 
+**Deep Learning** is a more advanced version of Machine learning, that emerges when the statistical relationships created in phase one are re-engineered to have a multiple-layered network that resembles neural patterns found in the brain. This process is extremely complicated, but what emerges is a system called a **Neural Network**, which can start to process complex tasks that require pattern analysis, logical reasoning, and structured outputs.<a id="ref-16"></a><sup>[16](#cite-16)</sup>
 
-https://aws.amazon.com/what-is/neural-network/
+Deep Learning allows machines to train themselves as they are able to run both a training session and a checking session at the same time. By utilizing the large dataset developed earlier the machine can train to recognize all the patterns found within and then check its own work. As the machines are trained, the neural networks grow as well. With only limited hands-on human assistance, the machine learns without programming.<a id="ref-17"></a><sup>[17](#cite-17)</sup>
 
+Once the neural network is developed it is paired with multiple other neural networks to create **Transformer Architecture**, allowing the new model to perform multiple complex tasks simultaneously and begin **Natural Language Processing**. The AI model is able to use the neural networks built to understand language to now create responses to textual inputs, allowing seamless human-AI communication.
 
+> Note: Multimodal AI models use Transformer Architecture for all forms of communication and digital media. Hence, why GenAI can respond to a picture with no text and even describe it.
 
-https://www.dataversity.net/articles/from-neural-networks-to-transformers-the-evolution-of-machine-learning/
+Because AI models will always be processing tokens the outputs are still probabilistic. Hallucination is enhanced by transformer architecture because the information being processes has so much more neural networks to pass through. While it might appear that AI may knows basic facts, it is simply because of the frequency that fact has appeared within the data. 
 
+Moreover, some AI models, like Google Gemini, have access to search and retrieval systems, which increases its range of context and decreases the amount of guesswork that it does. However, Gemini does not understand the concept of "don't believe everything you read on the internet", so fact-checking is still necessary. 
 
+*Tokens are the currency of GenAI.* In an AI model's context window, each token competes for space. The context window is a set of tokens included to generate a response; it represents the information available to an AI model including user prompts, uploaded files, system instructions, and textual data. The more tokens you use the more AI has to decide which context it needs to keep for a response or drop. Hallucinations become enhanced because the generative process is bogged down by every single word or phrase. 
 
-Through this process, a system of synthesized data emerges called a **Neural Network**. The synthesized data is used to reverse engineer human-like language. Using multiple neural networks, called the **Transformer Architecture**, the data enters the **Natural Language Processing** stage, where it begins to process tokens and track their connections.  
-
-Once the model completes natural language processing, it becomes a **Large Language Model (LLM)**, a model of human-like language. The LLM can read, reason, and generate text that resembles human text. However, despite its capabilities, it still isn't like the chatbots we are using. 
+**Remember:** each work comes with statistical weight, which pulls the models processing in different directions. Since it is trained to prioritize a natural and helpful response over factual verification, it will start to hallucinate at a more extreme rate. The mechanics for turning textual data into words are still probabilistic even it is more advanced.
 
 ### ***Phase 3***
+
+Once the model completes natural language processing, it becomes a **Large Language Model (LLM)**, a model of human-like language. The LLM can read, reason, and generate text that resembles human text. However, despite its capabilities, it still isn't like the chatbots we are using. 
 
 Converting an LLM into a **Chatbot** requires an additional training stage. In this final stage, it is trained to become a conversational system that manages the dialogue flow, personalizes responses, and serves as a helpful, adaptable assistant.
 
@@ -172,17 +178,10 @@ Copywriters should adapt an apprehensive—*both comprehensive and skeptical*—
 | **Sycophancy** | The tendency for Chatbots to align with user expectations. |
 
 #### Tokens & Training
-
-
 When you input a prompt into a chatbot, it calculates the relationship between each token to predict the most likely next word. Internal mechanics, such as verification and instructions, consume tokens. Since each token incurs computational cost, it is usually better to train the model to generate certain types of responses. This kind of training is done through **Reinforcement Learning from Human Feedback (RLHF)** and **Direct Preference Optimization (DPO)**.
 
 #### Token Limits & Context Window
 
-Each token competes for space within the model's computational limit, called the context window. Every Chatbot has a context window, a maximum number of tokens it can hold at one time. This includes everything: your prompts, the Chatbot's responses, any uploaded documents, and the entire conversation history. No matter how large the context window is, it is still finite. 
-
-This is why usage limits exist in Chatbots. Message limits, document size restrictions, and conversation length caps trace back to the context window. A short, focused prompt consumes fewer input tokens than a long, unfocused one. A request that generates a two-paragraph response costs less than one that produces a ten-page document.
-
-The economics are straightforward: tokens are the currency of GenAI Chatbots. However, there is a catch: context is important because Chatbots are more prone to hallucinations without it. There is a balance for AI chatbots. More context improves responses and reduces the risk of hallucinations, but increasing context also consumes token capacity, creating a trade-off between performance and information retention.
 
 ##### *Diminishing Returns*
 
@@ -272,6 +271,8 @@ GenAI multimodal chatbots like ChatGPT, Google Gemini, or Microsoft Copilot are 
 13. <a id="cite-13"></a> https://help.openai.com/en/articles/7842364-how-chatgpt-and-our-foundation-models-are-developed [↩ Back to text](#ref-13)
 14. <a id="cite-14"></a> https://lakefs.io/blog/data-preprocessing-in-machine-learning/ [↩ Back to text](#ref-14)
 15. <a id="cite-15"></a> https://www.mayhemcode.com/2025/12/how-google-uses-reddit-comments-to.html [↩ Back to text](#ref-15)
+16. <a id="cite-16"></a> https://aws.amazon.com/what-is/neural-network/ [↩ Back to text](#ref-16)
+17. <a id="cite-17"></a> https://www.dataversity.net/articles/from-neural-networks-to-transformers-the-evolution-of-machine-learning/ [↩ Back to text](#ref-17)
 
 
 
