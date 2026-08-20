@@ -20,9 +20,9 @@ BYU-Idaho is preparing students for the future workforce by employing GenAI tool
 
 The capacity of multimodal AI tools makes it easy for people to replace their own effort with machine-generated content, but current research demonstrates that this approach has an overall net negative impact on quality and performance across many areas.<a id="ref-4"></a><sup>[4](#cite-4),</sup><a id="ref-5"></a><sup>[5](#cite-5),</sup><a id="ref-6"></a><sup>[6](#cite-6)</sup> Yet, there is also evidence that Human-AI collaboration can complement our capabilities, giving to us rather than taking away from us.<a id="ref-7"></a><sup>[7](#cite-7)</sup> 
 
-The conflicting data suggests there is an appropriate middle ground for GenAI, but the current AI models require an apprehensive—*both comprehensive and skeptical*—approach. The apprehensive approach assumes that GenAI tools are going to stay relevant in the future, that humanity will address and resolve the issues with GenAI, but in the meantime individuals and organizations must define specific policies and guardrails to protect against overreliance of AI.
+The conflicting data suggests there is an appropriate middle ground for GenAI, but the current AI models require an apprehensive—*both comprehensive and skeptical*—approach. The apprehensive approach assumes that GenAI tools are going to stay relevant in the future, and that humanity will address and resolve the issues with GenAI, but in the meantime individuals and organizations must define specific policies and guardrails to protect against overreliance of AI.
 
-The purpose of *The AI Copywriting Manual* is to provide Copywriters for BYU-Idaho at University Communications the knowledge and strategies they need to responsibly use GenAI tools effectively, efficiently, and ethically. This section provides an introduction to GenAI, exploring its development and training processes, its proposed capabilities weighed against its limitations and risks, and its appropriate potential use cases for Copywriters.
+The purpose of *The AI Copywriting Manual* is to provide Copywriters for BYU-Idaho at University Communications the knowledge and strategies they need to responsibly use GenAI tools effectively, efficiently, and ethically. This section provides an introduction to GenAI, exploring its proposed capabilities weighed against its limitations and risks, its development and training processes, and its appropriate potential use cases for Copywriters.
 
 > **Consider This**
 >
@@ -44,10 +44,22 @@ The purpose of *The AI Copywriting Manual* is to provide Copywriters for BYU-Ida
 > - What data can you share safely?
 > - CES Privacy Principles
 
-## What Is Artificial Intelligence? 
-Artificial Intelligence (AI) is a popular term that refers to diverse technologies with different functions and purposes. It is generally described as technology that is meant to simulate human-like intelligence. Generative Artificial Intelligence (GenAI) is a modern adaptation of AI technologies meant to generate human-like creations such as text, code, images, math, videos, or any other form of content.<a id="ref-8"></a><sup>[8](#cite-8)</sup> 
+## Can Artificial Intelligence Keep Its Promises?
+There is a selection of enthusiasts Artificial Intelligence developers and fans that promise this technology will promote political and economic health, and a better future for all. Furthermore, they claim individuals will have access to a 24/7 AI agent that will enable individuals to grow personal relationships, career advancement, education, creativity, and fulfillment by enabling them to perform almost any task from their computers.<a id="ref-8"></a><sup>[8](#cite-8)</sup> 
 
-GenAI's ability to generate text is the primary concern for roles like that of Copywriters. While much of the information about AI generated text might apply to other forms of content, Copywriters will focus on primarily on the tasks related to Copywriting that can be replicated by AI.<a id="ref-9"></a><sup>[9](#cite-9)</sup> These tasks can be summarized as:
+While these promises might either sound exciting or terrifying, the promises from these AI enthusiasts do not represent the reality of current AI technology. AI enthusiasts promise what GenAI might be, but those promises do not describe what GenAI currently is. As Copywriters, we are promised an increase in productivity and a decrease in mental drudgery because GenAI chatbots can augment and automate many of our tasks. Some believe that Copywriters and other similar roles will be completely replaced, but as it stands, GenAI models have limitations and risks that prevent them from completely replacing the work and effort of Copywriters.
+
+***<p align="center">“A computer can never be held accountable, therefore a computer must never make a management decision.”</p>***
+*<p align="right">– IBM Training Manual, 1979</p>*
+
+Copywriters can explain decisions, accept responsibility, and learn from experience. Copywriters who choose to employ GenAI in their work can overcome its limitations and weaknesses, showcasing its potential use cases in effective, efficient, and ethical ways.
+
+## What Is Artificial Intelligence? 
+**Artificial Intelligence (AI)** is a popular term that refers to diverse technologies with different functions and purposes. It is generally described as technology that is meant to simulate human-like intelligence. Generative Artificial Intelligence (GenAI) is a modern adaptation of AI technologies meant to generate human-like creations such as text, code, images, math, videos, or any other form of content.<a id="ref-9"></a><sup>[9](#cite-9)</sup>
+
+GenAI enthusiasts may argue that the limitations and risks of AI do not demonstrate that Copywriters cannot be replaced, only that GenAI requires human oversight to govern and verify outputs. The need for human oversight means that GenAI is not prepared to fulfill the enthusiasts' promises. Potentially, AI could be incorporated into a Copywriter's workflow to increase productivity, but that is not equivalent to the Copywriter role itself.
+
+GenAI's ability to generate text is the primary concern for roles like that of Copywriters. While much of the information about AI generated text might apply to other forms of content, Copywriters will focus on primarily on the tasks related to Copywriting that can be replicated by AI.<a id="ref-10"></a><sup>[10](#cite-10)</sup> These tasks can be summarized as:
 
 - **Research**
 - **Planning and outlining**
@@ -62,34 +74,64 @@ GenAI tools now have a capacity to generate large volumes of text almost instant
 
 GenAI wasn't created by a team of programmers meticulously coding every single prompt and output one-by-one. AI engineers built GenAI through a three-phase process: (1) collecting large amounts of text and training machines to read it, (2) constructing a language processing model and training it to respond, and (3) preparing the model to become an adaptable and helpful assistant.
 
-***Phase 1***
+### ***Phase 1***
 
-AI models are trained in a process called **Machine Learning**, a branch of AI that performs data analysis tasks, using mathematics and statistics to understand text. By giving using a large amount of data, Machine Learning can start to guess relationships and recognize patterns between things without explicit programming. Machine learning can understand textual data by converting text into individual units called **Tokens**. Each token is assigned a numerical id which the AI can use to start finding patterns.
+AI models are trained in a process called **Machine Learning**, a branch of AI that performs data analysis tasks, using mathematics and statistics to understand text. By giving using a large amount of data, Machine Learning can start to guess relationships and recognize patterns between things without explicit programming. Machine learning can understand textual data by converting text into individual units called **Tokens** (roughly ¾ of a word, including punctuation and formatting). Each token is assigned a numerical id which the AI can use to start finding patterns. For example:<a id="ref-11"></a><sup>[11](#cite-11)</sup> 
 
-In essence, Machine Learning treats language as statistics, which essential for building for advanced models later. The idea is that when you type the input the sentence, "I like to pet" Machine Learning tells the model that "there is a 50% chance the next word is dogs."
+*Humans read:*
 
-For Machine Learning models to have enough data to start to recognize the almost uncountable relationships between words, it needs a vast amount of textual data which can be found across the internet in web pages, books, repositories, articles, blogs, academic papers, Wikipedia, news archives, public forums, and more. This textual data is the building block for GenAI systems, but it also starts to introduce some limitations and risks:
+    The quick brown fox jumps over the lazy dog.
 
-- Machine Learning is expensive, requiring data centers which play a role in disrupting the environment
-- There are plenty of ethical and legal concerns about the intellectual property AI is training on.
-- Statistical relationships represents knowledge
+*AI reads:* 
+
+    ["The", " quick", " brown", " fox", " jumps", " over", " the", " lazy", " dog", "."]
+    [976, 4853, 19705, 68347, 65613, 1072, 290, 29082, 6446, 30]
+
+For more complicated words, Tokenization breaks them down into smaller parts:
+
+*Humans read:*
+
+    Supercalifragilisticexpialidocious.
+
+*AI reads:*
+
+    ["Super", " cal", " if", " rag", " il", " istic", " exp", " ial", " id", " ocious", "."]
+    [17789, 5842, 366, 17764, 311, 6207, 8067, 563, 315, 170661, 13]
+
+Machine Learning treats language as statistics, which essential for building advanced models later. The idea is that when you type the input the sentence, "I like to pet" Machine Learning tells the model that "there is a 50% chance the next word is dogs."
+
+Machine Learning uses the numerical ids assigned to each work to start building a statistical model of language. Its like learning math to understand English: the idea is that these AI models will be able to take the text, "I like to pet" and it will predict the next word based on the context, for instance it might think there is a 50% chance the next word is dog. One of the takeaways for Copywriters is that AI is probabilistic not deterministic, meaning that it doesn't ever understand the meaning of the word, it just finds the next word based off of chance.<a id="ref-12"></a><sup>[12](#cite-12)</sup> 
+
+For Machine Learning to be effective it needs to have a vast amount of data, but for GenAI to generate appropriate responses to put that data to use it needs to have context. The more context AI has the less it has to guess, making useful outputs more likely. This textual data is gathered from across the internet, including: web pages, books, repositories, articles, blogs, academic papers, Wikipedia, news archives, public forums, and more.<a id="ref-13"></a><sup>[13](#cite-13)</sup> 
+
+However, Machine Learning is one of the root causes for one of AI's greatest limitations: **Hallucinations:** the generation of entirely fabricated text that sounds plausible and authoritative. *It is important for Copywriters to understand that AI hallucinations are a feature, not a bug.* Everything Artificial Intelligence generates is because of probabilities, sometimes it happens to be right. As AI models develop into the other phases hallucinations will only become more integrated into the system.
+
+The collection of textual data also introduces other risks:
+- The collection and training process itself is expensive, requiring large data centers that have negative impacts on the environments around them.
+- There are ethical and legal concerns with data collection that include intellectual property rights and data privacy violations.
+- Textual data is made-up of contradicting contexts, styles, and types of text.
+
+Some of these risks are negated by a preprocessing step where data scientists clean the data by filtering out bad day, and setting a specific standard for the machine to learn. <a id="ref-14"></a><sup>[14](#cite-14)</sup> However, many GenAI tools, such as Google Gemini, were trained on mixed datasets with contradictive textual data (e.g. reddit forums), and with such high volumes of textual data there is no guarantee that it is perfectly error-free.<a id="ref-15"></a><sup>[15](#cite-15)</sup>
+
+Once the Machine Learning model has been completely trained on the textual data, it is time to start really developing GenAI.
+
+### ***Phase 2***
+
+**Deep Learning** is a more advanced version of Machine learning, that emerges when the statistical relationships created in phase one are re-engineered to have multiple-layers of networks which resemble neural patterns found in the brain. This process is extremely complicated, but what emerges is a system called a **Neural Network**. Neural Networks are helpful because the AI model is 
+
+https://aws.amazon.com/what-is/neural-network/
 
 
-, is collected and processed into individual units called **Tokens**. GenAI models use tokens to calculate the statistical relationships across language and train their models on data in a process called **Machine Learning (ML)**.
 
-https://aws.amazon.com/what-is/machine-learning/
-https://help.openai.com/en/articles/7842364-how-chatgpt-and-our-foundation-models-are-developed
-https://lakefs.io/blog/data-preprocessing-in-machine-learning/
+https://www.dataversity.net/articles/from-neural-networks-to-transformers-the-evolution-of-machine-learning/
 
-In ML, rather than programming the computer to understand this data, an algorithm analyzes the patterns within the data to learn automatically. 
 
-***Phase 2***
 
 Through this process, a system of synthesized data emerges called a **Neural Network**. The synthesized data is used to reverse engineer human-like language. Using multiple neural networks, called the **Transformer Architecture**, the data enters the **Natural Language Processing** stage, where it begins to process tokens and track their connections.  
 
 Once the model completes natural language processing, it becomes a **Large Language Model (LLM)**, a model of human-like language. The LLM can read, reason, and generate text that resembles human text. However, despite its capabilities, it still isn't like the chatbots we are using. 
 
-***Phase 3***
+### ***Phase 3***
 
 Converting an LLM into a **Chatbot** requires an additional training stage. In this final stage, it is trained to become a conversational system that manages the dialogue flow, personalizes responses, and serves as a helpful, adaptable assistant.
 
@@ -115,17 +157,6 @@ graph LR
 
 ## What Are the Possibilities, Limitations, and Risks of AI Chatbots?
 ### What GenAI Promises
-GenAI enthusiasts promise that AI will promote political and economic health while also enabling individual growth across personal relationships, career advancement, and creativity. Furthermore, enthusiasts argue that GenAI tools enable individuals to code, design, build products, and produce media effortlessly because they will have 24/7 access to an AI agent with expertise in every subject.
-
-LLMs have enabled chatbots to generate natural language from a dataset of text so vast that a single human couldn't read it in a lifetime. Human-AI collaboration seems more efficient because GenAI's enormous generating capacity outperforms that of a single human every time. 
-
-As Copywriters, we are promised an increase in productivity and a decrease in mental drudgery because GenAI chatbots can augment and automate many of our tasks, such as:
-
-
-
-GenAI enthusiasts promise what GenAI might be, but those promises do not describe what GenAI currently is. GenAI models have limitations and risks that prevent them from completely replacing the work and effort of Copywriters. 
-
-GenAI enthusiasts may argue that the limitations and risks of AI do not demonstrate that Copywriters cannot be replaced, only that GenAI requires human oversight to govern and verify outputs. The need for human oversight means that GenAI is not prepared to fulfill the enthusiasts' promises. Potentially, AI could be incorporated into a Copywriter's workflow to increase productivity, but that is not equivalent to the Copywriter role itself.
 
 While human effort may have similar limitations and risks, the difference is that we can take full accountability. Copywriters can explain decisions, accept responsibility, and learn from experience. Copywriters who choose to employ GenAI in their work can overcome its limitations and weaknesses, showcasing its potential use cases in effective, efficient, and ethical ways. You can find effective strategies for copywriters in [part2](../part2/overview.md).
 
@@ -142,33 +173,6 @@ Copywriters should adapt an apprehensive—*both comprehensive and skeptical*—
 
 #### Tokens & Training
 
-Chatbots such as ChatGPT, Google Gemini, or Microsoft Copilot do not process words the same way that you do. Instead of reading a sentence straightforwardly, they break it down in a process called tokenization. The models are trained to understand the statistical relationships among those words, and that training is stored in their neural networks. Tokens are given a numerical identity, which changes how they read text. For example:
-
-Humans read:
-
-    The quick brown fox jumps over the lazy dog.
-
-AI reads: 
-
-    ["The", " quick", " brown", " fox", " jumps", " over", " the", " lazy", " dog", "."]
-
-AI tokenizes: 
-
-    [976, 4853, 19705, 68347, 65613, 1072, 290, 29082, 6446, 30]
-
-For simple words and characters, it breaks them down into IDs. However, for more complicated words, it has to break them down into different sections. For example: 
-
-Humans read:
-
-    Supercalifragilisticexpialidocious.
-
-AI reads:
-
-    ["Super", " cal", " if", " rag", " il", " istic", " exp", " ial", " id", " ocious", "."]
-
-AI tokenizes:
-
-    [17789, 5842, 366, 17764, 311, 6207, 8067, 563, 315, 170661, 13]
 
 When you input a prompt into a chatbot, it calculates the relationship between each token to predict the most likely next word. Internal mechanics, such as verification and instructions, consume tokens. Since each token incurs computational cost, it is usually better to train the model to generate certain types of responses. This kind of training is done through **Reinforcement Learning from Human Feedback (RLHF)** and **Direct Preference Optimization (DPO)**.
 
@@ -260,8 +264,14 @@ GenAI multimodal chatbots like ChatGPT, Google Gemini, or Microsoft Copilot are 
 5. <a id="cite-5"></a> https://news.harvard.edu/gazette/story/2025/11/is-ai-dulling-our-minds/ [↩ Back to text](#ref-5)
 6. <a id="cite-6"></a> https://tulanehullabaloo.com/74464/data/ai-reliance-may-have-detrimental-cognitive-effects-new-study-finds/ [↩ Back to text](#ref-6)
 7. <a id="cite-7"></a> https://mitsloan.mit.edu/press/new-mit-sloan-research-suggests-ai-more-likely-to-complement-not-replace-human-workers [↩ Back to text](#ref-7)
-8. <a id="cite-8"></a> https://www.ibm.com/think/topics/artificial-intelligence [↩ Back to text](#ref-8)
-9. <a id="cite-9"></a> https://sloanreview.mit.edu/article/how-genai-changes-creative-work/ [↩ Back to text](#ref-9)
+8. <a id="cite-8"></a> https://about.fb.com/news/2026/08/the-future-is-for-everyone/ ↩ Back to text](#ref-8)
+9. <a id="cite-8"></a> https://www.ibm.com/think/topics/artificial-intelligence [↩ Back to text](#ref-9)
+10. <a id="cite-10"></a> https://sloanreview.mit.edu/article/how-genai-changes-creative-work/ [↩ Back to text](#ref-10)
+11. <a id="cite-11"></a> https://platform.openai.com/tokenizer [↩ Back to text](#ref-11)
+12. <a id="cite-12"></a> https://aws.amazon.com/what-is/machine-learning/ [↩ Back to text](#ref-12)
+13. <a id="cite-13"></a> https://help.openai.com/en/articles/7842364-how-chatgpt-and-our-foundation-models-are-developed [↩ Back to text](#ref-13)
+14. <a id="cite-14"></a> https://lakefs.io/blog/data-preprocessing-in-machine-learning/ [↩ Back to text](#ref-14)
+15. <a id="cite-15"></a> https://www.mayhemcode.com/2025/12/how-google-uses-reddit-comments-to.html [↩ Back to text](#ref-15)
 
 
 
