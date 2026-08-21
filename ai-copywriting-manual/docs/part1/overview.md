@@ -129,24 +129,24 @@ For Machine Learning to be effective it needs to have a vast amount of data, but
 However, Machine Learning is one of the root causes for one of AI's greatest limitations: **Hallucinations:** the generation of entirely fabricated text that sounds plausible and authoritative. *It is important for Copywriters to understand that AI hallucinations are a feature, not a bug.* Everything Artificial Intelligence generates is because of probabilities, sometimes it happens to be right. As AI models develop into the other phases hallucinations will only become more integrated into the system.
 
 The collection of textual data also introduces other risks:
-- The collection and training process itself is expensive, requiring large data centers that have negative impacts on the environments around them.
-- There are ethical and legal concerns with data collection that include intellectual property rights and data privacy violations.
-- Textual data is made-up of contradicting contexts, styles, and types of text.
-- Models can learn 
+- The collection and training process itself is expensive, requiring large data centers that have negative impacts on the environments around them.<a id="ref-14"></a><sup>[14](#cite-14)</sup>
+- There are ethical and legal concerns with data collection that include intellectual property rights and data privacy violations.<a id="ref-15"></a><sup>[15](#cite-15)</sup> 
+- Textual data is made-up of contradicting contexts, styles, and types of text.<a id="ref-16"></a><sup>[16](#cite-16)</sup>
+- Models will unintentionally learn bias, misinformation, and confidential information from textual data.<a id="ref-17"></a><sup>[17](#cite-17)</sup>
 
-Some of these risks are negated by a preprocessing step where data scientists clean the data by filtering out bad day, and setting a specific standard for the machine to learn. <a id="ref-14"></a><sup>[14](#cite-14)</sup> However, many GenAI tools, such as Google Gemini, were trained on mixed datasets with contradictive textual data (e.g. reddit forums), and with such high volumes of textual data there is no guarantee that it is perfectly error-free.<a id="ref-15"></a><sup>[15](#cite-15)</sup>
+Some of these risks are negated by a preprocessing step where data scientists clean the data by filtering out bad day, and setting a specific standard for the machine to learn. <a id="ref-18"></a><sup>[18](#cite-18)</sup> However, many GenAI tools, such as Google Gemini, were trained on mixed datasets with contradictive textual data (e.g. reddit forums), and with such high volumes of textual data there is no guarantee that it is perfectly error-free.<a id="ref-19"></a><sup>[19](#cite-19)</sup>
 
 Once the Machine Learning model has been completely trained on the textual data, it is time to start really developing GenAI.
 
 ### ***Phase 2***
 
-**Deep Learning** is a more advanced version of Machine learning, that emerges when the statistical relationships created in phase one are re-engineered to have a multiple-layered network that resembles neural patterns found in the brain. This process is extremely complicated, but what emerges is a system called a **Neural Network**, which can start to process complex tasks that require pattern analysis, logical reasoning, and structured outputs.<a id="ref-16"></a><sup>[16](#cite-16)</sup>
+**Deep Learning** is a more advanced version of Machine learning, that emerges when the statistical relationships created in phase one are re-engineered to have a multiple-layered network that resembles neural patterns found in the brain. This process is extremely complicated, but what emerges is a system called a **Neural Network**, which can start to process complex tasks that require pattern analysis, logical reasoning, and structured outputs.<a id="ref-20"></a><sup>[20](#cite-20)</sup>
 
-Deep Learning allows machines to train themselves as they are able to run both a training session and a checking session at the same time. By utilizing the large dataset developed earlier the machine can train to recognize all the patterns found within and then check its own work. As the machines are trained, the neural networks grow as well. With only limited hands-on human assistance, the machine learns without programming.<a id="ref-17"></a><sup>[17](#cite-17)</sup>
+Deep Learning allows machines to train themselves as they are able to run both a training session and a checking session at the same time. By utilizing the large dataset developed earlier the machine can train to recognize all the patterns found within and then check its own work. As the machines are trained, the neural networks grow as well. With only limited hands-on human assistance, the machine learns without programming.<a id="ref-21"></a><sup>[21](#cite-21)</sup>
 
 Once the neural network is developed it is paired with multiple other neural networks to create **Transformer Architecture**, allowing the new model to perform multiple complex tasks simultaneously and begin **Natural Language Processing**. The AI model is able to use the neural networks built to understand language to now create responses to textual inputs, allowing seamless human-AI communication.
 
-> Note: Multimodal AI models use Transformer Architecture for all forms of communication and digital media. Hence, why GenAI can respond to a picture with no text and even describe it.
+> **Remember:** Multimodal AI models use Transformer Architecture for all forms of communication and digital media. Hence, why GenAI can respond to a picture with no text and even describe it.
 
 Because AI models will always be processing tokens the outputs are still probabilistic. Hallucination is enhanced by transformer architecture because the information being processes has so much more neural networks to pass through. While it might appear that AI may knows basic facts, it is simply because of the frequency that fact has appeared within the data. 
 
@@ -154,26 +154,18 @@ Moreover, some AI models, like Google Gemini, have access to search and retrieva
 
 *Tokens are the currency of GenAI.* In an AI model's context window, each token competes for space. The context window is a set of tokens included to generate a response; it represents the information available to an AI model including user prompts, uploaded files, system instructions, and textual data. The more tokens you use the more AI has to decide which context it needs to keep for a response or drop. Hallucinations become enhanced because the generative process is bogged down by every single word or phrase. 
 
-**Remember:** Each word comes with statistical weight, which pulls the model's natural language processing in different directions. Since it is trained to prioritize a natural and helpful response over factual verification, it will start to hallucinate at a more extreme rate when there is more textual data. The mechanics for turning textual data into words are still probabilistic even it is more advanced.
-
-
+> **Remember:** Each word comes with statistical weight, which pulls the model's natural language processing in different directions. Since it is trained to prioritize a natural and helpful response over factual verification, it will start to hallucinate at a more extreme rate when there is more textual data. The mechanics for turning textual data into words are still probabilistic even it is more advanced.
 
 ### ***Phase 3***
+
+> ### Notes For Phase 3
+> Explain how Transformer Architecture and Natural Language Processing will develop into an LLM. Then explain how LLMs lead to GenAI chatbots. End with the last section of risks and limitations and fully develop the argument as to why AI tools don't live up to the hype. After this focus on the three roles that AI can fulfil for Copywriters.
 
 Once the model completes natural language processing, it becomes a **Large Language Model (LLM)**, a model of human-like language. The LLM can read, reason, and generate text that resembles human text. However, despite its capabilities, it still isn't like the chatbots we are using. 
 
 Converting an LLM into a **Chatbot** requires an additional training stage. In this final stage, it is trained to become a conversational system that manages the dialogue flow, personalizes responses, and serves as a helpful, adaptable assistant.
 
 This kind of training is done through **Reinforcement Learning from Human Feedback (RLHF)** and **Direct Preference Optimization (DPO)**.
-
-
-Hallucination and sycophancy are a features, not bugs:
-
-- **Accessible Data:** They rely on next-word prediction, not a fact-checking engine. It is extremely difficult for them to verify the accuracy of information.
-- **Verification Methods:** They are trained to produce a plausible type of result, not an exact factual result. Whatever facts they get correct are circumstantial and due to statistical frequency.
-- **Research Capacity:** They can potentially fabricate fictional resources, events, or facts that appear authoritative.
-- **Language Processing:** They may be adept at processing superficial text that appears grammatically accurate, professionally sophisticated, and logically sound at a glance, but deeper inspection reveals the content lacks substantive thought, contextual grounding, or applicability. Functionally, they don't understand language on a semantic level; they aggregate patterns of writing using tokenization algorithms.
-- **Content Restraints:** They don't have hard-coded restraints that limit specific types of content, instead they are trained to suppress undesired outputs. However, those restraints can be bypassed. This means they can generate content that is inappropriate, illegal, deceptive, biased, manipulative, dangerous, or completely fabricated.
 
 
 
@@ -188,6 +180,8 @@ When you input a prompt into a chatbot, it calculates the relationship between e
 * If a Copywriter reduces the time spent reviewing the output to improve productivity, they risk including hallucinations, misinformation, and poor-quality copy. While it may be more efficient to utilize generated content, an increase in output volume and speed will not compensate for the reduction in output quality. Still, it does at least guarantee the appearance of productivity.
 
 ### AI Possibilities
+GenAI multimodal chatbots like ChatGPT, Google Gemini, or Microsoft Copilot are tools that BYU-Idaho Copywriters will have access to through their official `@byui.edu` accounts.
+
 When the promises of GenAI are tested against the limitations and risks these models currently have, they are only as effective and efficient as the Copywriter using them. A Copywriter who embraces the technology without preparing to handle the limitations may create copy with errors that were easily preventable with human overview. A Copywriter who uses the technology with cation and strategy fight is not as fast as the first copywriter, but they are more likely to create error-free, helpful copy.
 
 GenAI has the ability to write all of your work for you, but human governance is in every sentence and word, not just prompting the machine. Copywriters should use GenAI with skepticism, reserving GenAI to three specific roles: Find, Challenge, and Inspect.
@@ -218,12 +212,7 @@ You can find more effective strategies for Inspect here:
 
 
 
-
-
 While human effort may have similar limitations and risks, the difference is that we can take full accountability. Copywriters can explain decisions, accept responsibility, and learn from experience. Copywriters who choose to employ GenAI in their work can overcome its limitations and weaknesses, showcasing its potential use cases in effective, efficient, and ethical ways. You can find effective strategies for copywriters in [part2](../part2/overview.md).
-
-
-GenAI multimodal chatbots like ChatGPT, Google Gemini, or Microsoft Copilot are tools that BYU-Idaho Copywriters will have access to through their official `@byui.edu` accounts.
 
 # AI Terminology
 > * **Artificial Intelligence (AI):** the computer systems that are trained to perform tasks in ways that resemble human intelligence.
@@ -252,10 +241,14 @@ GenAI multimodal chatbots like ChatGPT, Google Gemini, or Microsoft Copilot are 
 11. <a id="cite-11"></a> https://platform.openai.com/tokenizer [↩ Back to text](#ref-11)
 12. <a id="cite-12"></a> https://aws.amazon.com/what-is/machine-learning/ [↩ Back to text](#ref-12)
 13. <a id="cite-13"></a> https://help.openai.com/en/articles/7842364-how-chatgpt-and-our-foundation-models-are-developed [↩ Back to text](#ref-13)
-14. <a id="cite-14"></a> https://lakefs.io/blog/data-preprocessing-in-machine-learning/ [↩ Back to text](#ref-14)
-15. <a id="cite-15"></a> https://www.mayhemcode.com/2025/12/how-google-uses-reddit-comments-to.html [↩ Back to text](#ref-15)
-16. <a id="cite-16"></a> https://aws.amazon.com/what-is/neural-network/ [↩ Back to text](#ref-16)
-17. <a id="cite-17"></a> https://www.dataversity.net/articles/from-neural-networks-to-transformers-the-evolution-of-machine-learning/ [↩ Back to text](#ref-17)
+14. <a id="cite-14"></a> https://blog.ansi.org/ansi/ai-data-centers-carbon-water-energy-impact/ [↩ Back to text](#ref-14)
+15. <a id="cite-15"></a> https://iapp.org/news/a/generative-ai-and-intellectual-property-the-evolving-copyright-landscape [↩ Back to text](#ref-15)
+16. <a id="cite-16"></a> https://tan-hexiang.github.io/Blinded_by_Generated_Contexts/ [↩ Back to text](#ref-16)
+17. <a id="cite-17"></a> https://miamioh.edu/howe-center/hwac/resources-for-teaching-writing/assessing-bias-in-large-language-models.html [↩ Back to text](#ref-17)
+18. <a id="cite-18"></a> https://lakefs.io/blog/data-preprocessing-in-machine-learning/ [↩ Back to text](#ref-18)
+19. <a id="cite-19"></a> https://www.mayhemcode.com/2025/12/how-google-uses-reddit-comments-to.html [↩ Back to text](#ref-19)
+20. <a id="cite-20"></a> https://aws.amazon.com/what-is/neural-network/ [↩ Back to text](#ref-20)
+21. <a id="cite-21"></a> https://www.dataversity.net/articles/from-neural-networks-to-transformers-the-evolution-of-machine-learning/ [↩ Back to text](#ref-21)
 
 
 
