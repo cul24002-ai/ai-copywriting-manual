@@ -136,7 +136,7 @@ The collection of textual data also introduces other risks:
 
 Some of these risks are negated by a preprocessing step where data scientists clean the data by filtering out bad day, and setting a specific standard for the machine to learn. <a id="ref-18"></a><sup>[18](#cite-18)</sup> However, many GenAI tools, such as Google Gemini, were trained on mixed datasets with contradictive textual data (e.g. reddit forums), and with such high volumes of textual data there is no guarantee that it is perfectly error-free.<a id="ref-19"></a><sup>[19](#cite-19)</sup>
 
-Once the Machine Learning model has been completely trained on the textual data, it is time to start really developing GenAI.
+Once the Machine Learning model has been completely trained on the textual data, it is time to start developing an AI that can respond like a human.
 
 ### ***Phase 2***
 
@@ -146,17 +146,17 @@ Deep Learning allows machines to train themselves as they are able to run both a
 
 Once the neural network is developed it is paired with multiple other neural networks to create **Transformer Architecture**, allowing the new model to perform multiple complex tasks simultaneously and begin **Natural Language Processing**. The AI model is able to use the neural networks built to understand language to now create responses to textual inputs, allowing seamless human-AI communication.
 
-> **Remember:** Multimodal AI models use Transformer Architecture for all forms of communication and digital media. Hence, why GenAI can respond to a picture with no text and even describe it.
+Because AI models will always be processing tokens, the outputs will always be probabilistic. Hallucination is enhanced by transformer architecture because the information being processes has so much more neural networks to pass through. Since we understand very little about how AI thinks we cannot guarantee that these responses aren't being interfered with. Errors will cascade not diminish, because the processors meant to catch bad responses will also hallucinate.<a id="ref-22"></a><sup>[21](#cite-22)</sup>
 
-Because AI models will always be processing tokens the outputs are still probabilistic. Hallucination is enhanced by transformer architecture because the information being processes has so much more neural networks to pass through. While it might appear that AI may knows basic facts, it is simply because of the frequency that fact has appeared within the data. 
+Some AI models, like Google Gemini, have access to search and retrieval systems, which increases its range of context and decreases the amount of guesswork that it does. However, Gemini does not understand the concept of "don't believe everything you read on the internet", so fact-checking is still necessary because the neural network will always hallucinate.
 
-Moreover, some AI models, like Google Gemini, have access to search and retrieval systems, which increases its range of context and decreases the amount of guesswork that it does. However, Gemini does not understand the concept of "don't believe everything you read on the internet", so fact-checking is still necessary. 
+**The Context Window** is the finite space that AI models have to process information, as each token takes up space; they represent the information available to an AI model at a given time. This influences the model's natural language processing because each token carries a different statistical weight. 
 
-*Tokens are the currency of GenAI.* In an AI model's context window, each token competes for space. The context window is a set of tokens included to generate a response; it represents the information available to an AI model including user prompts, uploaded files, system instructions, and textual data. The more tokens you use the more AI has to decide which context it needs to keep for a response or drop. Hallucinations become enhanced because the generative process is bogged down by every single word or phrase. 
+Think of it like a conversation between you and a friend, you don't need to remember every time your friend says the word "the", because you understand the semantic meaning of the conversation. You don't have to break each word down and create a statistical representation in your mind, but if your friend was talking to AI instead of you, then it would because it doesn't understand what your friend is saying. Deep Learning and Natural Language Processing are part of calculating what to say in a way that convinces the user that it is human-like.
 
-> **Remember:** Each word comes with statistical weight, which pulls the model's natural language processing in different directions. Since it is trained to prioritize a natural and helpful response over factual verification, it will start to hallucinate at a more extreme rate when there is more textual data. The mechanics for turning textual data into words are still probabilistic even it is more advanced.
 
 ### ***Phase 3***
+**Large Language Models** are the result of Transformer Architecture that has been trained for Natural Language Processing. 
 
 > ### Notes For Phase 3
 > Explain how Transformer Architecture and Natural Language Processing will develop into an LLM. Then explain how LLMs lead to GenAI chatbots. End with the last section of risks and limitations and fully develop the argument as to why AI tools don't live up to the hype. After this focus on the three roles that AI can fulfil for Copywriters.
@@ -167,10 +167,6 @@ Converting an LLM into a **Chatbot** requires an additional training stage. In t
 
 This kind of training is done through **Reinforcement Learning from Human Feedback (RLHF)** and **Direct Preference Optimization (DPO)**.
 
-
-
-#### Tokens & Training
-When you input a prompt into a chatbot, it calculates the relationship between each token to predict the most likely next word. Internal mechanics, such as verification and instructions, consume tokens. Since each token incurs computational cost, it is usually better to train the model to generate certain types of responses. 
 
 
 ##### *Diminishing Returns*
@@ -235,7 +231,7 @@ While human effort may have similar limitations and risks, the difference is tha
 5. <a id="cite-5"></a> https://news.harvard.edu/gazette/story/2025/11/is-ai-dulling-our-minds/ [↩ Back to text](#ref-5)
 6. <a id="cite-6"></a> https://tulanehullabaloo.com/74464/data/ai-reliance-may-have-detrimental-cognitive-effects-new-study-finds/ [↩ Back to text](#ref-6)
 7. <a id="cite-7"></a> https://mitsloan.mit.edu/press/new-mit-sloan-research-suggests-ai-more-likely-to-complement-not-replace-human-workers [↩ Back to text](#ref-7)
-8. <a id="cite-8"></a> https://about.fb.com/news/2026/08/the-future-is-for-everyone/ ↩ Back to text](#ref-8)
+8. <a id="cite-8"></a> https://about.fb.com/news/2026/08/the-future-is-for-everyone/ [↩ Back to text](#ref-8)
 9. <a id="cite-8"></a> https://www.ibm.com/think/topics/artificial-intelligence [↩ Back to text](#ref-9)
 10. <a id="cite-10"></a> https://sloanreview.mit.edu/article/how-genai-changes-creative-work/ [↩ Back to text](#ref-10)
 11. <a id="cite-11"></a> https://platform.openai.com/tokenizer [↩ Back to text](#ref-11)
@@ -249,6 +245,7 @@ While human effort may have similar limitations and risks, the difference is tha
 19. <a id="cite-19"></a> https://www.mayhemcode.com/2025/12/how-google-uses-reddit-comments-to.html [↩ Back to text](#ref-19)
 20. <a id="cite-20"></a> https://aws.amazon.com/what-is/neural-network/ [↩ Back to text](#ref-20)
 21. <a id="cite-21"></a> https://www.dataversity.net/articles/from-neural-networks-to-transformers-the-evolution-of-machine-learning/ [↩ Back to text](#ref-21)
+22. <a id="cite-22"></a> https://arxiv.org/html/2510.04933v1 [↩ Back to text](#ref-21)
 
 
 
