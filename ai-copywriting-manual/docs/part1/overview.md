@@ -156,7 +156,13 @@ Think of it like a conversation between you and a friend, you don't need to reme
 
 
 ### ***Phase 3***
-**Large Language Models** are the result of Transformer Architecture that has been trained for Natural Language Processing. 
+**Large Language Models** are the result of Transformer Architecture that has been trained for Natural Language Processing. Once an LLM model has been created it is essentially a blank slate, but still maintains access to the vast training data. The final stage of training before the LLM is released as a publically available chatbot is called fine-tuning, which uses two strategies: **Reinforcement Learning from Human Feedback (RLHF)** and **Direct Preference Optimization (DPO)**.
+
+* RLHF is a form of fine-tuning where humans rank different outputs to the same prompt. The goal is to train the LLM with a reward model to tailor its responses to reflect like the highest rank prompt and less like the lowest ranked prompt. This fine-tuning strategy is meant to align outputs to be more accurate, helpful, and safe, but these are more like guidelines for the model, not hard-coded limits.
+* DPO is a newer version of RLHF where the preferences are not found in a separate model, but included directly into the model itself. The model trains itself to produce the kinds of responses people want to see based on the internal token mechanisms, rather than training.
+
+Both of these fine-tuning methods feed into a specific tendency of hallucination: sycophancy. Since these LLMs are explicitly trained to please user intentions rather than inform them on what is accurate, AI tends to reinforce opinions with flattery, praise, and subservience. Since the human trainers tended to prefer when LLMs confirmed their prior convictions and beliefs, the LLMs are trained to support the user. 
+
 
 > ### Notes For Phase 3
 > Explain how Transformer Architecture and Natural Language Processing will develop into an LLM. Then explain how LLMs lead to GenAI chatbots. End with the last section of risks and limitations and fully develop the argument as to why AI tools don't live up to the hype. After this focus on the three roles that AI can fulfil for Copywriters.
