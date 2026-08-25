@@ -17,4 +17,15 @@ Outline:
 * Why is Data Privacy Important
 * How AI Collects Data
 * Data Privacy Principles
-  * 
+  * CES Principles for Data Privacy
+* Data Privacy Classification
+* BYUI Standards for Data Privacy
+    * BYUI Licenses
+    * AI Tools
+
+
+https://www.byui.edu/ai/data-classifications
+https://webmailbyui.sharepoint.com/sites/Policies/SitePages/Data%20Classification.aspx
+https://cesprivacy.org/global-privacy-principles
+https://www.byui.edu/ai/data/usage-guide
+https://www.byui.edu/ai/tools
