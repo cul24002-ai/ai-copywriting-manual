@@ -17,7 +17,7 @@ published: false
 
 Generative Artificial Intelligence tools have become prevalent across many creative, tech, and knowledge sectors, promising to automate repetitive tasks and increase productivity.<a id="ref-1"></a><sup>[1](#cite-1)</sup> 
 
-BYU-Idaho is preparing students for the future workforce by employing GenAI tools in faculty and student workflows<a id="ref-2"></a><sup>[2](#cite-2)</sup>, but it isn't easy because navigating the future of Human-AI collaboration requires both understanding and applying Gen AI tools to serve humanity, not to harm or hinder it.<a id="ref-3"></a><sup>[3](#cite-3)</sup>
+BYU-Idaho is preparing students for the future workforce by employing GenAI tools in faculty and student workflows,<a id="ref-2"></a><sup>[2](#cite-2)</sup> but it isn't easy because navigating the future of Human-AI collaboration requires both understanding and applying Gen AI tools to serve humanity, not to harm or hinder it.<a id="ref-3"></a><sup>[3](#cite-3)</sup>
 
 The capacity of multimodal AI tools makes it easy for people to replace their own effort with machine-generated content, but current research demonstrates that this approach has an overall net negative impact on quality and performance across many areas.<a id="ref-4"></a><sup>[4](#cite-4),</sup><a id="ref-5"></a><sup>[5](#cite-5),</sup><a id="ref-6"></a><sup>[6](#cite-6)</sup> Yet, there is also evidence that Human-AI collaboration can complement our capabilities, giving to us rather than taking away from us.<a id="ref-7"></a><sup>[7](#cite-7)</sup> 
 
@@ -146,7 +146,7 @@ Deep Learning allows machines to train themselves as they are able to run both a
 
 Once the neural network is developed it is paired with multiple other neural networks to create **Transformer Architecture**, allowing the new model to perform multiple complex tasks simultaneously and begin **Natural Language Processing**. The AI model is able to use the neural networks built to understand language to now create responses to textual inputs, allowing seamless human-AI communication.
 
-Because AI models will always be processing tokens, the outputs will always be probabilistic. Hallucination is enhanced by transformer architecture because the information being processes has so much more neural networks to pass through. Since we understand very little about how AI thinks we cannot guarantee that these responses aren't being interfered with. Errors will cascade not diminish, because the processors meant to catch bad responses will also hallucinate.<a id="ref-22"></a><sup>[21](#cite-22)</sup>
+Because AI models will always be processing tokens, the outputs will always be probabilistic. Hallucination is enhanced by transformer architecture because the information being processes has so much more neural networks to pass through. Since we understand very little about how AI thinks we cannot guarantee that these responses aren't being interfered with. Errors will cascade not diminish, because the processors meant to catch bad responses will also hallucinate.<a id="ref-22"></a><sup>[22](#cite-22)</sup>
 
 Some AI models, like Google Gemini, have access to search and retrieval systems, which increases its range of context and decreases the amount of guesswork that it does. However, Gemini does not understand the concept of "don't believe everything you read on the internet", so fact-checking is still necessary because the neural network will always hallucinate.
 
@@ -156,57 +156,52 @@ Think of it like a conversation between you and a friend, you don't need to reme
 
 
 ### ***Phase 3***
-**Large Language Models** are the result of Transformer Architecture that has been trained for Natural Language Processing. Once an LLM model has been created it is essentially a blank slate, but still maintains access to the vast training data. The final stage of training before the LLM is released as a publically available chatbot is called fine-tuning, which uses two strategies: **Reinforcement Learning from Human Feedback (RLHF)** and **Direct Preference Optimization (DPO)**.
 
-* RLHF is a form of fine-tuning where humans rank different outputs to the same prompt. The goal is to train the LLM with a reward model to tailor its responses to reflect like the highest rank prompt and less like the lowest ranked prompt. This fine-tuning strategy is meant to align outputs to be more accurate, helpful, and safe, but these are more like guidelines for the model, not hard-coded limits.
-* DPO is a newer version of RLHF where the preferences are not found in a separate model, but included directly into the model itself. The model trains itself to produce the kinds of responses people want to see based on the internal token mechanisms, rather than training.
+**Large Language Models** are the result of Transformer Architecture that has been trained for Natural Language Processing. Once an LLM model has been created it is essentially a blank slate, but still maintains access to the vast training data.<a id="ref-23"></a><sup>[23](#cite-23)</sup>
 
-Both of these fine-tuning methods feed into a specific tendency of hallucination: sycophancy. Since these LLMs are explicitly trained to please user intentions rather than inform them on what is accurate, AI tends to reinforce opinions with flattery, praise, and subservience. Since the human trainers tended to prefer when LLMs confirmed their prior convictions and beliefs, the LLMs are trained to support the user. 
+Converting an LLM into a **Chatbot** requires an additional training stage called fine-tuning. In this final stage, it is trained to become a conversational system that manages the dialogue flow, personalized responses, and serves as a helpful, adaptable assistant using two strategies: **Reinforcement Learning from Human Feedback (RLHF)** and **Direct Preference Optimization (DPO)**:<a id="ref-24"></a><sup>[24](#cite-24)</sup>
 
+* **RLHF** is a form of fine-tuning where humans rank different outputs to the same prompt. The goal is to train the LLM with a reward model to tailor its responses to reflect like the highest rank prompt and less like the lowest ranked prompt. This fine-tuning strategy is meant to align outputs to be more accurate, helpful, and safe, but these are more like guidelines for the model, not hard-coded limits.<a id="ref-25"></a><sup>[25](#cite-25)</sup>
+* **DPO** is a newer version of RLHF where the preferences are not found in a separate model, but included directly into the model itself. The model trains itself to produce the kinds of responses people want to see based on the internal token mechanisms, rather than training.
 
-> ### Notes For Phase 3
-> Explain how Transformer Architecture and Natural Language Processing will develop into an LLM. Then explain how LLMs lead to GenAI chatbots. End with the last section of risks and limitations and fully develop the argument as to why AI tools don't live up to the hype. After this focus on the three roles that AI can fulfil for Copywriters.
+Both of these fine-tuning methods feed into two specific tendencies of hallucination: **Sycophancy** and **Overconfidence**:
 
-Once the model completes natural language processing, it becomes a **Large Language Model (LLM)**, a model of human-like language. The LLM can read, reason, and generate text that resembles human text. However, despite its capabilities, it still isn't like the chatbots we are using. 
+* **Sycophancy** is the tendency for GenAI to reinforce opinions with flattery, praise, and subservience.<a id="ref-26"></a><sup>[26](#cite-26)</sup> Since the human trainers tended to reward when LLMs confirmed their prior convictions and beliefs, the LLMs were trained to prioritize user experience rather than truth verification.
+* **Overconfidence** is the tendency for GenAI to prefer its own generated text rather than human written text.<a id="ref-27"></a><sup>[27](#cite-27)</sup> Since LLMs generate text that is "mathematically sound" according to its internal statistical mechanics, it sees this alignment as their own correctness rather than bias.
 
-Converting an LLM into a **Chatbot** requires an additional training stage. In this final stage, it is trained to become a conversational system that manages the dialogue flow, personalizes responses, and serves as a helpful, adaptable assistant.
+While parameters are put in place to help, these behaviors can only be mitigated, but not removed, because they are emergent features. Copywriters using GenAI to write will encounter certain behaviors that will undermine their own ability to write. GenAI will take the Copywriters text, adjust it to align with its own preferences and confidently present it as an improved draft, while praising the original text and ideas at the same time. Because the GenAI is outputting hallucinations it cannot actually verify that its improved draft is objectively better, but it might convince the Copywriter anyways. 
 
-This kind of training is done through **Reinforcement Learning from Human Feedback (RLHF)** and **Direct Preference Optimization (DPO)**.
+Despite the apparent flaws, after the LLM has been trained to interact with users, it is deployed as a GenAI Chatbot interface. These tools inherent all of the possibilities, limitations, and risks that have been discussed so far. This completes the process of developing GenAI tools.
 
+## Using Artificial Intelligence
+GenAI chatbots like ChatGPT, Google Gemini, or Microsoft Copilot are tools that BYU-Idaho Copywriters will have access to through their official `@byui.edu` accounts. Using GenAI tools effectively requires a significant time investment that challenges the supposed productivity GenAI is promised to give users. Consider these two scenarios:
 
+* **Scenario One**: A Copywriter is writing content for a websites landing page. They want to make sure that the output is stylistic, helpful, readable, and factual. So the Copywriter spends time tailoring a prompt with a specific persona and the necessary context such as the style guide, the goal of the website, and the format. They try out a few different prompts, adjusting each time for an improved output, while also managing the limitations of the context window and making sure the responses aren't factually incorrect. After the Copywriter created the perfect prompt, they edit the output, making their own adjustments, ensuring it sounds human-like. By the time they are finished the Copywriter wonders is this was an efficient and effective use of GenAI because of the time and effort required for oversight. 
 
-##### *Diminishing Returns*
+* **Scenario Two:** A Copywriter is writing a blog. They produce a quick prompt asking GenAI to write a blog about the subject with little information. They get three to five different blogs. Then they ask GenAI to find the best version of the blog. Once selected, they ask AI to edit and revise for one final version. After the Copywriter submitted the blog they realized that they took about 30 minutes to complete a task that would take at least several hours on their own. However they didn't check themselves for hallucination, misinformation, and poor-quality copy, potentially submitting something with very low quality. Still, it does at least guarantee the appearance of productivity.
 
-* If a Copywriter must spend time tailoring prompts that provide enough guidance and content to ensure helpful responses and avoid hallucinations, then evaluating those outputs to ensure stylistic and factual cohesion, and readjusting for improved output, while also managing the limitations of the context window, then the efficient and effective use of GenAI is diminished because the time required for oversight may be better spent performing the task.
+Copywriters likely fall somewhere in between the two scenarios, but these demonstrate a general reality about using these tools: GenAI tools are only as effective and efficient as the Copywriter using them. The first Copywriter embraced GenAI as a helpful assistant that they had to lead to success, but undermined their own ability to actually write the content themselves, and instead tailored a machines output. The second Copywriter embraced GenAI as a content generator that requires only someone to prompt, but no one to overview. Yet, the approach was the same, they believed that GenAI should perform the majority of the tasks in their role, the only difference was the level of overview they provided.
 
-* If a Copywriter reduces the time spent reviewing the output to improve productivity, they risk including hallucinations, misinformation, and poor-quality copy. While it may be more efficient to utilize generated content, an increase in output volume and speed will not compensate for the reduction in output quality. Still, it does at least guarantee the appearance of productivity.
+*The AI Copywriting Manual* encourages Copywriters to take responsibility for their tasks, taking an apprehensive approach where GenAI is used in specific roles with high human overview and low AI interference. GenAI has the ability to write all of the text for Copywriters, but *human governance is in every sentence and word*, not in prompting the machine. It is not about using AI to complete every task, but finding which tasks GenAI can complete without compromising human integrity, and remaining efficient, effective, and ethical.
 
-### AI Possibilities
-GenAI multimodal chatbots like ChatGPT, Google Gemini, or Microsoft Copilot are tools that BYU-Idaho Copywriters will have access to through their official `@byui.edu` accounts.
+Copywriters should use GenAI with skepticism, reserving GenAI to three specific roles: ***Find, Challenge, and Inspect.***
 
-When the promises of GenAI are tested against the limitations and risks these models currently have, they are only as effective and efficient as the Copywriter using them. A Copywriter who embraces the technology without preparing to handle the limitations may create copy with errors that were easily preventable with human overview. A Copywriter who uses the technology with cation and strategy fight is not as fast as the first copywriter, but they are more likely to create error-free, helpful copy.
+### ***Find***
+GenAI's hallucinations prevent it from becoming a truly effective researching, summarizing, and note-taking tool. There is never a guarantee that it has generated an accurate response, even if its reasoning and syntax appear authoritative. Copywriters should not leverage GenAI as a replacement for traditional research methods and tools, but by taking advantage of the integrated search systems, they can efficiently augment the search for relevant sources.  
 
-GenAI has the ability to write all of your work for you, but human governance is in every sentence and word, not just prompting the machine. Copywriters should use GenAI with skepticism, reserving GenAI to three specific roles: Find, Challenge, and Inspect.
-
-
-#### ***Find***
-GenAI's hallucinations prevent it from becoming a truly effective researching, summarizing, and notetaking tool. There is never a guarantee that it has sufficiently generated an accurate response, even if its reasoning and syntax appear authoritative. Copywriters should not leverage GenAI as a replacement for traditional research methods and tools, but by taking advantage of the integrated LLMs and search systems, they can efficiently augment the search for relevant sources.  
-
-By using GenAI as a search tool for research materials you are able to quickly find sources that relate directly at a greater rate. It will still be up to you to verify appropriateness, accuracy, and authority of each source. Tools like Google's Gemini, which are connected to systems like Google Search and Google Scholar, could easily be introduced into the Copywriter's research strategy.
+By using GenAI as a search tool for research materials you are able to quickly find sources that relate directly at a greater rate. It will still be up to you to verify the appropriateness, accuracy, and authority of each source. Tools like Google's Gemini, which are connected to systems like Google Search and Google Scholar, could easily be introduced into the Copywriter's research strategy.
 
 You can find more effective strategies for Find here:
 
-#### ***Challenge***
+### ***Challenge***
 Copywriters can assign GenAI tools user personas to test stress points and friction within their copy. It can offer various perspectives to challenge the Copywriter's assumptions, offering a fast-paced review with various audiences. While not a total replacement, during the drafting and revising period, this feature can be used to sharpen thinking, especially when used with skepticism.
 
-The principle behind Challenge is using GenAI to sharpen the Copywriters work rather than replace it, by evaluating underlying assumptions, casual connections, logical thinking, and rhetorical strategy. GenAI shouldn't suggest methods to overcome these gaps, but it may help the Copywriter see an issue they weren't aware of.
-
-The goal with Challenge is to use GenAI as a tool that strengthens Copy through rigorous testing, not automatic rewriting. By assigning testing and analytical personas the Copywriter will be able to better reason through, defend, and explain decisions that they made.
+The principle behind Challenge is using GenAI to sharpen the Copywriters work rather than replace it, by evaluating underlying assumptions, casual connections, logical thinking, and rhetorical strategy. GenAI shouldn't suggest methods to overcome these gaps, but it may help the Copywriter see an issue they weren't aware of. The goal with Challenge is to use GenAI as a tool that strengthens Copy through rigorous testing, not automatic rewriting. By assigning testing and analytical personas the Copywriter will be able to better reason through, defend, and explain decisions that they made.
 
 You can find more effective strategies for Challenge here:
 
-#### ***Inspect***
-GenAI is able to process large amounts of text almost instantaneously. Through that process, they are able to analyze, evaluate, and critique texts' weaknesses and strengths. The issue is that even with context and prompt engineering, GenAI will still make erroneous mistakes. GenAI should not be used as the only editing tool. Tone, style, and grammar should always be reviewed by humans.
+### ***Inspect***
+GenAI is able to process large amounts of text almost instantaneously. Through that process, they are able to analyze, evaluate, and critique texts' weaknesses and strengths. The issue is that even with context and prompt engineering, GenAI will still make erroneous mistakes. GenAI should not be used as the only editing tool and tone, style, and grammar should always be reviewed by humans, but it can quickly evaluate large amounts of text to look for large-scale patterns and structure.
 
 GenAI should be given specific parameters before evaluating text, such as persona, style guidelines, and objectives. When going through the final audit, the Copywriter can evaluate the AI-reviews one at a time and still use their own judgment to determine what is best.
 
@@ -214,21 +209,7 @@ You can find more effective strategies for Inspect here:
 
 
 
-While human effort may have similar limitations and risks, the difference is that we can take full accountability. Copywriters can explain decisions, accept responsibility, and learn from experience. Copywriters who choose to employ GenAI in their work can overcome its limitations and weaknesses, showcasing its potential use cases in effective, efficient, and ethical ways. You can find effective strategies for copywriters in [part2](../part2/overview.md).
-
-# AI Terminology
-> * **Artificial Intelligence (AI):** the computer systems that are trained to perform tasks in ways that resemble human intelligence.
-> * **Machine Learning (ML):** the process of training AI, without explicitly programming it, with an algorithm developed from patterns found in data sets.
-> * **Deep Learning:** a form of machine learning that uses artificial neural networks to mimic the human brain
-> * **Neural Network:** the model created by machine learning that resembles the structure and function of the neural networks found in the brain.
-> * **Transformer Architecture:** the collection of neural networks that helps build AI models by converting text into tokens.
-> * **Tokens:** the unit of data processed by AI models during training.
-> * **Tokenization:** the process of converting text into tokens.
-> * **Natural Language Processing:** the processing of human-like language for a computer system. This includes the process of finding relationships between words in neural networks.
-> * **Large Language Model (LLM):** the model based on transformer architecture, trained from a large amount of text for natural language processing and language generation.
-> * **Chatbots:** software applications built on LLMs called GPTs that are meant to generate text that resembles human-like conversation, reasoning, and creativity.
-
-# Citations
+## Citations
 
 1. <a id="cite-1"></a> https://www.goldmansachs.com/insights/articles/how-will-ai-affect-the-us-labor-market [↩ Back to text](#ref-1)
 2. <a id="cite-2"></a> https://www.byui.edu/ai/academics [↩ Back to text](#ref-2)
@@ -251,7 +232,12 @@ While human effort may have similar limitations and risks, the difference is tha
 19. <a id="cite-19"></a> https://www.mayhemcode.com/2025/12/how-google-uses-reddit-comments-to.html [↩ Back to text](#ref-19)
 20. <a id="cite-20"></a> https://aws.amazon.com/what-is/neural-network/ [↩ Back to text](#ref-20)
 21. <a id="cite-21"></a> https://www.dataversity.net/articles/from-neural-networks-to-transformers-the-evolution-of-machine-learning/ [↩ Back to text](#ref-21)
-22. <a id="cite-22"></a> https://arxiv.org/html/2510.04933v1 [↩ Back to text](#ref-21)
+22. <a id="cite-22"></a> https://arxiv.org/html/2510.04933v1 [↩ Back to text](#ref-22)
+23. <a id="cite-23"></a> https://www.ibm.com/think/topics/large-language-models [↩ Back to text](#ref-23)
+24. <a id="cite-24"></a> https://www.ibm.com/think/topics/rlhf [↩ Back to text](#ref-24)
+25. <a id="cite-25"></a> https://www.superannotate.com/blog/direct-preference-optimization-dpo [↩ Back to text](#ref-25)
+26. <a id="cite-26"></a> https://arxiv.org/pdf/2310.13548 [↩ Back to text](#ref-26)
+27. <a id="cite-27"></a> https://arxiv.org/html/2509.24988v1 [↩ Back to text](#ref-27)
 
 
 
