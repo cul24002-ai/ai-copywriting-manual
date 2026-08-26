@@ -150,11 +150,26 @@ Gemini has a feature called Gemini Notebook (otherwise known as NotebookLM), an 
 
 After you have signed in to your *@byui.edu* account, navigate to the Settings icon: :gear:, and find and click the icon labeled *"Gemini Notebook"*. You can then access any notebooks that you have created in Gemini Notebook.
 
-**How Notebook Operates**
+### How Notebook Operates
+
 The website and app **[https://notebook.google/](https://notebook.google/)** functions as an multimodal GenAI chatbot that is connected to Google Gemini through the cloud. It has three main features that work in tandem: Sources, Chat, and Studio. These features are found in three tabs at the top of the screen, once you have created a new notebook:
 
-* **Sources:** This is where source materials live. Users can upload sources from the Web or Drive, or GenAI can automatically find relevant sources. These can sources can be PDFs, text files, Google Docs, add web links, YouTube URLs, and more. The GenAI will prioritize these sources when generating responses in the following tools. 
-* **Chat:** The chat feature functions like a normal GenAI chatbot, but it uses the compendium of sources you have already provided. It will analyze these materials whenever it generates a response. 
-* **Studio:** The studio feature converts the content of the provided sources into specific tools for analysis and studying. These tools include: audio and video overview, mind maps, flash cards, reports, slide decks, infographics, and data tables.
+#### Sources
+
+The Source Tab is the first and most important step in building a notebook. This is where the source materials are uploaded, organized, and maintained. These can sources can be PDFs, text files, Google Docs, add web links, YouTube URLs, and more. Source materials can be gathered in two ways: manually or automatically. 
+
+**Automatically:** The search feature uses GenAI to search the Web or your Drive to automatically find sources based on the prompt you have given. 
+
+**Manually:** You can manually select sources from the Web, your Drive, or filed you upload directly for the GenAI to use in the chat feature.
+
+The GenAI will prioritize these sources when generating responses. These sources act as contextual reinforcement for the tokenization process. Instead of relying on the database directly, these sources will remain 
+
+#### Chat
+
+The chat feature functions like a normal GenAI chatbot, but it uses the compendium of sources you have already provided. It will analyze these materials whenever it generates a response.
+
+#### Studio
+
+The studio feature converts the content of the provided sources into specific tools for analysis and studying. These tools include: audio and video overview, mind maps, flash cards, reports, slide decks, infographics, and data tables.
 
 
