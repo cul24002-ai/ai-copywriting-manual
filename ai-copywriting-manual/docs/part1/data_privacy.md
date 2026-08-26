@@ -18,17 +18,38 @@ It is important to use your official account when sharing any personal informati
 
 ***Data Classifications***
 
-| Public Data | Internal | Confidential | Restricted Data |
+| Public | Internal | Confidential | Restricted |
 |:--|:--|:--|:--|
 | Information approved for public release that should be protected against loss or change. | Moderately sensitive information which is generally accessible within the University to those with a legitimate university purpose and is not intended for entities or persons outside the University. | Highly sensitive information where an inappropriate loss, changes, or disclosure could have substantial consequences to individuals and the University.​​​​​​ | Information of the highest sensitivity where inappropriate loss, changes, or disclosure could have grave consequences to the University or its students. |
 | `News` `Maps` `Events` `Public Websites` `Catalogs` | `Budgets` `Policies` `Procedures` `Survey Data` `Meeting Notes` `Course Content` `Authenticated Websites` | `Names` `Photos` `Grades` `Usernames` `I-Numbers` `Addresses` `Contact Info` `Transcripts` `Authenticated Websites` | `SSNs` `Bank Info` `Passwords` `Tax Records` `Legal Files` `Medical Records` `Credit Card Info` |
 
 ***Authorized Tools***
 
-* ***OpenAI ChatGPT Edu:*** Requires a CES Edu license. BYU-Idaho and personal accounts have no data protections. Find out more about ChatGPT here:
-* ***Microsoft Copilot:*** Must use BYU-Idaho Google account. Personal accounts have no data protections. Find out more about Microsoft Copilot here:
-* ***Google Gemini:*** Must use BYU-Idaho Microsoft account. Personal accounts have no data protections. Find out more about Google Gemini here:
+***OpenAI ChatGPT Edu:*** Requires a CES Edu license. BYU-Idaho and personal accounts have no data protections. Find out more about ChatGPT here: [How To Use ChatGPT](how-to-use-chatgpt.md)
 
+*Without CES Edu License:*
+  * Public:✅
+  * Internal:❗
+  * Confidential:❗
+  * Restricted:❗
+
+*With CES Edu License:* 
+  * Public:✅
+  * Internal:✅
+  * Confidential:✅
+  * Restricted:❗
+  
+***Microsoft Copilot:*** Must use BYU-Idaho Google account. Personal accounts have no data protections. Find out more about Microsoft Copilot here: [How To Use Microsoft Copilot](how-to-use-microsoft-copilot.md)
+  * Public:✅
+  * Internal:✅
+  * Confidential:✅
+  * Restricted:❗
+
+***Google Gemini:*** Must use BYU-Idaho Microsoft account. Personal accounts have no data protections. Find out more about Google Gemini here: [How To Use Google Gemini](how-to-use-google-gemini.md)
+  * Public:✅
+  * Internal:✅
+  * Confidential:✅
+  * Restricted:❗
 
 
 
