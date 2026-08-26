@@ -18,7 +18,7 @@ One of the Chatbots available to BYU-Idaho students is Google Gemini, a multimod
 Beyond the basics of using AI Tools, found here: [How To Use AI Tools](how-to-use-ai-tools.md), this guide helps Copywriters understand and use the features of Google Gemini.
 
 **How Gemini Operates**
-* The website and app **[https://gemini.google.com/app](https://gemini.google.com/app)** functions as an multimodal AI chatbot.
+* The website and app **[https://gemini.google.com/app](https://gemini.google.com/app)** functions as an multimodal GenAI chatbot.
 * Beyond the stand-alone chat window, Gemini can also function as an agent on Android, Wear OS, and Chrome.
 * Gemini provides the AI features in **[Google Search](https://www.google.com/webhp)**, **[Google Cloud](https://cloud.google.com/?_gl=1*1iynvdg*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjw4orUBhCjARIsAIbF3qx_Vr61r-29PSSPpVkuJyQ5tkAXZTw8c_loJ9x18MgThwv_U2QhPhMaAga4EALw_wcB&gclsrc=aw.ds)**, and developer platforms like **[Google AI Studio](https://aistudio.google.com/prompts/new_chat?project=gen-lang-client-0122606831)**.
 
@@ -115,11 +115,6 @@ After you have signed in to your *@byui.edu* account, navigate to the Settings i
 * **What Others See:** Anyone who receives the link can view the shared text, generated images, or artifacts. Unless restricted by account type, they can also click "Continue this chat" to fork the prompt thread into their own Gemini workspace.
 * **Privacy & Anonymity:** Your name, email, and Google account details are not attached to the public page or URL—only the chat content itself is visible.
 
-### NotebookLM
-Gemini has a feature called Gemini Notebook (otherwise known as NotebookLM), an AI-powered research and note-taking assistant. Unlike the standard Gemini chatbot which integrates Google Search exclusively, Gemini Notebook is built specifically for implementing your selected sources. More about Gemini Notebook can be found here: [NotebookLM for Copywriters]()
-
-After you have signed in to your *@byui.edu* account, navigate to the Settings icon: :gear:, and find and click the icon labeled *"Gemini Notebook"*.
-
 ### Flash vs. Thinking vs. Pro
 Google offers different Gemini model variants tailored to distinct speeds, reasoning capabilities, and complexity levels: 3.6 Flash, 3.6 Thinking, and 3.1 Pro.
 
@@ -150,8 +145,16 @@ An autonomous research agent within Gemini. When given a complex prompt, Deep Re
 #### Session Management & Forking
 Organizational features for managing your chat history and exploring different ideas. Session Management and Forking work together to allow you to label, save, and jump between conversation threads. 
 
+## How To Use Gemini Notebook
+Gemini has a feature called Gemini Notebook (otherwise known as NotebookLM), an AI-powered research and note-taking assistant. Unlike the standard Gemini chatbot which integrates Google Search exclusively, Gemini Notebook is built specifically for implementing your selected sources.
 
+After you have signed in to your *@byui.edu* account, navigate to the Settings icon: :gear:, and find and click the icon labeled *"Gemini Notebook"*. You can then access any notebooks that you have created in Gemini Notebook.
 
+**How Notebook Operates**
+The website and app **[https://notebook.google/](https://notebook.google/)** functions as an multimodal GenAI chatbot that is connected to Google Gemini through the cloud. It has three main features that work in tandem: Sources, Chat, and Studio. These features are found in three tabs at the top of the screen, once you have created a new notebook:
 
+* **Sources:** This is where source materials live. Users can upload sources from the Web or Drive, or GenAI can automatically find relevant sources. These can sources can be PDFs, text files, Google Docs, add web links, YouTube URLs, and more. The GenAI will prioritize these sources when generating responses in the following tools. 
+* **Chat:** The chat feature functions like a normal GenAI chatbot, but it uses the compendium of sources you have already provided. It will analyze these materials whenever it generates a response. 
+* **Studio:** The studio feature converts the content of the provided sources into specific tools for analysis and studying. These tools include: audio and video overview, mind maps, flash cards, reports, slide decks, infographics, and data tables.
 
 
