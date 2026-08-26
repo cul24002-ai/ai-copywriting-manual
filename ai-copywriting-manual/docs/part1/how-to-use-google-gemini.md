@@ -172,4 +172,6 @@ The chat feature functions like a normal GenAI chatbot, but it uses the compendi
 
 The studio feature converts the content of the provided sources into specific tools for analysis and studying. These tools include: audio and video overview, mind maps, flash cards, reports, slide decks, infographics, and data tables.
 
+>
+> UPDATE CHAT AND STUDIO; THEN MOVE ON
 
