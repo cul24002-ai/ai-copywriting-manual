@@ -31,7 +31,7 @@ The AI tools approved by BYU-Idaho are *ChatGPT*, *Copilot*, and *Gemini*. These
 
 #### ***OpenAI ChatGPT Edu:*** 
 
-It's excellent for writing, editing, brainstorming, and building Custom GPTs. It requires a CES Edu license, which is not typically available to students. BYU-Idaho and personal accounts have no data protections. Find out more about ChatGPT here: [How To Use ChatGPT](how-to-use-chatgpt.md)
+It's excellent for writing, editing, brainstorming, and building Custom GPTs. It requires a CES Edu license, which is available through student acccounts, but must be accessed directly. BYU-Idaho and personal accounts have no data protections. Find out more about ChatGPT here: [How To Use ChatGPT](how-to-use-chatgpt.md)
 
 *Without CES Edu License:*
   * Public:✅
