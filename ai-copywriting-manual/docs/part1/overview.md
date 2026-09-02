@@ -188,7 +188,7 @@ By using GenAI as a search tool for research materials you are able to quickly f
 
 * ***Example:*** A Copywriter is researching for a website but wants to find sources faster. He uses Google Gemini's connections to Google Search to find reliable by sources by using it as an advanced search engine. Instead of breaking down his question into topics and keywords, the GenAI is able to use its Natural Language Processing to breakdown the sentence and find webpages that address similar subjects.
 
-Find more effective strategies and tools for Find here:
+Find more effective strategies and tools for Find here: [How To Find With AI](how-to-find.md)
 
 ### ***Challenge***
 Copywriters can assign GenAI tools user personas to test stress points and friction within their copy. It can offer various perspectives to challenge the Copywriter's assumptions, offering a fast-paced review with various audiences. While not a total replacement, during the drafting and revising period, this feature can be used to sharpen thinking, especially when used with skepticism.
@@ -197,7 +197,7 @@ The principle behind Challenge is using GenAI to sharpen the Copywriters work by
 
 * ***Example:*** A Copywriter isn't sure about the blog they are writing so they give AI a role, asking it to play the part of the audience they are writing for. The Copywriter asks it to look for potential areas where the information is incomplete or confusing. The Copywriter then compares the evaluation to the text and decides what changes they can make and what they should keep.
 
-Find more effective strategies and tools for Challenge here:
+Find more effective strategies and tools for Challenge here: [How To Challenge With AI](how-to-challenge.md)
 
 ### ***Inspect***
 GenAI is able to process large amounts of text almost instantaneously. Through that process, they are able to analyze, evaluate, and critique texts' weaknesses and strengths. The issue is that even with context and prompt engineering, GenAI will still make erroneous mistakes. GenAI should not be used as the only editing tool and tone, style, and grammar should always be reviewed by humans, but it can quickly evaluate large amounts of text to evaluate large-scale patterns and structure.
@@ -206,11 +206,9 @@ GenAI should be given specific parameters before evaluating text, such as person
 
 * ***Example:*** The Copywriter just finished editing a page, but wants one last quick overview just in case there was something that he missed. They ask the AI to evaluate the text for any mistakes, but not to edit or change anything. The AI finds one sentence that repeats the word the, which they accidentally skimmed over. The Copywriter reads over the page one last time with the AI reviews in mind and finds all the easy-to-miss errors.
 
-Find more effective strategies and tools for Inspect here:
-
+Find more effective strategies and tools for Inspect here: [How To Inspect With AI](how-to-inspect.md)
 
 ## Citations
-
 1. <a id="cite-1"></a> https://www.goldmansachs.com/insights/articles/how-will-ai-affect-the-us-labor-market [↩ Back to text](#ref-1)
 2. <a id="cite-2"></a> https://www.byui.edu/ai/academics [↩ Back to text](#ref-2)
 3. <a id="cite-3"></a> https://www.unesco.org/en/artificial-intelligence/recommendation-ethics [↩ Back to text](#ref-3)
