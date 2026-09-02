@@ -1,5 +1,5 @@
 ---
-title: "How To Use Google Gemini"
+title: "Features of Google Gemini"
 description: "This is the in-depth how-to guide for Copywriters using Google Gemini."
 tags:
   - ai-tools
@@ -12,7 +12,7 @@ section: part1
 published: false
 ---
 
-# How to Use Google Gemini
+# Features of Google Gemini
 One of the Chatbots available to BYU-Idaho students is Google Gemini, a multimodal GenAI tool developed by Google. It functions as a family of AI models built to process and generate text, code, images, audio, and video that can access Google Workspace, Search, and developer tools.
 
 Beyond the basics of using AI Tools, found here: [How To Use AI Tools](how-to-use-ai-tools.md), this guide helps Copywriters understand and use the features of Google Gemini.
@@ -76,7 +76,7 @@ After you have signed in to your *@byui.edu* account, navigate to the Settings i
 Once you are at that page you will be able to toggle the switch, allowing you the ability to provide access to the account or not.
 
  #### Shortcut Tags
- Shortcut tags (e.g., the `@` symbol) are used to pull information form or execute commands across specific **Connected Apps** directly within your prompt thread, allowing you to direct Gemini to query specific apps.
+ Shortcut tags (e.g., the `@` symbol) are used to pull information form or execute commands across specific **Connected Apps** directly within your prompt thread, allowing you to direct Gemini to query specific apps. Connected Apps feature must be enabled to use this feature.
  
  | Common `@` Commands | What It Does | Example |
  |:---:|:-----|:-----|
@@ -154,9 +154,9 @@ The website and app **[https://notebook.google/](https://notebook.google/)** fun
 #### Sources
 The Source Tab is the first and most important step in building a notebook. This is where the source materials are uploaded, organized, and maintained. These can sources can be PDFs, text files, Google Docs, web links, YouTube URLs, and more. Source materials can be gathered in two ways—manually or automatically:
 
-**Automatically:** The search feature uses Gemini to search the Web or your Drive and automatically find sources based on the prompt you have given. 
+* **Automatically:** The search feature uses Gemini to search the Web or your Drive and automatically find sources based on the prompt you have given. 
 
-**Manually:** You can manually select sources from the Web, your Drive, or filed you upload directly for the GenAI to use in the chat feature.
+* **Manually:** You can manually select sources from the Web, your Drive, or filed you upload directly for the GenAI to use in the chat feature.
 
 #### Chat
 The chat feature functions like a normal GenAI chatbot, but it uses the compendium of sources you have already provided. It will analyze the provided source materials whenever it generates a response, using them as contextual reinforcement for the tokenization process, instead of relying on its own database directly. 
