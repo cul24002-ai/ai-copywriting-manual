@@ -13,7 +13,7 @@ published: false
 ---
 
 # How to Use Google Gemini
-One of the Chatbots available to BYU-Idaho students is Google Gemini, a multimodal AI technology developed by Google. It functions as a family of AI models built to process and generate text, code, images, audio, and video that can access Google Workspace, Search, and developer tools.
+One of the Chatbots available to BYU-Idaho students is Google Gemini, a multimodal GenAI tool developed by Google. It functions as a family of AI models built to process and generate text, code, images, audio, and video that can access Google Workspace, Search, and developer tools.
 
 Beyond the basics of using AI Tools, found here: [How To Use AI Tools](how-to-use-ai-tools.md), this guide helps Copywriters understand and use the features of Google Gemini.
 
@@ -57,7 +57,8 @@ Here is the step-by-step instructions to setting up Gemini:
 
 > [!WARNING]
 >:warning: **Use Your Institutional Account**
-> ***If you use a personal Google account, no institutional data protections are in place—treat it as Public-level only.***
+> 
+> ***If you use a personal Google account, no institutional data protections are in place—treat it as public-level only. Remember it will train on your conversations.***
 
 ### Library 
 Gemini has a *Library* feature that holds your saved, pinned, and recent assets stored for easy access found in the sidebar. Key components include:
@@ -68,7 +69,6 @@ Gemini has a *Library* feature that holds your saved, pinned, and recent assets 
 * **Notebooks:** Direct links to your created *Gemini Notebooks (NotebookLM)*.
 
 ### Connected Apps
-
 Gemini has an opt-in *Connected Apps* feature that connects to your account to other Google apps. 
 
 After you have signed in to your *@byui.edu* account, navigate to the Settings icon: :gear:, and find and click the icon labeled *"Connected Apps"*.
@@ -80,13 +80,12 @@ Once you are at that page you will be able to toggle the switch, allowing you th
  
  | Common `@` Commands | What It Does | Example |
  |:---:|:-----|:-----|
- | `@Gmail` | Search, summarize, or draft emails from your primary inbox. | *@Gmail summarize the key points from the latest email sent by John*
- | `@Google Drive` | Retrieve notes, analyze spreadsheets, or extract details from files stored in your Drive. | *@Google Drive find the project proposal draft and outline the budget section.*
- | `@Google Calendar` | Check availability or manage upcoming schedule details. | *@Google Calendar what meetings do I have scheduled for tomorrow afternoon?* |
- | `@Youtube` | Find specific video summaries, pull timestamps, or search for video topics. | *@Youtube find a beginner tutorial on Python functions and summarize it.* |
+ | `@Gmail` | Search, summarize, or draft emails from your primary inbox. | *`@Gmail` summarize the key points from the latest email sent by John*
+ | `@Google Drive` | Retrieve notes, analyze spreadsheets, or extract details from files stored in your Drive. | *`@Google Drive` find the project proposal draft and outline the budget section.*
+ | `@Google Calendar` | Check availability or manage upcoming schedule details. | *`@Google Calendar` what meetings do I have scheduled for tomorrow afternoon?* |
+ | `@Youtube` | Find specific video summaries, pull timestamps, or search for video topics. | *`@Youtube` find a beginner tutorial on Python functions and summarize it.* |
 
 ### Gems
-
 Gemini has a feature called *Gems*, custom versions of Google Gemini designed to act as specialized AI assistants for specific, repetitive tasks. Instead of repeating similar instructions from previous tasks every time you start a new chat, a custom Gem retains those baseline rules.
 
 Google includes built-in Gems ready to use, such as Brainstormer, Career Guide, Coding Partner, and Writing Editor. You can use them right away, or you can copy them and tailor them to suit your needs.
@@ -101,7 +100,6 @@ More on creating a Gem for Copywriters will be found here: [AI Agents for Copywr
 * **Knowledge Base Uploads:** You can attach source files (PDFs, style guides, product specs) or connect Google Drive documents directly to a Gem so it always grounds its responses in your specific references.
 
 ### Your Public Links
-
 Gemini has a feature called *Your Public Links*, a settings management menu that allows you to view, manage, and delete all shareable URL links you have previously created for your chat sessions.
 
 After you have signed in to your *@byui.edu* account, navigate to the Settings icon: :gear:, and find and click the icon labeled *"Your Public Links"*.
@@ -151,27 +149,18 @@ Gemini has a feature called Gemini Notebook (otherwise known as NotebookLM), an 
 After you have signed in to your *@byui.edu* account, navigate to the Settings icon: :gear:, and find and click the icon labeled *"Gemini Notebook"*. You can then access any notebooks that you have created in Gemini Notebook.
 
 ### How Notebook Operates
-
 The website and app **[https://notebook.google/](https://notebook.google/)** functions as an multimodal GenAI chatbot that is connected to Google Gemini through the cloud. It has three main features that work in tandem: Sources, Chat, and Studio. These features are found in three tabs at the top of the screen, once you have created a new notebook:
 
 #### Sources
+The Source Tab is the first and most important step in building a notebook. This is where the source materials are uploaded, organized, and maintained. These can sources can be PDFs, text files, Google Docs, web links, YouTube URLs, and more. Source materials can be gathered in two ways—manually or automatically:
 
-The Source Tab is the first and most important step in building a notebook. This is where the source materials are uploaded, organized, and maintained. These can sources can be PDFs, text files, Google Docs, add web links, YouTube URLs, and more. Source materials can be gathered in two ways: manually or automatically. 
-
-**Automatically:** The search feature uses GenAI to search the Web or your Drive to automatically find sources based on the prompt you have given. 
+**Automatically:** The search feature uses Gemini to search the Web or your Drive and automatically find sources based on the prompt you have given. 
 
 **Manually:** You can manually select sources from the Web, your Drive, or filed you upload directly for the GenAI to use in the chat feature.
 
-The GenAI will prioritize these sources when generating responses. These sources act as contextual reinforcement for the tokenization process. Instead of relying on the database directly, these sources will remain 
-
 #### Chat
-
-The chat feature functions like a normal GenAI chatbot, but it uses the compendium of sources you have already provided. It will analyze these materials whenever it generates a response.
+The chat feature functions like a normal GenAI chatbot, but it uses the compendium of sources you have already provided. It will analyze the provided source materials whenever it generates a response, using them as contextual reinforcement for the tokenization process, instead of relying on its own database directly. 
 
 #### Studio
-
-The studio feature converts the content of the provided sources into specific tools for analysis and studying. These tools include: audio and video overview, mind maps, flash cards, reports, slide decks, infographics, and data tables.
-
->
-> UPDATE CHAT AND STUDIO; THEN MOVE ON
+The studio feature converts the content of the provided sources into specific tools for analysis and studying. These tools include: audio and video overview, mind maps, flash cards, reports, slide decks, infographics, and data tables. Like the chat feature, the studio will primarily draw from the source materials.
 
