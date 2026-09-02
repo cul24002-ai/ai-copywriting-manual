@@ -18,13 +18,24 @@ It is important to use your official account when sharing any personal informati
 
 BYU-Idaho is committed to safeguarding your privacy and intellectual property. Your official `@byui.edi` account gives you access to authorized AI tools, each approved with a specific data classification levels: *public*, *internal*, *confidential*, and *restricted*. 
 
-Copywriters who are accessing the authorized tools with their BYU-Idaho accounts are safe to share data across the public, internal, and confidential classes, since most Copywriting is for public and internal audiences. However, even though the BYU-Idaho provides authorized tools with safety features built-in to protect your data, it is important to restrict sharing private data anyways. Remember, just because you can feed personal, internal, or confidential data to AI, it doesn't mean that you should.
+Copywriters who are accessing the authorized tools with their BYU-Idaho accounts are safe to share data across the public, internal, and confidential classes, since most Copywriting is for public and internal audiences. 
+
+However, even though the BYU-Idaho provides authorized tools with safety features built-in to protect your data, it is important to restrict sharing private data anyways. Remember, just because you can feed personal, internal, or confidential data to AI, it doesn't mean that you should.
 
 ## Data Privacy Practices For Copywriters
 
-* **Don't Feed University Data or Private Information to Unapproved AI Tools:** Personally Identifiable Information and confidential or restricted university information should not be used with any AI tools without approval. These tools learn from what you type, and your private data could become public.
-* **Only Use University-Approved Tools:** When using AI for work, use the University approved tools (detailed below). BYU-Idaho has licenses and contracts in place that provide privacy and security to users. One of the key benefits is that it protects your intellectual property because AI cannot train on data from your converstations.
-* **Ask For Help If You Are Not Sure:** When in doubt, leave it out. If you aren't sure wether something is appropriate or not contact your supervisor, the AI committee, or [IT](https://td.byui.edu/TDClient/79/ITHelpCenter/Requests/Service/905/Request-an-IT-Project-Software-or-AI-Tool/Request) and ask for help.
+* **Don't Feed University Data or Private Information to Unapproved AI Tools**
+
+  Personally Identifiable Information and confidential or restricted university information should not be used with any AI tools without approval. These tools learn from what you type, and your private data could become public.
+* **Only Use University-Approved Tools**
+  
+  When using AI for work, use the University approved tools (detailed below). BYU-Idaho has licenses and contracts in place that provide privacy and security to users. One of the key benefits is that it protects your intellectual property because AI cannot train on data from your converstations.
+* **Always Self-Check Your Data Usage**
+
+  The Church Education System (CES) provides six principles for protecting data—Purpose Limitation, Data Minimization, Lawfulness, Transparency, Protection, and Duration—which are meant to encourage members to self-check their work. If you are working with confidential information, you can use this [self-check guide](https://cesprivacy.org/00000193-1d0f-d940-adf7-dfcfa2e20001/cpc-global-privacy-principles-self-check-pdf) to ensure your work is safe.
+* **Ask For Help If You Are Not Sure**
+  
+  When in doubt, leave it out. If you aren't sure wether something is appropriate or not contact your supervisor, the AI committee, or [IT](https://td.byui.edu/TDClient/79/ITHelpCenter/Requests/Service/905/Request-an-IT-Project-Software-or-AI-Tool/Request) and ask for help.
 
 > ### Accidental Data Exposure
 > If you accidentally input unauthorized data into an AI tool, tell your supervision and contact [IT](https://td.byui.edu/TDClient/79/ITHelpCenter/Requests/Service/905/Request-an-IT-Project-Software-or-AI-Tool/Request) immediately.
@@ -43,7 +54,7 @@ The AI tools approved by BYU-Idaho are *ChatGPT*, *Copilot*, and *Gemini*. These
 
 #### ***OpenAI ChatGPT Edu:*** 
 
-It's excellent for writing, editing, brainstorming, and building Custom GPTs. It requires a CES Edu license, which is available through student acccounts, but must be accessed directly. BYU-Idaho and personal accounts have no data protections. Find out more about ChatGPT here: [How To Use ChatGPT](how-to-use-chatgpt.md)
+It's excellent for writing, editing, brainstorming, and building Custom GPTs. It requires a CES Edu license, which is available through student acccounts, but must be accessed directly. BYU-Idaho and personal accounts have no data protections.
 
 *Without CES Edu License:*
   * Public:✅
@@ -56,24 +67,30 @@ It's excellent for writing, editing, brainstorming, and building Custom GPTs. It
   * Internal:✅
   * Confidential:✅
   * Restricted:❗
+
+Find out more about ChatGPT here: [How To Use ChatGPT](how-to-use-chatgpt.md)
   
 #### ***Microsoft Copilot:***
 
-It can see your emails, files, meetings, and calendar; making it powerful for work tasks tied to your M365 environment. Copywriters must use BYU-Idaho Microsoft account. Personal accounts have no data protections. Find out more about Microsoft Copilot here: [How To Use Microsoft Copilot](how-to-use-microsoft-copilot.md)
+It can see your emails, files, meetings, and calendar; making it powerful for work tasks tied to your M365 environment. Copywriters must use BYU-Idaho Microsoft account. Personal accounts have no data protections.
+
   * Public:✅
   * Internal:✅
   * Confidential:✅
   * Restricted:❗
 
-Since BYU–Idaho runs on Microsoft 365, Copilot will generally be more connected to your day-to-day work.
+Find out more about Microsoft Copilot here: [How To Use Microsoft Copilot](how-to-use-microsoft-copilot.md)
 
 #### ***Google Gemini:***
 
-It integrates with Google Workspace and Google Search. Copywriters must use BYU-Idaho Google account. Personal accounts have no data protections. Find out more about Google Gemini here: [How To Use Google Gemini](how-to-use-google-gemini.md)
+It integrates with Google Workspace and Google Search. Copywriters must use BYU-Idaho Google account. Personal accounts have no data protections.
+
   * Public:✅
   * Internal:✅
   * Confidential:✅
   * Restricted:❗
+
+Find out more about Google Gemini here: [How To Use Google Gemini](how-to-use-google-gemini.md)
 
 
 
