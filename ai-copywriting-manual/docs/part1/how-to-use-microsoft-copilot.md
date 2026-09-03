@@ -107,34 +107,6 @@ Copilot allows users to share conversations and generated content with others.
 * **What Others See:** Recipients can view the shared conversation, generated content, and attached outputs.
 * **Privacy & Permissions:** Shared content follows the permissions and policies associated with your Microsoft account and organization.
 
-## More Tools For Copywriters
-
-Copilot includes several advanced tools that can assist Copywriters with research, content development, and document creation.
-
-#### Copilot Pages
-
-A collaborative workspace that allows you to work side-by-side with Copilot. Pages lets you collect AI-generated outputs, edit them collaboratively, and continue refining content over time.
-
-#### Deep Research
-
-An advanced research capability that performs multi-step investigations, gathers information from multiple sources, analyzes findings, and generates comprehensive reports.
-
-#### Image Generation
-
-Copilot can generate images from natural language prompts, helping Copywriters create visual concepts, illustrations, and marketing assets.
-
-#### Document Analysis
-
-Upload documents, PDFs, spreadsheets, and presentations directly into Copilot for summarization, comparison, extraction of key information, and question answering.
-
-#### Meeting & Email Summaries
-
-Copilot can summarize Teams meetings, Outlook email threads, and organizational conversations, helping Copywriters quickly understand context and action items.
-
-#### Session Management
-
-Copilot maintains conversation history, allowing users to revisit previous projects, continue ongoing work, and organize research across multiple chat sessions.
-
 ## Working with Files and Microsoft 365 Content
 
 One of Copilot's strongest capabilities is grounding responses in uploaded files and Microsoft 365 content. Unlike a standard chatbot that relies primarily on web data and model knowledge, Copilot can analyze the specific documents you provide.
