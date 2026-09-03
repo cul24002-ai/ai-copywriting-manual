@@ -128,3 +128,19 @@ Common supported sources include:
 ### Chat
 
 The chat experience functions like a standard GenAI chatbot but can incorporate uploaded files and Microsoft 365 content into its responses. Copilot references these materials when generating answers, summaries, analyses, or recommendations.
+
+## More Tools For Copywriters
+
+Copilot has many other tools that assist with advanced workflow, but there are only a few that are directly applicable for Copywriters. You can find these throughout the Copilot interface, depending on your license and enabled features.
+
+#### Copilot Pages
+
+A dedicated workspace within Copilot that allows you to work side-by-side with AI-generated content. Pages creates a persistent collaborative canvas where you can collect responses, refine drafts, organize research, and continuously build on previous work without losing context.
+
+#### Deep Research
+
+An autonomous research tool within Copilot. When given a complex prompt, Deep Research creates a multi-step research process, gathers information from approved sources, analyzes findings, and synthesizes the results into a comprehensive cited report.
+
+#### Session Management
+
+Organizational features for managing chat history and ongoing projects. Session Management allows you to save, revisit, and continue previous conversations while maintaining context across related work.
