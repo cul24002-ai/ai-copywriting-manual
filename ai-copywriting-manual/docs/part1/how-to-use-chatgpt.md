@@ -20,7 +20,7 @@ Beyond the basics of using AI Tools, found here: [How To Use AI Tools](how-to-us
 **How ChatGPT Operates**
 * The website and app **[https://chatgpt.com/](https://chatgpt.com/)** functions as an multimodal GenAI chatbot.
 * Beyond the stand-alone chat window, ChatGPT supports voice on web, iOS, and Android; it can also work with browsers and computers through agent tools.
-* ChatGPT provides the AI features in developer platforms like **[Open AI Developers]([https://aistudio.google.com/prompts/new_chat?project=gen-lang-client-0122606831](https://developers.openai.com/))**.
+* ChatGPT provides the AI features in developer platforms like **[Open AI Developers](https://developers.openai.com/)**.
 
 **Why Use ChatGPT?**
 
