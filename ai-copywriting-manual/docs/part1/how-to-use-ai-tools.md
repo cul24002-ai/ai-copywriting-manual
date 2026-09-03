@@ -18,13 +18,13 @@ published: false
 ***BYU-Idaho's AI Toolkit for Copywriters***
 GenAI tools generally share the same overall function, because each model shares more similarities than differences. 
 
-It is impossible to say if one conglomerate's training data is better than another's, so differentiating based on data collection and training is arbitrary, even if it is technically true. 
+It is impossible to say whether one conglomerate's training data is better than another's, so differentiating based on data collection and training is arbitrary, even if it is technically true. 
 
-Remember, since *hallucination* is a inherent to AI, the data set has more influence on voice and patterns rather than knowledge and capability.
+Remember, since *hallucination* is inherent in AI, the dataset has more influence on voice and patterns rather than knowledge and capability.
 
-The tool used for any given task may be decided by personal preference, specific features, native workspace, and tool capabilities. However, beyond specific features, the fundamental differences between AI models lies in how they are deployed.
+The tool used for a given task may be determined by personal preference, specific features, native workspace, and tool capabilities. However, beyond specific features, the fundamental differences between AI models lie in how they are deployed.
 
-BYU-Idaho provides access to three AI tools: ChatGPT Edu, Google Gemini, and Microsoft Copilot. You can find more details for the specific tools, features, and benefits of each in their respective pages, including how to access them with your university provided account.
+BYU-Idaho provides access to three AI tools: ChatGPT Edu, Google Gemini, and Microsoft Copilot. You can find more details for the specific tools, features, and benefits of each in their respective pages, including how to access them with your university-provided account.
 
 | Chatbot | Developer | Accessibility | Site |
 |:--:|:--:|:--|:--|
