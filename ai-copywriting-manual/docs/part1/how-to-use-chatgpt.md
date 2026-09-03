@@ -137,10 +137,10 @@ The mode you choose determines how much computational effort ChatGPT spends work
 
 ChatGPT models generally exist along the following spectrum:
 
-* **Light** → Fastest responses and lowest computational effort.
-* **Standard** → Balanced speed and quality.
-* **Work** → Increased reasoning and analysis.
-* **Max** → Highest level of reasoning and computational effort available.
+* **Light:** Fastest responses and lowest computational effort.
+* **Standard:** Balanced speed and quality.
+* **Work:** Increased reasoning and analysis.
+* **Max:** Highest level of reasoning and computational effort available.
 
 #### Differences Between the Modes
 
@@ -151,59 +151,3 @@ ChatGPT models generally exist along the following spectrum:
 * **Work:** Allocates additional reasoning resources to a task. Better for research-heavy writing, source analysis, outlining complex projects, and detailed content development.
 
 * **Max:** Uses the greatest amount of reasoning and processing available. Best for advanced research, multi-source synthesis, strategy documents, difficult coding tasks, and complex analytical work.
-
-#### Which Should Copywriters Use?
-
-* **Light** for headline generation, simple rewrites, summaries, and general editing.
-* **Standard** for blog posts, landing pages, email campaigns, and most writing tasks.
-* **Work** for research-intensive articles, SEO planning, content audits, and content strategy.
-* **Max** for long-form reports, competitive analysis, multi-document research projects, and highly complex assignments.
-
-**How To Access:** Open the model selector at the top of the chat window and choose the desired model family and computational mode before submitting your prompt.
-
-## More Tools For Copywriters
-
-ChatGPT includes several advanced tools that can assist with content creation, research, analysis, and workflow management.
-
-You can find most of these by clicking the tools button beneath the chat input box.
-
-#### Deep Research
-
-An autonomous research tool designed for complex investigations. Deep Research searches multiple sources, gathers information, analyzes findings, and generates a detailed cited report.
-
-#### Canvas
-
-A dedicated workspace for collaborating directly with ChatGPT while editing documents or code. Canvas allows inline revisions, comments, and iterative drafting without interrupting the conversation.
-
-#### Data Analysis
-
-A tool that allows ChatGPT to analyze spreadsheets, CSV files, and structured datasets. It can perform calculations, identify trends, create charts, and generate summaries.
-
-#### Search
-
-ChatGPT Search enables the model to retrieve and analyze current information from the web. This allows Copywriters to research topics, verify information, and locate sources directly within the chat.
-
-#### Image Generation
-
-ChatGPT can generate original images from text descriptions and modify existing images using natural language instructions.
-
-#### Voice Mode
-
-Voice Mode allows users to interact with ChatGPT through spoken conversation rather than text. Available on supported web and mobile platforms, it supports natural back-and-forth discussion.
-
-#### File Uploads
-
-Documents, PDFs, presentations, spreadsheets, and images can be uploaded directly into a conversation. ChatGPT can summarize, analyze, compare, and answer questions about the uploaded material.
-
-#### Study Mode
-
-An interactive learning mode designed to guide users toward understanding rather than simply providing answers. Study Mode can generate quizzes, explanations, guided questions, and practice activities.
-
-#### Agent Mode
-
-Agent Mode allows ChatGPT to complete multi-step tasks on behalf of the user. It can independently conduct research, navigate information sources, gather data, and execute longer workflows while working toward a specified objective.
-
-#### Session Management
-
-ChatGPT automatically stores conversation history, allowing users to revisit previous chats, organize work into Projects, and continue ongoing tasks without starting from scratch.
-
