@@ -151,3 +151,23 @@ ChatGPT models generally exist along the following spectrum:
 * **Work:** Allocates additional reasoning resources to a task. Better for research-heavy writing, source analysis, outlining complex projects, and detailed content development.
 
 * **Max:** Uses the greatest amount of reasoning and processing available. Best for advanced research, multi-source synthesis, strategy documents, difficult coding tasks, and complex analytical work.
+
+## More Tools For Copywriters
+
+ChatGPT has many other tools that assist with advanced workflow, but there are only a few that are directly applicable for Copywriters. You can find these by clicking the Tools button beneath the chat input box.
+
+#### Study Mode
+
+An interactive learning mode built for developing understanding rather than directly providing answers. Study Mode acts as a tutor or thought partner, breaking down complex topics into guided questions, explanations, quizzes, exercises, and other learning activities.
+
+#### Canvas
+
+A dedicated workspace within ChatGPT meant to allow you to work side-by-side with the interactive chat feature. Canvas opens a separate editing workspace where you can directly modify text or code while collaborating with ChatGPT, making drafting, revision, and formatting much easier.
+
+#### Deep Research
+
+An autonomous research agent within ChatGPT. When given a complex prompt, Deep Research creates a multi-step research process, gathers information from online sources, analyzes findings, and synthesizes the material into a detailed cited report.
+
+#### Session Management & Projects
+Organizational features for managing your chat history and exploring different ideas. Session Management and Forking work together to allow you to label, save, and jump between conversation threads. 
+
