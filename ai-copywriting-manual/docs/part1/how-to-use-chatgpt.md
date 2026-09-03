@@ -61,3 +61,12 @@ Here is the step-by-step instructions to setting up ChatGPT:
 > 
 > ***If you use a personal account, no institutional data protections are in place—treat it as public-level only. Remember it will train on your conversations.***
 
+### Library 
+ChatGPT has a *Library* feature that stores images and documents for easy access found in the sidebar. Copywriters can reference both uploaded and generated materials here.
+
+### Scheduled Tasks
+ChatGPT has a *Scheduled Tasks* features that allows users to set reminders found in the sidebar. Notifications must be allowed for ChatGPT to notify on devices when it is not actively opened.
+
+### Models: Luna, Terra, Sol, and More
+ChatGPT has three flagship models with different capabilities and one other model used for general purposes
+
