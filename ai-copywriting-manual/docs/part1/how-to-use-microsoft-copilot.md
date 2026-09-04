@@ -1,5 +1,5 @@
 ---
-title: "Features of Microsoft Copilot"
+title: "Features of Microsoft Copilot 365"
 description: "This is the in-depth how-to guide for Copywriters using Microsoft Copilot."
 tags:
   - ai-tools
@@ -12,17 +12,17 @@ section: part1
 published: false
 ---
 
-# Features of Microsoft Copilot
-One of the AI tools available to BYU-Idaho students is Microsoft Copilot, Microsoft's multimodal GenAI assistant. Copilot can understand and generate text, code, images, and other content while integrating with Microsoft 365 apps, web search, and enterprise data sources.
+# Features of Microsoft Copilot 365
+One of the AI tools available to BYU-Idaho students is Microsoft Copilot 365, Microsoft's multimodal GenAI assistant. Copilot can understand and generate text, code, images, and other content while integrating with Microsoft 365 apps, web search, and enterprise data sources.
 
-Beyond the basics of using AI Tools, found here: [How To Use AI Tools](how-to-use-ai-tools.md), this guide helps Copywriters understand and use the features of Microsoft Copilot.
+Beyond the basics of using AI Tools, found here: [How To Use AI Tools](how-to-use-ai-tools.md), this guide helps Copywriters understand and use the features of Microsoft Copilot 365.
 
-**How Copilot Operates**
+**How Copilot 365 Operates**
 * The website and app **[https://copilot.microsoft.com/](https://copilot.microsoft.com/)** functions as an multimodal GenAI chatbot.
 * Beyond the stand-alone chat window, Copilot is available across web browsers, Windows, Mac, mobile devices, and Microsoft Edge, allowing users to access the same AI assistant across multiple platforms.
 * Copilot provides the AI features throughout the Microsoft ecosystem, including Microsoft 365 apps such as Word, Excel, PowerPoint, Outlook, OneNote, and Teams. Depending on licensing, Copilot can also access organizational data through Microsoft Graph.
 
-**Why Use Copilot?**
+**Why Use Copilot 365?**
 * **Microsoft 365 Integration:** Copilot is especially useful for Copywriters who work with Word, PowerPoint, Outlook, Teams, OneNote, or files stored in Microsoft 365. It can help draft content, summarize documents, and streamline everyday tasks.
 * **Enterprise Security and Permissions:** Copilot respects existing Microsoft 365 security, compliance, and permission settings, ensuring users only access information they are authorized to view.
 
