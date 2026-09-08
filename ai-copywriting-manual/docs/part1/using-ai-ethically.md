@@ -102,15 +102,7 @@ Find out more about Google Gemini here: [Features of Google Gemini](tool-guide/h
   * AI output can combine material from multiple sources without clear attribution.
   * Forms of AI-related plagiarism
 
-### BYU-Idaho’s Position on Plagiarism
-
-### How AI Creates Plagiarism Risks
-
-### Plagiarism-Prevention for Copywriters
-
-#### How to Cite AI
-
-## Copyright & AI
+## Plagiarism, Copyright, & AI
 
 ### Copyright vs. Plagiarism
 
@@ -123,3 +115,7 @@ Find out more about Google Gemini here: [Features of Google Gemini](tool-guide/h
 ### Ownership of Work Created for BYU-Idaho
 
 ### Copyright-Prevention for Copywriters
+
+#### Transparency & Disclosure
+
+#### How to Cite AI
