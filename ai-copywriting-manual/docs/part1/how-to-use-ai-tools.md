@@ -132,43 +132,42 @@ Sharing may involve:
 * Team libraries or organizational knowledge bases.
 * Handoffs between people and AI tools.
 
-
-## Generated Artifacts
+### Generated Artifacts
 Multimodal AI was trained to generate many different kinds of media artifacts. Depending on the model it can range from small-scale replies to large multi-asset applications. It is important to recognize that these generated artifacts all stem from the same architecture as LLMs, but for different tools. Many of these artifacts are also made accessible through the deployment stage.
 
 Below is list containing many common artifacts across GenAI tools, and while not all encompassing, it represents the range of generated content. A general rule of thumb is that if it something you can upload to GenAI, then it can probably create something like it.
 
-### Chat Response
+#### Chat Response
 An answer to a prompt delivered in the chat interface. This can range from a simple, single-sentence response, to a full-fledged article. It's responses will be conversational and friendly, usually generating first-person responses, unless it is instructed not to.
 
-### Cited Answer
+#### Cited Answer
 A response that includes links, references, quotations, or source attributions meant to support its claims. Generally, GenAI responds with a cited answer when it is specifically performing web searches.
 
-### Editable Page
+#### Editable Page
 A persistent workspace for developing content beside or within the AI conversation. Unlike a normal chat response, an editable page is intended for repeated revision. An editable page might have content it generated entirely by itself, written by you, or a combination of both.
 
-### Word-Processing Document
+#### Word-Processing Document
 A formally structured document designed for reading, editing, printing, or sharing. It may contain headings, paragraphs, footnotes, tables, images, page breaks, and other document elements. Word-processing documents may come in any file type and integrated directly into a workspace.
 
-### Data Table
+#### Data Table
 A structured arrangement of information in rows and columns, usually intended for reading, comparison, filtering, or further analysis. A data table may com in file formats, textual tables, or even spreadsheets. It may be populated by data it generated, you provided, or a combination of both.
 
-### Diagram/Structured Visual
+#### Diagram/Structured Visual
 A visual representation of concepts, processes, hierarchies, relationships, systems, or sequences, and  potentially a representation of numerical data that helps readers identify comparisons, trends, distributions, or relationships.
 
 Visual artifacts may respond to user input or allows exploration rather than simply displaying fixed information.
 
-### Generated Image
+#### Generated Image
 A visual image created or modified from a text description, reference image, or editing instruction.
 
-### Generated Music
+#### Generated Music
 Music created or modified from a text description, reference image, or editing instruction.
 
-### Code Artifact
+#### Code Artifact
 A block or file of computer code generated, modified, explained, or analyzed by AI. Code artifacts can include scripts, web components, templates, formulas, automation, and configuration files.
 
-### Website/Lightweight App
+#### Website/Lightweight App
 A collection of connected pages or an interactive digital experience that performs a specific communication or functional purpose. It may be a combination of any of the previous features above.
 
-### Research Report
+#### Research Report
 A structured document that gathers, evaluates, synthesizes, and presents information from multiple sources. It may be a combination of any of the previous features above.
