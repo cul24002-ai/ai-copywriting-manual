@@ -49,73 +49,126 @@ The conversation exists inside a context window, keeping earlier messages togeth
 
 Controls let users edit their prompts, stop or regenerate outputs, and save, delete, and export chats.
 
+### Response Editing and Navigation
+Once a prompt is submitted, users are able to edit it, retroactively re-prompting the GenAI tool. Users have control over the flow of chat conversation, can improve and experiment with prompts, and reduce the context the AI has to process.
+
+Users can also create duplicate chat conversations, making multiple versions, allowing them to save old outputs, test different answers with different models, and use different tools with the same context.
+
+### Storage, Memory, and Personalization
+The conversational interface is connected to a workspace that stores previous chats, customized tools, generated artifacts such as images and documents, continuous projects, and more. 
+
+These features are found directly in the sidebar or in project folders and libraries. Users are able to access, reuse, edit, or delete these materials.
+
+In the GenAI settings, users are able to access chat history and manage GenAI's memory and instructions. 
+
+Memory is a passive tool that GenAI uses to help personalize responses. While all chat history isn't treated as context for conversation, GenAI tools have a memory feature, a collection of data GenAI uses to create a user persona for future chats. This can be managed by deleting chat histories or directly disabling the memory feature.
+
+Instructions allow users to directly input rules and context that GenAI will use to personalize each response. This could be personal information, or output recommendations like "prefers short responses" or "write in bullet points."
+
+When using school accounts, your personal data is not used to train AI models, and many memory features are disabled 
+
+All of these features make up the information GenAI stores beyond its own database.
+
 ### Input and Context Controls
-In the chat feature, users can include more than just text, they can also supply materials and designate what the AI should work with. This material becomes context in the conversation, allowing the AI to anchor responses based on the provided material. 
+In the chat feature, users can include more than just text; they can also supply materials and designate what the GenAI should work with. This material becomes context in the conversation, allowing GenAI to anchor responses based on the provided material. 
 
 * **Documents & Files:** PDFs, Word docs, CSVs, Excel files, and presentations for summarization or data analysis.
-
+  
 * **Images & Visuals:** Photos, charts, diagrams, and screenshots for object identification, math solving, or troubleshooting.
-
+  
 * **Audio & Voice:** Voice prompts, meeting recordings, and audio files for transcription and summarization.
-
+  
 * **Video:** Short clips and video files for scene description, object tracking, and content summaries.
-
+  
 * **Code Files:** Scripts and programming files (e.g., .py, .js, .html) for debugging, review, and optimization.
-
+  
 * **Connected Workspaces:** Direct integrations with cloud drives (like Google Workspace) to pull context without manual uploads.
+  
+* **Search and Source Grounding:** Web search tools that ground outputs in sources directly pulled from search engines (like Google Search).
 
-Some of the content users upload will be saved to the AI's library feature, so users can access, reuse, or delete those materials.
+Some of the content users upload will be saved to GenAI's storage features.
 
-### Modes, Models, and Tools
+### Modes and Models
+GenAI tools are not meant to act as a one-size-fits-all. Different tasks require different reasoning capabilities, tokenization cost, and speed. 
 
-### Response Editing and Navigation
+* **Models:** Within a GenAI tool, there are different models.
 
-### Search and Source Grounding
+  For instance, ChatGPT has the models Luna, Terra, and Sol. These models can functionally perform the same tasks, but do so at different rates. 
 
-### Computation and Tool Execution
+* **Modes:** Within a GenAI model, there are different modes.
 
-### Persistent Workspace and Storage
+For instance, ChatGPT has both a chat mode and a work mode. The chat mode accesses two models that both prioritize instant answers. The work mode accesses four models with dials that allow the user to control their reasoning power.
 
-### Personalization and Memory
+Users who take advantage of GenAI modes and models can decide the token cost they pay and if they want instant answers or in-depth reasoning.
 
 ### Reusable Assistants
+GenAI tools can create, store, and maintain reusable assistants for recurring roles and tasks. Some GenAI tools come with pre-created assistants or tools to help users create their own customized assistants. 
 
-### Artifact Creation
+Think of these assistants as highly tailored and reusable prompts for GenAI that implement the following:
+
+* **Role:** How it is supposed to act. Such as an editor, researcher, or more.
+* **Instructions:** What it is supposed to do. Tasks that it should complete and how it should and shouldn't help the user. Rules governing tone, process, format, limitations, and decision-making.
+* **Context:** Reference files, style guides, brand standards, product information, or other materials.
+* **Tools:** Web search, file analysis, data analysis, image generation, or external applications.
+* **Format:** Expectations for how the assistant should organize its responses.
 
 ### Automation and Background Work
+Automation allows GenAI to work in the background without moment-to-moment user interference. The GenAI system may run processes on a schedule, respond to an event, monitor information, or complete multiple steps in sequence.
+
+Normally, the user has to input a prompt to get a result, but with automation, the system continues operating after the initial instruction, allowing the use to work elsewhere.
 
 ### Sharing and Collaboration
+Sharing and collaboration features allow users to distribute conversations, documents, prompts, assistants, generated artifacts, or workspaces to other people. These features transform AI from an individual tool into a team environment.
+
+Sharing may involve:
+
+* A link to a conversation.
+* A copied response or generated artifact.
+* A shared document or project.
+* A reusable assistant made available to a team.
+* Comments, annotations, or suggested revisions.
+* Collaborative editing.
+* Shared files and reference materials.
+* Team libraries or organizational knowledge bases.
+* Handoffs between people and AI tools.
 
 
+## Generated Artifacts
+Multimodal AI was trained to generate many different kinds of media artifacts. Depending on the model it can range from small-scale replies to large multi-asset applications. It is important to recognize that these generated artifacts all stem from the same architecture as LLMs, but for different tools. Many of these artifacts are also made accessible through the deployment stage.
 
-
-
-## Understanding Generated Artifacts
+Below is list containing many common artifacts across GenAI tools, and while not all encompassing, it represents the range of generated content. A general rule of thumb is that if it something you can upload to GenAI, then it can probably create something like it.
 
 ### Chat Response
+An answer to a prompt delivered in the chat interface. This can range from a simple, single-sentence response, to a full-fledged article. It's responses will be conversational and friendly, usually generating first-person responses, unless it is instructed not to.
 
 ### Cited Answer
+A response that includes links, references, quotations, or source attributions meant to support its claims. Generally, GenAI responds with a cited answer when it is specifically performing web searches.
 
 ### Editable Page
+A persistent workspace for developing content beside or within the AI conversation. Unlike a normal chat response, an editable page is intended for repeated revision. An editable page might have content it generated entirely by itself, written by you, or a combination of both.
 
 ### Word-Processing Document
-
-### Presentation
-
-### Spreadsheet
+A formally structured document designed for reading, editing, printing, or sharing. It may contain headings, paragraphs, footnotes, tables, images, page breaks, and other document elements. Word-processing documents may come in any file type and integrated directly into a workspace.
 
 ### Data Table
-
-### Chart or Plot
+A structured arrangement of information in rows and columns, usually intended for reading, comparison, filtering, or further analysis. A data table may com in file formats, textual tables, or even spreadsheets. It may be populated by data it generated, you provided, or a combination of both.
 
 ### Diagram/Structured Visual
+A visual representation of concepts, processes, hierarchies, relationships, systems, or sequences, and  potentially a representation of numerical data that helps readers identify comparisons, trends, distributions, or relationships.
+
+Visual artifacts may respond to user input or allows exploration rather than simply displaying fixed information.
 
 ### Generated Image
+A visual image created or modified from a text description, reference image, or editing instruction.
+
+### Generated Music
+Music created or modified from a text description, reference image, or editing instruction.
 
 ### Code Artifact
-
-### Interactive Visual
+A block or file of computer code generated, modified, explained, or analyzed by AI. Code artifacts can include scripts, web components, templates, formulas, automation, and configuration files.
 
 ### Website/Lightweight App
+A collection of connected pages or an interactive digital experience that performs a specific communication or functional purpose. It may be a combination of any of the previous features above.
 
 ### Research Report
+A structured document that gathers, evaluates, synthesizes, and presents information from multiple sources. It may be a combination of any of the previous features above.
