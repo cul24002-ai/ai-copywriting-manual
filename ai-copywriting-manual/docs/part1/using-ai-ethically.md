@@ -129,19 +129,100 @@ Though GenAI complicates both plagiarism and copyright, they are not the same th
 * **Challenge:** Once they finish, they want to use GenAI to evaluate how the intended audience might react to the page. The give a GenAI tool a generic BYUI student persona and ask them to react to the text, but forbids it from editing or rewriting parts of the text. The tool points out areas where there might be friction, and the Copywriter adjusts those areas without AI assistance.
 * **Inspect:** After editing, the Copywriter wants to do one last check to make sure that they are complaint with the style-guide. They ask GenAI to point out any mistakes they might have missed. Once the GenAI points out the issues, the Copywriter manually edits those points after double-checking the style guide.
 
-Since the Copywriter properly attributed each source and authored the blog with minimal AI assistance, they used GenAI in a way that didn't plagiarize or infringe another author's rights. The university is able to register the blog with the Copyright Office for protection without any issues of ownership or authorship.
+Since the Copywriter properly attributed each source and authored the blog with minimal AI-assistance, they used GenAI in a way that didn't plagiarize or infringe another author's rights. The university is able to register the blog with the Copyright Office for protection without any issues of ownership or authorship.
 
 ### Transparency & Disclosure
-When it's acceptable for a Copywriter to produce AI-authored artifacts depends on the organization. The risks and limitations of GenAI as a tool, along with its ethical and legal issues, means that Copywriters should never assume that it's appropriate to use it for authorship tasks without asking appropriate organization leadership first. In the case that permission is warranted or granted to use AI-authored artifacts, it necessary for Copywriters to practice transparency and disclosure. 
+When it's acceptable for a Copywriter to use AI to revise or edit artifacts entirely depends on the organization, but ***AI should never be used as an author or coauthor.***<a id="ref-20"></a><sup>[20](#cite-20)</sup>
 
-Copywriters are fully accountable for disclosing the use of AI in their work, meaning that they include a comprehensive disclosure statement that includes the following:
+The risks and limitations of GenAI as a tool, along with its ethical and legal problems, means that Copywriters should assume using AI tools to directly influence the text is inappropriate, unless it is otherwise stated. Organization leadership must approve it first.
 
-* The specific AI model they used (such as *CES ChatGPT Edu GPT-5.5 Sol Medium*, or institutional *Google Gemini Edu 3.6* )
-* 
+In the case that permission is warranted or granted to use AI, Copywriters are fully accountable for fully disclosing the use of AI in their work in a succinct, but comprehensive statement.<a id="ref-21"></a><sup>[21](#cite-21)</sup>
 
-#### How to Cite AI
+A transparent disclosure statement should include the following:
 
+* The specific AI model used (ex: *CES ChatGPT Edu GPT-5.5*, or institutional *Google Gemini Edu 3.6* )
+* The author's purpose for using AI (ex: grammar-checker, review, brainstorm, edit, research, etc...)
+* The portions of the work AI affected by degree (ex: suggested better introduction, cleaned passive voice misuse, checked for comma splices, etc...)
+* The methods and strategies used to prompt the AI (ex: prompt engineering techniques, steps for data protection)
+* The level of human overview and steps taken to ensure quality (ex: independently verified sources, approved and manually applied all edits)
 
+A disclosure statement doesn't need to be in that order, but it does need to include each component. The detail of the disclosure statement must reflect the degree to which AI was used in a work.
+
+A simple disclosure statement might look like: 
+
+> The author of this work used the AI model *Google Gemini Edu 3.6* to brainstorm subjects for a copywriting manual. Their brainstorming process limited the AI model to produce single sentence bullet-points without elaborating on the ideas. The author used some of ideas to independently create an outline without the use of AI.
+
+For the first example, the line between brainstorming and drafting is thin, so the statement is provided to point out where the Copywriter fell on that line. This keeps the author accountable and honest. Ideas can't be copyrighted so ownership is protected by this statement. With proper citation, the artifact also doesn't fall under plagiarism.
+
+A more developed disclosure statement might look like:
+
+> The author of this work used the AI model *CES ChatGPT Edu GPT-5.5* and *Microsoft 365 Copilot Basic*to research topics and find sources for several subjects in a copywriting manual. The author used custom agents to search for scholarly sources and brainstorm research questions. The AI was not used to replace reading, verifying, or citing sources. The author independently accessed these sources and integrated proper research methods to their best ability without the use of AI.
+
+For the second example, the AI didn't actually author anything, so the disclosure statement is provided to establish trust between the author and the audience. These kinds of statements may become increasingly warranted as AI artifacts are plagiarized and audiences grow skeptical. 
+
+Copywriters should ask their supervisors and project managers about when to include an AI disclosure statement. Ultimately, it is up to the organization on whether they will provide a statement or not, but Copywriters should always track AI usage in their work.
+
+#### AI Citation Style Guide
+Since AI doesn't have clear authorship standards, the standards for citing have been adjusted to accommodate these tools. The impermanence of AI chats makes citations less helpful then standard citations. Each citation should be paired with a disclosure statement. Below is a guide to citing AI in common styles. BYUI Copywriters will use Chicago, but APA and MLM are provided for exceptions.<a id="ref-22"></a><sup>[22](#cite-22)</sup>
+
+* <a id="ref-cs"></a>[Chicago Style](#cite-cs)
+* <a id="ref-mla"></a>[MLA Style](#cite-mla)
+* <a id="ref-apa"></a>[APA Style](#cite-apa)
+
+##### <a id="cite-cs"></a> [Chicago Style](#ref-cs)<a id="ref-23"></a><sup>[23](#cite-23)</sup>
+According to Chicago Style, AI tools do not need to be credited as a source, but that author's should disclose AI usage with a brief statement. However, it does provide instructions for creating a formal citation if desired.
+
+1. **Author:** The author will be labeled as the company that created the model, such as: *Microsoft* for *Copilot*, *OpenAI* for *ChatGPT*, etc...
+   * If context for that chat was provided in the text, include a brief statement before the author stating "Text generated by...".
+   * If context for the chat wasn't provided, include a statement, abbreviating the prompt, such as: Copilot, response to "find sources for citing AI"
+2. **Name of AI Tool:** The brand name of the AI tool, such as: *ChatGPT, Copilot, Gemini, etc...* 
+3. **Version of AI Tool:** The exact model of the AI tool be used, such as: *CES ChatGPT Edu GPT-5.5*
+4. **Publisher:** The name the company that made the tool, such as: *Microsoft, Google, OpenAI, etc...*
+5. **Date:** The date the content was generated.
+6. **Location:** Give the URL for the AI tool, such as: *https://gemini.google.com/*
+
+**Format:** Author, Title, Publisher, Date, URL for the tool.   
+
+**Example**
+
+* Context provided in text:
+
+Text generated by ChatGPT, OpenAI, July  4, 2026, https://chatgpt.com/
+
+* No context provided in text:
+
+ChatGPT, response to "Where do I find fireworks," OpenAI, July 4, 2026, https://chatgpt.com/
+
+##### <a id="cite-mla"></a> [MLA Style](#ref-mla)<a id="ref-24"></a><sup>[24](#cite-24)</sup>
+1. **Title of Source:** In MLA, AI-generated content is considered a source with *no author*.
+Instead of providing an author,  create a title for the source such as a brief, descriptive phrase detailing what was created by AI or the prompt. Use this as the title for in-text citations.
+2. **Name of AI Tool:** The brand name of the AI tool, such as: *ChatGPT, Copilot, Gemini, etc...* 
+3. **Version of AI Tool:** The exact model of the AI tool be used, such as: *CES ChatGPT Edu GPT-5.5*
+4. **Publisher:** The name the company that made the tool, such as: *Microsoft, Google, OpenAI, etc...*
+5. **Date:** The date the content was generated.
+6. **Location:** Give the URL for the AI tool, such as: *https://gemini.google.com/*
+
+**Format:** "Title of Source" prompts. *Name of AI Tool*, Version of AI Tool, Company, Date, URL.
+
+**Example:** "Analyze this text from the perspective of a student" prompt. *Gemini*, Gemini 3.6 Thinking, Google, 3 March 2026, https://gemini.google.com/.
+
+##### <a id="cite-apa"></a> [APA Style](#ref-apa)<a id="ref-25"></a><sup>[25](#cite-25)</sup>
+1. **Author:** The author will be labeled as the company that created the model, such as: *Microsoft* for *Copilot*, *OpenAI* for *ChatGPT*, etc...
+2. **Date:** The date the content was generated.
+3. **Name of AI Tool:** The brand name of the AI tool, such as: *ChatGPT, Copilot, Gemini, etc...*
+4. **Version of AI Tool:** The exact model of the AI tool be used, such as: *CES ChatGPT Edu GPT-5.5*
+5. **AI Designation:** Include `[Large language model]` after the version.
+6. **Location:** Give the URL for the AI tool, such as: *https://gemini.google.com/*
+
+**Format:**
+
+Author. (Date). *Name of AI Tool* (Version of AI Tool) [Large language model]. URL 
+
+**Example:**
+
+Microsoft. (2026). *Copilot* (ChatGPT 5.5 Basic) [Large language model]. https://copilot.microsoft.com/.
+
+## Trust Between Author & Audience
 
 ## Citations
 1. <a id="cite-1"></a> https://doi.org/10.25300/MISQ/2013/37.2.02 [↩ Back to text](#ref-1)
@@ -163,3 +244,10 @@ Copywriters are fully accountable for disclosing the use of AI in their work, me
 17. <a id="cite-17"></a> https://www.copyright.gov/ai/ai_policy_guidance.pdf [↩ Back to text](#ref-17)
 18. <a id="cite-18"></a> https://ori.hhs.gov/plagiarism-ideas [↩ Back to text](#ref-18)
 19. <a id="cite-19"></a> https://www.copyright.gov/what-is-copyright/ [↩ Back to text](#ref-19)
+20. <a id="cite-20"></a> https://www.cdc.gov/ai/resources/considerations-for-generative-ai-use-in-scientific-work.html [↩ Back to text](#ref-20)
+21. <a id="cite-21"></a> https://bradley.libguides.com/genAI/citing [↩ Back to text](#ref-21)
+22. <a id="cite-22"></a> https://content.byui.edu/file/869c6648-a3b7-4ecc-8987-852c6b710763/1/BYU-I%20AI%20Citation%20Style%20Guide.pdf  [↩ Back to text](#ref-22)
+23. <a id="cite-23"></a> https://www.chicagomanualofstyle.org/qanda/data/faq/topics/Documentation/faq0422.html  [↩ Back to text](#ref-23)
+24. <a id="cite-24"></a>  https://apastyle.apa.org/blog/cite-generative-ai-reference  [↩ Back to text](#ref-24)
+25. <a id="cite-25"></a> https://style.mla.org/citing-generative-ai-updated-revised/  [↩ Back to text](#ref-25)
+
