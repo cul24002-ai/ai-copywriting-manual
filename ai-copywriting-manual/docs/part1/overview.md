@@ -109,7 +109,7 @@ AI is probabilistic not deterministic, meaning that it doesn't ever understand t
 
 Some AI models, like Google Gemini, have access to search and retrieval systems, which increases its range of context and decreases the amount of guesswork that it does. However, Gemini does not understand the concept of "don't believe everything you read on the internet", so fact-checking is still necessary. There is also no guarantee that it properly understood the source it was pulling from.
 
-Hallucinations are one of the most important reasons why Copywriters are still necessary, because you have the ability to verify information that GenAI can't. You can govern words and syntax where GenAI can only make estimations. This limitation begins with Machine Learning, but as AI models become more advanced, hallucination only becomes more apparent, not less.
+Hallucinations are one of the most important reasons why Copywriters are still necessary, because they have the ability to verify information that GenAI can't. Copywriters can govern words and syntax where GenAI can only make estimations. This limitation begins with Machine Learning, but as AI models become more advanced, hallucination only becomes more apparent, not less.
 
 ### ***Phase 2***
 
@@ -184,11 +184,9 @@ Yet, the approach was the same, they believed that GenAI should perform the majo
 ### ***Find***
 GenAI's hallucinations prevent it from becoming a truly effective researching, summarizing, and note-taking tool. There is never a guarantee that it has generated an accurate response, even if its reasoning and syntax appear authoritative. Copywriters should not leverage GenAI as a replacement for traditional research methods and tools, but by taking advantage of the integrated search systems, they can efficiently augment the search for relevant sources.  
 
-By using GenAI as a search tool for research materials you are able to quickly find sources that relate directly at a greater rate. It will still be up to you to verify the appropriateness, accuracy, and authority of each source. Tools like Google's Gemini, which are connected to systems like Google Search and Google Scholar, could easily be introduced into the Copywriter's research strategy.
+By using GenAI as a search tool for research materials, Copywriters are able to quickly find sources that relate directly at a greater rate. It will still be up to them to verify the appropriateness, accuracy, and authority of each source. Tools like Google's Gemini, which are connected to systems like Google Search and Google Scholar, could easily be introduced into the Copywriter's research strategy.
 
 * ***Example:*** A Copywriter is researching for a website but wants to find sources faster. He uses Google Gemini's connections to Google Search to find reliable by sources by using it as an advanced search engine. Instead of breaking down his question into topics and keywords, the GenAI is able to use its Natural Language Processing to breakdown the sentence and find webpages that address similar subjects.
-
-Find more effective strategies and tools for Find here: [How To Find With AI](how-to-find.md)
 
 ### ***Challenge***
 Copywriters can assign GenAI tools user personas to test stress points and friction within their copy. It can offer various perspectives to challenge the Copywriter's assumptions, offering a fast-paced review with various audiences. While not a total replacement, during the drafting and revising period, this feature can be used to sharpen thinking, especially when used with skepticism.
@@ -197,8 +195,6 @@ The principle behind Challenge is using GenAI to sharpen the Copywriters work by
 
 * ***Example:*** A Copywriter isn't sure about the blog they are writing so they give AI a role, asking it to play the part of the audience they are writing for. The Copywriter asks it to look for potential areas where the information is incomplete or confusing. The Copywriter then compares the evaluation to the text and decides what changes they can make and what they should keep.
 
-Find more effective strategies and tools for Challenge here: [How To Challenge With AI](how-to-challenge.md)
-
 ### ***Inspect***
 GenAI is able to process large amounts of text almost instantaneously. Through that process, they are able to analyze, evaluate, and critique texts' weaknesses and strengths. The issue is that even with context and prompt engineering, GenAI will still make erroneous mistakes. GenAI should not be used as the only editing tool and tone, style, and grammar should always be reviewed by humans, but it can quickly evaluate large amounts of text to evaluate large-scale patterns and structure.
 
@@ -206,7 +202,9 @@ GenAI should be given specific parameters before evaluating text, such as person
 
 * ***Example:*** The Copywriter just finished editing a page, but wants one last quick overview just in case there was something that he missed. They ask the AI to evaluate the text for any mistakes, but not to edit or change anything. The AI finds one sentence that repeats the word the, which they accidentally skimmed over. The Copywriter reads over the page one last time with the AI reviews in mind and finds all the easy-to-miss errors.
 
-Find more effective strategies and tools for Inspect here: [How To Inspect With AI](how-to-inspect.md)
+These roles will be elaborated on in later sections of this manual. Before elaborating on the strategies, Copywriters should understand the basics of general AI features and the specifics of the tools provided by BYU-Idaho. 
+
+Next Chapter: [The Basic Features of AI](how-to-use-ai-tools.md)
 
 ## Citations
 1. <a id="cite-1"></a> https://www.goldmansachs.com/insights/articles/how-will-ai-affect-the-us-labor-market [↩ Back to text](#ref-1)
@@ -236,11 +234,3 @@ Find more effective strategies and tools for Inspect here: [How To Inspect With 
 25. <a id="cite-25"></a> https://www.superannotate.com/blog/direct-preference-optimization-dpo [↩ Back to text](#ref-25)
 26. <a id="cite-26"></a> https://arxiv.org/pdf/2310.13548 [↩ Back to text](#ref-26)
 27. <a id="cite-27"></a> https://arxiv.org/html/2509.24988v1 [↩ Back to text](#ref-27)
-
-
-
-
-
-
-
-

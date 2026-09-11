@@ -14,29 +14,29 @@ published: false
 ---
 
 # The Basic Features of AI
-Using GenAI might seem simple at first, and for the most part, it is meant to be. Strong user-interface and natural language processing makes casually using it seamless. For beginners, it might seem like a conversational version of Google, where you get to use a chat feature instead of having to open links.
+Using GenAI might seem simple at first, and for the most part, it is meant to be. Strong user interface and natural language processing make casually using it seamless. For beginners, it might seem like a conversational version of Google, but instead of links it is a chat interface.
 
-For Copywriters who use GenAI, depending on the chat without employing any other features, will inhibit their ability to use these tools effectively, efficiently, and ethically. Moreover, one strategy that works for one AI tool might work differently for another. It is not enough to know the tools generally, you must understand each feature, what it's limitations are, how it functions, and how you can use it to enhance your copywriting.
+For Copywriters who use GenAI, depending on the chat without employing any other features will inhibit their ability to use these tools effectively, efficiently, and ethically. Moreover, one strategy that works for one AI tool might work differently for another. It is not enough to know the tools generally; Copywriters must understand each feature, what its limitations are, how it functions, and how they can use it to enhance their copywriting.
 
 ## BYU-Idaho's AI Toolkit for Copywriters
-Generally, across the GenAI models you will use, they will share more similarities than differences.
+Generally, the GenAI models Copywriters use will share more similarities than differences.
 
 The tool used for a given task may be determined by personal preference, specific features, native workspace, and tool capabilities. However, beyond specific features, the fundamental difference between AI models lie in where they are deployed, not in training, intelligence, or features.
 
-It is impossible to say whether one conglomerate's training data is better than another's, so differentiating based on data collection and training is arbitrary, even if it is technically true. Since *hallucination* is inherent in AI, the dataset has more influence on voice and patterns rather than knowledge and capability.
+It is impossible to say whether one conglomerate's training data is better than another's, so differentiating based on data collection and training is arbitrary, even if it is technically true. Since hallucination is inherent in AI, the dataset has more influence on voice and pattern recognition rather than knowledge and capability.
 
-BYU-Idaho provides access to three AI tools: ChatGPT Edu, Google Gemini, and Microsoft Copilot 365. You can find more details for the specific tools, features, and benefits of each in their respective pages, including how to access them with your university-provided account. 
+BYU-Idaho provides access to three AI tools: ChatGPT Edu, Google Gemini, and Microsoft Copilot 365. Find more details for the specific tools, features, and benefits of each in their respective pages, found below, including how to access them with a university-provided account. 
 
 | Chatbot | Developer | Accessibility | Site | Deployment | Training |
 |:--:|:--:|:--|:--|:--|:--|
-| ChatGPT Edu | OpenAI | Requires CES Edu license. Must use your ChatGPT BYU-Idaho institutional account. | [Access ChatGPT](https://chatgpt.com/)| General-purpose AI workspace that can use uploaded materials and connected services, including Google Workspace, Microsoft, and more. | [ChatGPT Features](tool-guide/how-to-use-chatgpt.md)
-| Google Gemini | Google AI | Must use your Gemini BYU-Idaho institutional account. | [Access Google Gemini](https://gemini.google.com/app)| Google’s ecosystem, including Google Workspace and Search. | [Gemini Features](tool-guide/how-to-use-google-gemini.md)
-| Microsoft Copilot 365 | Microsoft AI | Must use your Microsoft BYU-Idaho institutional account. | [Access Microsoft Copilot](https://copilot.microsoft.com/)| Microsoft’s ecosystem, including Word, Outlook, Teams, and other Microsoft 365 applications. | [Copilot Features](tool-guide/how-to-use-microsoft-copilot.md)
+| ChatGPT Edu | OpenAI | Requires CES Edu license. Must use a ChatGPT BYU-Idaho institutional account. | [Access ChatGPT](https://chatgpt.com/)| General-purpose AI workspace that can use uploaded materials and connected services, including Google Workspace, Microsoft, and more. | [ChatGPT Features](tool-guide/how-to-use-chatgpt.md)
+| Google Gemini | Google AI | Must use a Gemini BYU-Idaho institutional account. | [Access Google Gemini](https://gemini.google.com/app)| Google’s ecosystem, including Google Workspace and Search. | [Gemini Features](tool-guide/how-to-use-google-gemini.md)
+| Microsoft Copilot 365 | Microsoft AI | Must use a Microsoft BYU-Idaho institutional account. | [Access Microsoft Copilot](https://copilot.microsoft.com/)| Microsoft’s ecosystem, including Word, Outlook, Teams, and other Microsoft 365 applications. | [Copilot Features](tool-guide/how-to-use-microsoft-copilot.md)
 
-Becoming familiar with each of the tools is encouraged, but ultimately the tool you spend the most time with depends on which one:
+Becoming familiar with each of the tools is encouraged, but ultimately the tool the spend the most time with depends on which one:
 
-* Integrates into your workspace (Google Workspace, Microsoft 365, etc...)
-* Provides the most useful features for your needs:
+* Integrates into the workspace (Google Workspace, Microsoft 365, etc...)
+* Provides the most useful features for the needs:
   * context window size, model capability, external application, etc...
 * Supports the process of Find, Challenge, and Inspect
 
@@ -65,7 +65,7 @@ Memory is a passive tool that GenAI uses to help personalize responses. While al
 
 Instructions allow users to directly input rules and context that GenAI will use to personalize each response. This could be personal information, or output recommendations like "prefers short responses" or "write in bullet points."
 
-When using school accounts, your personal data is not used to train AI models, and many memory features are disabled 
+When using school accounts, personal data is not used to train AI models, and many memory features are disabled 
 
 All of these features make up the information GenAI stores beyond its own database.
 
@@ -135,7 +135,7 @@ Sharing may involve:
 ### Generated Artifacts
 Multimodal AI was trained to generate many different kinds of media artifacts. Depending on the model it can range from small-scale replies to large multi-asset applications. It is important to recognize that these generated artifacts all stem from the same architecture as LLMs, but for different tools. Many of these artifacts are also made accessible through the deployment stage.
 
-Below is list containing many common artifacts across GenAI tools, and while not all encompassing, it represents the range of generated content. A general rule of thumb is that if it something you can upload to GenAI, then it can probably create something like it.
+Below is list containing many common artifacts across GenAI tools, and while not all encompassing, it represents the range of generated content. A general rule of thumb is that if it something that GenAI can upload, then it can probably create something like it.
 
 #### Chat Response
 An answer to a prompt delivered in the chat interface. This can range from a simple, single-sentence response, to a full-fledged article. It's responses will be conversational and friendly, usually generating first-person responses, unless it is instructed not to.
@@ -144,13 +144,13 @@ An answer to a prompt delivered in the chat interface. This can range from a sim
 A response that includes links, references, quotations, or source attributions meant to support its claims. Generally, GenAI responds with a cited answer when it is specifically performing web searches.
 
 #### Editable Page
-A persistent workspace for developing content beside or within the AI conversation. Unlike a normal chat response, an editable page is intended for repeated revision. An editable page might have content it generated entirely by itself, written by you, or a combination of both.
+A persistent workspace for developing content beside or within the AI conversation. Unlike a normal chat response, an editable page is intended for repeated revision. An editable page might have content it generated entirely by itself, written by the user, or a combination of both.
 
 #### Word-Processing Document
 A formally structured document designed for reading, editing, printing, or sharing. It may contain headings, paragraphs, footnotes, tables, images, page breaks, and other document elements. Word-processing documents may come in any file type and integrated directly into a workspace.
 
 #### Data Table
-A structured arrangement of information in rows and columns, usually intended for reading, comparison, filtering, or further analysis. A data table may com in file formats, textual tables, or even spreadsheets. It may be populated by data it generated, you provided, or a combination of both.
+A structured arrangement of information in rows and columns, usually intended for reading, comparison, filtering, or further analysis. A data table may com in file formats, textual tables, or even spreadsheets. It may be populated by data it generated, the user provided, or a combination of both.
 
 #### Diagram/Structured Visual
 A visual representation of concepts, processes, hierarchies, relationships, systems, or sequences, and  potentially a representation of numerical data that helps readers identify comparisons, trends, distributions, or relationships.
@@ -172,3 +172,6 @@ A collection of connected pages or an interactive digital experience that perfor
 #### Research Report
 A structured document that gathers, evaluates, synthesizes, and presents information from multiple sources. It may be a combination of any of the previous features above.
 
+
+
+Next Chapter: [Personal Accountability & AI](using-ai-ethically.md)

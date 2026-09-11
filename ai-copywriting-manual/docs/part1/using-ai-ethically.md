@@ -1,5 +1,5 @@
 ---
-title: "Personal Accountability & AI Usage"
+title: "Personal Accountability & AI"
 description: "This is the in-depth how-to guide for being safe, responsible, and ethical while using AI, highlighting what kind of actions are appropriate."
 tags:
   - ai-tools
@@ -11,7 +11,7 @@ author:
 section: part1
 published: false
 ---
-# Personal Accountability & AI Usage
+# Personal Accountability & AI
 Personal accountability for Copywriters is crucial in the age of AI. With the prominence of this new technology, there is an increasing risk of mishandling private information, intellectual property, and research integrity. Copywriters must not only understand how AI works, but how using AI unethically can have serious consequences at institutional, individual, audience levels.
 
 Media artifacts refer to physical or digital materials created to carry and communicate ideas and information.<a id="ref-1"></a><sup>[1](#cite-1)</sup> Intellectual property refers to intangible, often digital, artifacts that communicate creations originating from the human mind.<a id="ref-2"></a><sup>[2](#cite-2)</sup> It is human authorship that facilitates the ownership of artifacts, but when authorship originates with AI instead, both ownership rights and privacy of that artifact are lost.<a id="ref-3"></a><sup>[3](#cite-3),</sup><a id="ref-4"></a><sup>[4](#cite-4)</sup>
@@ -21,20 +21,20 @@ Using GenAI to create an artifact while claiming it as original work is plagiari
 *The AI Copywriting Manual* provides guidelines on managing data privacy, intellectual property, and research integrity for Copywriters using GenAI. By adhering to these guidelines, Copywriters will be able to establish personal accountability as they use AI and create trust between themselves, their audience, and BYU-Idaho.
 
 ## Data Privacy & AI
-BYU-Idaho is committed to safeguarding your privacy and intellectual property. Your official `@byui.edu` account gives you access to authorized AI tools, each approved with a specific data classification levels: *public*, *internal*, *confidential*, and *restricted*.<a id="ref-8"></a><sup>[8](#cite-8)</sup> 
+BYU-Idaho is committed to safeguarding privacy and intellectual property. The official `@byui.edu` account gives student faculty access to authorized AI tools, each approved with a specific data classification levels: *public*, *internal*, *confidential*, and *restricted*.<a id="ref-8"></a><sup>[8](#cite-8)</sup> 
 
 Copywriters who are accessing the authorized tools with their BYU-Idaho accounts are safe to share data across the public, internal, and confidential classes, since most Copywriting is for public and internal audiences. 
 
-However, even though the BYU-Idaho provides authorized tools with safety features built-in to protect your data, it is important to restrict sharing private data anyways. Remember, just because you can feed personal, internal, or confidential data to AI, it doesn't mean that you should.
+However, even though the BYU-Idaho provides authorized tools with safety features built-in to protect personal data, it is important to restrict sharing private data anyways. Remember, just because users can feed personal, internal, or confidential data to AI, it doesn't mean that they should.
 
 ### Data Privacy Practices For Copywriters
 * **Don't Feed University Data or Private Information to Unapproved AI Tools**
 
-  Personally Identifiable Information and confidential or restricted university information should not be used with any AI tools without approval. These tools learn from what you type, and your private data could become public.
+  Personally Identifiable Information and confidential or restricted university information should not be used with any AI tools without approval. These tools train from chats, and it may accidentally expose private data to the public.
 * **Only Use University-Approved Tools**
   
-  When using AI for work, use the University approved tools (detailed below). BYU-Idaho has licenses and contracts in place that provide privacy and security to users. One of the key benefits is that it protects your intellectual property because AI cannot train on data from your conversations.
-* **Always Self-Check Your Data Usage**
+  When using AI for work, use the University approved tools (detailed below). BYU-Idaho has licenses and contracts in place that provide privacy and security to users. One of the key benefits is that the account can protect intellectual property because it limits AI from training on conversation data from.
+* **Always Self-Check**
 
   The Church Education System (CES) provides six principles for protecting data—Purpose Limitation, Data Minimization, Lawfulness, Transparency, Protection, and Duration—which are meant to encourage members to self-check their work.<a id="ref-9"></a><sup>[9](#cite-9)</sup>  If you are working with confidential information, you can use this [self-check guide](https://cesprivacy.org/00000193-1d0f-d940-adf7-dfcfa2e20001/cpc-global-privacy-principles-self-check-pdf) to ensure your work is safe.
 * **Ask For Help If You Are Not Sure**
@@ -52,7 +52,7 @@ However, even though the BYU-Idaho provides authorized tools with safety feature
 | `News` `Maps` `Events` `Public Websites` `Catalogs` | `Budgets` `Policies` `Procedures` `Survey Data` `Meeting Notes` `Course Content` `Authenticated Websites` | `Names` `Photos` `Grades` `Usernames` `I-Numbers` `Addresses` `Contact Info` `Transcripts` `Authenticated Websites` | `SSNs` `Bank Info` `Passwords` `Tax Records` `Legal Files` `Medical Records` `Credit Card Info` |
 
 ### Authorized Tools
-The AI tools approved by BYU-Idaho are *ChatGPT*, *Copilot*, and *Gemini*. These three are standard GenAI tools.<a id="ref-10"></a><sup>[10](#cite-10)</sup> The key differences are where they live, what they can see, and how they handle your data:
+The AI tools approved by BYU-Idaho are *ChatGPT*, *Copilot*, and *Gemini*. These three are standard GenAI tools.<a id="ref-10"></a><sup>[10](#cite-10)</sup> The key differences are where they live, what they can see, and how they handle data:
 
 #### ***OpenAI ChatGPT Edu*** 
 It's excellent for writing, editing, brainstorming, and building Custom GPTs. It requires a CES Edu license, which is available through student acccounts, but must be accessed directly. BYU-Idaho and personal accounts have no data protections.
@@ -72,7 +72,7 @@ It's excellent for writing, editing, brainstorming, and building Custom GPTs. It
 Find out more about ChatGPT here: [Features of ChatGPT](tool-guide/how-to-use-chatgpt.md)
   
 #### ***Microsoft Copilot***
-It can see your emails, files, meetings, and calendar; making it powerful for work tasks tied to your M365 environment. Copywriters must use BYU-Idaho Microsoft account. Personal accounts have no data protections.
+It can see emails, files, meetings, and calendar; making it powerful for work tasks tied to the M365 environment. Copywriters must use BYU-Idaho Microsoft account. Personal accounts have no data protections.
 
   * Public:✅
   * Internal:✅
@@ -96,7 +96,7 @@ Even with the institutional data privacy protections put in place, the copyright
 
 Copyright law is the legal right that gives creators control over their original works of authorship, stopping others from plagiarizing and using those works without explicit permission.<a id="ref-11"></a><sup>[11](#cite-11)</sup> Under U.S. Law, everyone is a copyright owner, inasmuch as they have produced an original work.<a id="ref-12"></a><sup>[12](#cite-12)</sup>
 
-Copywriter's copy is under copyright laws. When you write for a company, like the copy written for BYU-Idaho, the company automatically owns it if the work is under "work made for hire."<a id="ref-13"></a><sup>[13](#cite-13)</sup> Individual Copywriters don't own it because BYU-Idaho is paying them for ownership rights.
+Copywriter's copy is under copyright laws. When they write for a company, like BYU-Idaho, the company automatically owns it if the work is under "work made for hire."<a id="ref-13"></a><sup>[13](#cite-13)</sup> Individual Copywriters don't own it because BYU-Idaho is paying them for ownership rights.
 
 ### Artificial Intelligence Complicates Ownership
 GenAI interrupts the traditional copyright workflow because it challenges the definition of author and introduces complications with plagiarism, authorship, and ownership.
@@ -108,7 +108,7 @@ Deceptively hiding GenAI involvement or presenting AI-generated artifacts is con
 #### Human-AI Gray Areas
 The principle for protecting ownership is avoiding AI authorship. In general, if text is generated by AI and then heavily edited, revised, or rearranged by humans, Copyright will only protect the human-authored portion of the work.<a id="ref-17"></a><sup>[17](#cite-17)</sup> To enforce this practice, if a company tries to register a major asset with the Copyright Office, it must disclose any GenAI-involvement. 
 
-In plagiarism, the term "ideas" doesn't refer to the concept or notion of something, but to explanations, hypothesis, theories, and original thought.<a id="ref-18"></a><sup>[18](#cite-18)</sup> Under BYU-Idaho's Honor Code, AI-generated ideas as your own may still constitute plagiarism, but the practice of using GenAI to brainstorm only becomes a legal violation if it starts to perform the cognitive labor of developing that idea into an artifact.<a id="ref-19"></a><sup>[19](#cite-19)</sup>
+In plagiarism, the term "ideas" doesn't refer to the concept or notion of something, but to explanations, hypothesis, theories, and original thought.<a id="ref-18"></a><sup>[18](#cite-18)</sup> Under BYU-Idaho's Honor Code, staling AI-generated ideas is plagiarism, but the practice of using GenAI to brainstorm only becomes a legal violation if it starts to perform the cognitive labor of developing that idea into an artifact.<a id="ref-19"></a><sup>[19](#cite-19)</sup>
 
 Since brainstorming is a gray area, Copywriters should use specific strategies to ensure compliance. Learn more about brainstorming practices here: [Brainstorming With GenAI](../part2/brainstorming-with-ai.md)
 
@@ -223,7 +223,7 @@ Author. (Date). *Name of AI Tool* (Version of AI Tool) [Large language model]. U
 Microsoft. (2026). *Copilot* (ChatGPT 5.5 Basic) [Large language model]. https://copilot.microsoft.com/.
 
 > ##### Using AI as a Source
-> GenAI tools should not be cited or used as a primary or secondary source, and is a form of research misconduct. The purpose of citing GenAI is to establish authorship of generated artifacts, avoid charges of plagiarism, and protect intellectual property.
+> GenAI tools should not be cited or used as a primary or secondary source. Doing so is a form of research misconduct. The purpose of citing GenAI is to establish authorship of generated artifacts, avoid charges of plagiarism, and protect intellectual property.
 >
 > The safest way to protect authorship and ownership is to remove GenAI from the authorship role entirely, but if Copywriters are going to use it, then they must be clear about it.
 
@@ -259,8 +259,59 @@ GenAI fabricates information when it hallucinates sources, information, and resu
 
 GenAI falsifies information when it hallucinates altered information from a real source and presents it as factual and accurate. It is important to remember that when GenAI generates factual or useful information, it does so incidentally, not intentionally. Using GenAI as a source risks research misconduct because most things it hallucinates fall under plagiarism, fabrication, and falsification.
 
+### Limits of AI in Original Research
+Copywriters are not always experts in the things that they write about. Whether it be the audience, the content, or even the style they are working in, sometimes difficult research is necessary. GenAI appears to be a convenient tool, because it can analyze, synthesize, and write about text almost instantaneously. Compare that to the hours a Copywriter might have spent on that task, and it looks like the trade-off is great.
+
+That is the appeal of using AI in research, but it undermined the necessity of the Copywriter's responsibilities, knowledge, and skills. Using GenAI in research inappropriately creates a gap between the information and the researcher that wouldn't exist otherwise.</sup><a id="ref-33"></a><sup>[33](#cite-33)</sup>
+
+For instance, the author of this manual was experimenting with using AI to find scholarly sources. The particular model was Copilot 365, and during this chat, the AI mentioned an acronym called p.o.t.a.t.o, which said that this stood for *plain old text autoregressive text oracle.* It provided two sources for this phrase, sources that the author used previously and knew were reliable. 
+
+However, after inspecting the source, the author only found fragments of the phrase, but not the phrase itself. The author decided to Google the phrase to see if it came from another source. The Gemini AI Overview feature said that the phrase was real and provided the same sources. It even went as far as saying that it was a p.o.t.a.t.o. However, there is no evidence that the p.o.t.a.t.o. exists.
+
+This case study demonstrates overconfidence, sycophancy, and hallucination. Both Copilot and Gemini hallucinated the phrase p.o.t.a.t.o., and the source that it came from. Gemini prioritized agreeing with the user and was overly confident in its answer, claiming to be a part of the fabricated category. If the author assumed that the second tool didn't also hallucinate, they may have presented it in this manual as factual. 
+
+That example was a small circumstance with a phrase that would be easy to fact-check. Larger projects, complicated data, and difficult articles might make it impossible to fact-check and verify every statement. There is a gap between what the GenAI can produces and what the Copywriter can understand. If GenAI was reliable, it would be a different story, but the current risks and limitations are given features, not circumstantial risks.
+
+#### Understanding The Gap
+Generated content might seem simple, easy to understand, but that is evidence of GenAI's ability to appeal to the user through its deployment training, not evidence of accuracy. Again, the appeal isn't even that GenAI is persuasive or well-written, but that it appears to take away a burden from the Copywriter. As demonstrated beforehand, it should not be used for research. That includes answering questions, summarizing articles, processing data, or any area where human judgment, understanding, and overview are required.
+
+One of the purposes of copywriting is to close the knowledge gap between the audience and the thing that they need. The Copywriter is meant to make sure the gap is closed and that audiences understand everything they need. When GenAI performs the research, it may sound like it is bridging the gap, but the text is likely to introduce errors that a non-expert could not catch unless they had done the research themselves.</sup><a id="ref-34"></a><sup>[34](#cite-34)</sup> 
+
+The responsibility of research cannot be passed off. Even simple fact-checks can easily become overlooked if Copywriters are over reliant on AI. When Copywriters use GenAI to complete tasks on their behalf that they cannot verify, it creates a gap in responsibility and knowledge.
+
+Overreliance on AI-generated research robs Copywriters important research, reading, and writing skills. The long-term affects of deskilling important steps in the Copywriting process are not currently known, but evidence suggests that offloading cognitive labor to GenAI is slowly driving cognitive decline.</sup><a id="ref-35"></a><sup>[35](#cite-35)</sup> This may impact Copywriters' ability to critically evaluate research on their own, further driving more reliance of AI-generated research and knowledge. In this case, the gap between GenAI and human writers would become permanent, not just situational, and all the risks remain with no means of mitigation.
+
+GenAI still has a role to play in the research process, but not in AI-generated research. More strategies and tools for using AI in the research process efficiently, effectively, and ethically are detailed in the next chapter.
+
+## Leveraging AI, Ethically
+The following five principles are meant to help guide Copywriters.
+
+BYU-Idaho Copywriters should reference the following principles for using GenAi ethically.
+
+1. *Understand the risks and limitations of GenAI tools*
+
+
+2. *Understand data privacy, intellectual property, and research integrity concerns*
+
+
+3. *Practice effective Human-AI communication and collaboration strategies*
+
+
+4. *Keep track of and disclose GenAI usage*
+
+
+5. *Follow BYU-Idaho Honor Code*
+
+
+
+
+https://pmc.ncbi.nlm.nih.gov/articles/PMC12561928/
 
 ## Trust Between Author & Audience
+
+
+
+Next Chapter: [Using AI to Find](how-to-find.md)
 
 ## Citations
 1. <a id="cite-1"></a> https://doi.org/10.25300/MISQ/2013/37.2.02 [↩ Back to text](#ref-1)
@@ -295,4 +346,7 @@ GenAI falsifies information when it hallucinates altered information from a real
 30. <a id="cite-30"></a> https://courses.ems.psu.edu/bioet533/node/654 [↩ Back to text](#ref-30)
 31. <a id="cite-31"></a> https://embassy.science/wiki/Theme:5f65272f-6e95-4768-8236-bc821a97f3d8 [↩ Back to text](#ref-31)
 32. <a id="cite-32"></a> https://embassy.science/wiki/Theme:047c3bec-1747-499b-b6d5-684cbfb81edd [↩ Back to text](#ref-32)
+33. <a id="cite-33"></a> https://pmc.ncbi.nlm.nih.gov/articles/PMC12872602/ [↩ Back to text](#ref-33)
+34. <a id="cite-34"></a> https://journals.sagepub.com/doi/10.1177/18758789261463098 [↩ Back to text](#ref-34)
+35. <a id="cite-35"></a> https://doi.org/10.1002/acp.70269Digital Object Identifier (DOI) [↩ Back to text](#ref-35)
 
