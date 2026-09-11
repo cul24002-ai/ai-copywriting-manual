@@ -223,7 +223,7 @@ Author. (Date). *Name of AI Tool* (Version of AI Tool) [Large language model]. U
 Microsoft. (2026). *Copilot* (ChatGPT 5.5 Basic) [Large language model]. https://copilot.microsoft.com/.
 
 > ##### Using AI as a Source
-> GenAI tools should not be cited or used as a primary or secondary source, and so is a form of research misconduct. The purpose of citing GenAI is to establish authorship of generated artifacts, avoid charges of plagiarism, and protect intellectual property.
+> GenAI tools should not be cited or used as a primary or secondary source, and is a form of research misconduct. The purpose of citing GenAI is to establish authorship of generated artifacts, avoid charges of plagiarism, and protect intellectual property.
 >
 > The safest way to protect authorship and ownership is to remove GenAI from the authorship role entirely, but if Copywriters are going to use it, then they must be clear about it.
 
