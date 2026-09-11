@@ -12,13 +12,13 @@ section: part1
 published: false
 ---
 # Personal Accountability & AI Usage
-Media artifacts refer to physical or digital materials created to carry and communicate ideas and information.<a id="ref-1"></a><sup>[1](#cite-1)</sup> Intellectual property refers to intangible, often digital, artifacts that communicate creations originating from the human mind.<a id="ref-2"></a><sup>[2](#cite-2)</sup> They can be owned by individuals and organizations alike.<a id="ref-3"></a><sup>[3](#cite-3)</sup>
+Personal accountability for Copywriters is crucial in the age of AI. With the prominence of this new technology, there is an increasing risk of mishandling private information, intellectual property, and research integrity. Copywriters must not only understand how AI works, but how using AI unethically can have serious consequences at institutional, individual, audience levels.
 
-To use AI safely and ethically, Copywriters must be held accountable for the privacy of personal and institutional intellectual property. Human authorship facilitates accountability for and ownership of artifacts, but when authorship originates with AI, ownership and privacy of that artifact are lost.<a id="ref-4"></a><sup>[4](#cite-4)</sup>
+Media artifacts refer to physical or digital materials created to carry and communicate ideas and information.<a id="ref-1"></a><sup>[1](#cite-1)</sup> Intellectual property refers to intangible, often digital, artifacts that communicate creations originating from the human mind.<a id="ref-2"></a><sup>[2](#cite-2)</sup> It is human authorship that facilitates the ownership of artifacts, but when authorship originates with AI instead, both ownership rights and privacy of that artifact are lost.<a id="ref-3"></a><sup>[3](#cite-3),</sup><a id="ref-4"></a><sup>[4](#cite-4)</sup>
 
 Using GenAI to create an artifact while claiming it as original work is plagiarism.<a id="ref-5"></a><sup>[5](#cite-5)</sup> These kinds of artifacts cannot be copyrighted because they have no human authorship.<a id="ref-6"></a><sup>[6](#cite-6)</sup> Furthermore, giving GenAI personal or institutional data freely, without data protection, is considered consent for its internal systems to use that data to train.<a id="ref-7"></a><sup>[7](#cite-7)</sup> 
 
-*The AI Copywriting Manual* provides guidelines on managing data privacy and copyright for Copywriters using GenAI. By adhering to these guidelines, Copywriters will be able to protect personal and institutional data and BYU-Idaho's ownership of media artifacts while avoiding plagiarism and copyright infringement.
+*The AI Copywriting Manual* provides guidelines on managing data privacy, intellectual property, and research integrity for Copywriters using GenAI. By adhering to these guidelines, Copywriters will be able to establish personal accountability as they use AI and create trust between themselves, their audience, and BYU-Idaho.
 
 ## Data Privacy & AI
 BYU-Idaho is committed to safeguarding your privacy and intellectual property. Your official `@byui.edu` account gives you access to authorized AI tools, each approved with a specific data classification levels: *public*, *internal*, *confidential*, and *restricted*.<a id="ref-8"></a><sup>[8](#cite-8)</sup> 
@@ -222,6 +222,44 @@ Author. (Date). *Name of AI Tool* (Version of AI Tool) [Large language model]. U
 
 Microsoft. (2026). *Copilot* (ChatGPT 5.5 Basic) [Large language model]. https://copilot.microsoft.com/.
 
+> ##### Using AI as a Source
+> GenAI tools should not be cited or used as a primary or secondary source, and so is a form of research misconduct. The purpose of citing GenAI is to establish authorship of generated artifacts, avoid charges of plagiarism, and protect intellectual property.
+>
+> The safest way to protect authorship and ownership is to remove GenAI from the authorship role entirely, but if Copywriters are going to use it, then they must be clear about it.
+
+## Research Integrity & AI
+The data privacy and intellectual property issues surrounding AI deal in properly managing the tool externally. They arise despite the mechanics and safety features of AI, because they are unintentional, but not resolved easily. It involves understanding the boundaries of appropriate AI use. On the other hand, the issues with AI and research integrity arise because of its mechanics and features.
+
+Research integrity is an important part of copywriting. The content Copywriters create is used to influence, inform, and persuade people's decisions. They have a responsibility to be unbiased and well-informed. For some projects, that means Copywriters need to do their research.
+
+One of the things GenAI is promised to do is to hasten the research process, and that on its own is not a bad thing, but it depends on how that research is being performed. If FebAI is being used to allow researchers to find relevant, peer-reviewed, authentic articles at a faster rate, them that is fine. However, if GenAI is being used to summarize, compartmentalize, and even experiment with sources, then there are serious risks involved.
+
+### AI Hallucination as Research Misconduct
+GenAI is built on unreliable mechanics, which compromises its ability to summarize and understand articles. AI Hallucination means that all research performed by LLMs must at least be intensely scrutinized through human overview.<a id="ref-26"></a><sup>[26](#cite-26),</sup><a id="ref-27"></a><sup>[27](#cite-27)</sup>
+
+The tokenization process means that when GenAI is analyzing a source and finding results, conclusions, or data, it is algorithmically and arbitrarily stringing together an output that is meant to appear authoritative and accurate, but has no realistic way to verify it. Beyond plagiarism, which has been discussed above, it breaches into other areas of research misconduct: fabrication and falsification.<a id="ref-28"></a><sup>[28](#cite-28),</sup><a id="ref-29"></a><sup>[29](#cite-29),</sup><a id="ref-30"></a><sup>[30](#cite-30)</sup>
+
+GenAI commits other forms of research misconduct beyond plagiarism, fabrication, and falsification. Instead of only claiming credit for original work, it will also hallucinate original information and give credit to fabricated sources. Since GenAI is trained to sound authoritative, it reflects the appearance of scholarship and research integrity by backing claims up with sources. The problem is that its claims and sources may not match, or be completely made-up.
+
+GenAI doesn't cognitively research. Whatever source it is using is transformed into tokens so that the underlying LLM structure can generate text. It uses probability to calculate how a summary might look, but repeatedly makes mistakes because it doesn't recognize the tokens as facts, only data points. This system lays the foundation for  two risks: fabrication and falsification.
+
+**Fabrication:** Making up sources, information, or results and using them to support an artifact as if they were real.</sup><a id="ref-31"></a><sup>[31](#cite-31)</sup> For instance:
+
+* Creating false information and citing it from an official source. 
+* Citing a source that does not exist. 
+* Creating fake data, results, or information to support conclusions. 
+
+GenAI fabricates information when it hallucinates sources, information, and results that doesn't exist.
+
+**Falsification:** Altering existing information from a real source to support a claim that it would not otherwise support.</sup><a id="ref-32"></a><sup>[32](#cite-32)</sup> For instance:
+
+* Taking words, claims, or information from a source out of context.
+* Citing a source in a reference section when it does not support the artifact, especially if it wasn't explicitly referenced.
+* Claiming that results, information, or words come from a source when the source does not claim those results.
+
+GenAI falsifies information when it hallucinates altered information from a real source and presents it as factual and accurate. It is important to remember that when GenAI generates factual or useful information, it does so incidentally, not intentionally. Using GenAI as a source risks research misconduct because most things it hallucinates fall under plagiarism, fabrication, and falsification.
+
+
 ## Trust Between Author & Audience
 
 ## Citations
@@ -250,4 +288,11 @@ Microsoft. (2026). *Copilot* (ChatGPT 5.5 Basic) [Large language model]. https:/
 23. <a id="cite-23"></a> https://www.chicagomanualofstyle.org/qanda/data/faq/topics/Documentation/faq0422.html  [↩ Back to text](#ref-23)
 24. <a id="cite-24"></a>  https://apastyle.apa.org/blog/cite-generative-ai-reference  [↩ Back to text](#ref-24)
 25. <a id="cite-25"></a> https://style.mla.org/citing-generative-ai-updated-revised/  [↩ Back to text](#ref-25)
+26. <a id="cite-26"></a> https://pmc.ncbi.nlm.nih.gov/articles/PMC11224801/ [↩ Back to text](#ref-26)
+27. <a id="cite-27"></a> https://pmc.ncbi.nlm.nih.gov/articles/PMC13051339/ [↩ Back to text](#ref-27)
+28. <a id="cite-28"></a> https://ori.hhs.gov/definition-research-misconduct [↩ Back to text](#ref-28)
+29. <a id="cite-29"></a> https://www.kff.org/health-information-trust/how-ai-can-both-detect-and-enable-fraudulent-research/ [↩ Back to text](#ref-29)
+30. <a id="cite-30"></a> https://courses.ems.psu.edu/bioet533/node/654 [↩ Back to text](#ref-30)
+31. <a id="cite-31"></a> https://embassy.science/wiki/Theme:5f65272f-6e95-4768-8236-bc821a97f3d8 [↩ Back to text](#ref-31)
+32. <a id="cite-32"></a> https://embassy.science/wiki/Theme:047c3bec-1747-499b-b6d5-684cbfb81edd [↩ Back to text](#ref-32)
 
