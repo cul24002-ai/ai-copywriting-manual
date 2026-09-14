@@ -1,0 +1,235 @@
+# AI Skills For Copywriters
+
+## Prompt-Engineering
+
+### What Is A Prompt?
+
+1. Input -> Output
+2. Problem Decomposition
+
+#### Parts of a Prompt
+
+1. Goal
+2. Format
+3. Style
+4. Role
+5. Context
+
+#### Ways to Prompt
+
+1. Zero-Shot
+2. One-Shot
+3. Few-Shot
+
+### Prompt Techniques
+
+#### 
+
+## 
+
+
+https://arxiv.org/pdf/2406.06608
+https://www.cell.com/patterns/fulltext/S2666-3899(25)00108-4
+file:///Users/andersoncullen/Downloads/161283-prompt-engineering-for-chatgpt-a-quick-guide-to-techniques-tips-and-best-practices.pdf
+https://jet.scholasticahq.com/article/161283.pdf
+
+
+How to Use AI to Create Content Outlines
+How to Get Ideas from AI without the Output Sounding Generic, Formulaic, or Robotic
+How to Write Effective Prompts that Captures Specific Brand, Tone, Voice, and Audience Pain Points
+
+
+Be Specific
+The more detailed your prompt is, the more on-target your answer will be.
+Provide Context
+If you ask an LLM what the weather is, it will respond by asking you where you are located.
+Use Examples
+Using an example of the format you want your output to resemble gives the LLM a reference point to refer to when generating an answer.
+Explain Desired Output
+AI can theoretically produce an infinite number of different outputs. Telling it how to format your output will help you reach your desired result.
+
+Define a Role
+It is often helpful to tell an AI who to be. For example “you are a UX researcher…”
+Iterate and Refine
+Engineering prompts is not asking a question, it is crafting a conversation. Sometimes it takes multiple adjustments to your prompt to get the right output.
+Experiment & Understand Limitations
+AI is powerful, but not perfect. Watch out for hallucinations and cross-check your information.
+
+  
+Use when…
+Example
+Zero-Shot Prompting
+Use when the task is simple, well-understood, or frequently encountered.
+Doing math, finding quick definitions, summarizing, etc.
+One-Shot Prompting
+Tasks that need more specific guidance or when the model struggles with ambiguity.
+Creating a user persona template, content generation, etc.
+Few-Shot Prompting
+Complex tasks requiring multiple examples to establish patterns.
+Writing a usability testing script, performing analysis, etc.
+
+
+Zero-Shot Prompting:
+Asking an LLM a question or task without providing examples.
+The LLM relies on it’s trained knowledge to respond.
+One-Shot Prompting:
+You provide one example to the LLM before asking it to perform a similar task.
+This gives the LLM a basic idea of what you expect.
+Few-Shot Prompting
+You provide multiple examples (2+) to the LLM.
+This helps the LLM understand patterns and nuances for more accurate and relevant responses.
+
+LLM-friendly content is designed to be easily understood by computer models, lowering the risk of miscommunication. Using LLM-friendly content will result in:
+
+Improved parsing and interpretation
+Enhanced accuracy
+Reduced ambiguity
+Consistency and reproducibility
+
+What is easier to read: a single, unconnected paragraph or a bulleted list?
+
+Writing in Markdown helps LLMs define a clear structure for how to interpret input.
+
+Writing prompts using Markdown inherently adds clarity to your prompt without adding extra tokens. 
+It gives structures to what an LLM can “see.” 
+Cleaner inputs → fewer misunderstandings → cleaner outputs
+
+Markdown provides emphasis on the tokens that are most important.
+Most LLMs use Markdown to output responses.
+
+Writing in Markdown helps LLMs define a clear structure for how to interpret input.
+
+Writing prompts using Markdown inherently adds clarity to your prompt without adding extra tokens. 
+It gives structures to what an LLM can “see.” 
+Cleaner inputs → fewer misunderstandings → cleaner outputs
+
+Markdown provides emphasis on the tokens that are most important.
+Most LLMs use Markdown to output responses.
+
+
+Established and Emerging AI Skills 
+
+AI Skills & Fluency 
+
+Faculty and students need strong definitions and descriptions of AI skills to best use them to support learning, not supplant it. 
+
+1. Prompt Engineering 
+
+Definition: Learning how to write inputs for generative AI tools in a way that produces specific, high-quality outputs. To enhance the relevance and accuracy of the generated content, give the machine: 
+
+Step-by-step instructions 
+
+Examples of what you want 
+
+Rules and restraints 
+
+The Hands-On Approach: Prompt engineering is a continual process. Continue to improve AI's outputs by reviewing and rewriting your prompts. Adopt a hands-on mindset by: 
+
+Not assuming that AI will give you high-quality results with little effort 
+
+Resisting the temptation to rely on simple, ineffective prompts 
+
+BYU-Idaho Course Example: A programming student writes a structured prompt to generate a Python test suite. In their input, they: 
+
+Include a sample of the code they have written 
+
+Provide specific details about the project 
+
+Ask for a review of the code (not a rewrite) 
+
+Give it the role of a QA Engineer 
+
+2. Problem Identification and Description 
+
+Definition: Understanding the tasks when generative AI tools are or aren't useful and appropriate. AI is better at completing specific tasks with clear instructions than vague, complex ones. 
+
+Identifying and Describing Tasks: AI is only as effective as your ability to use it. If you come across a task where AI assistance is appropriate and useful, then the next step is to identify and describe the specific assignment. When using AI to execute a task, employ: 
+
+Clear definitions to identify the task. 
+
+Task decomposition to split the tasks into smaller, actionable steps. 
+
+Prompt engineering to describe to AI how to complete each step. 
+
+If you aren't sure if a task is appropriate for AI use, ask yourself: 
+
+Does it require my original judgment or voice? 
+
+Would automating this task be more efficient and effective than doing it myself? 
+
+Am I using this to pass off AI-generated work as my own? 
+
+BYU-Idaho Course Example: A marketing student identifies that a case study's primary failure is brand dilution. Before consulting a generative AI tool, the student defines the specific demographics and market variables that could be causing failure. In their prompt, the student identifies that the best use of AI is helping to brainstorm repositioning strategies. 
+
+3. Role, Content, Context, and Format Expectations 
+
+Definition: Giving generative AI tools conditional elements during prompt engineering to help it complete tasks, such as: 
+
+Role: What it should act like, defining its expertise and tone.  
+
+Content: The facts it needs to know, giving it materials to work with. 
+
+Context: Background information that ensures relevance to the task and the audience. 
+
+Format: How the final answer should look, including how to construct the output. 
+
+Prompts With a Framework: While identifying and describing tasks is helpful, without a framework, generative AI will default to generic, surface-level output. Laying out these expectations makes your prompts more effective by reducing the:  
+
+Need for back-and-forth follow-up 
+
+Amount of prompts needed to complete a task 
+
+Off-target outputs  
+
+BYU-Idaho Course Example: A communication student prompts: "Act as a Creative Director (Role). Evaluate this draft based on Gestalt principles (Content) for a non-profit logo project (Context). Provide a bulleted list of 5 actionable improvements (Format)." 
+
+4. Critical AI Evaluation 
+
+Definition: Because generative AI is fallible, the ability to spot when an output is biased, hallucinating, or off target is extremely important. 
+
+Even with a refined prompt, AI will still make mistakes that require an overview with a critical eye. 
+
+Key Evaluation Criteria: AI systems, while powerful, are prone to several recurring errors and failures that can have serious consequences, such as: 
+
+Hallucinations 
+
+Bias 
+
+Ethical Missteps 
+
+Flawed Decision-Making 
+
+Since AI cannot be held accountable for the information it gives, you are responsible for factchecking and decision-making. This skill is about making sure the work is polished and reliable enough to put your name on it in a professional setting. 
+
+BYU-Idaho Course Example: A student uses AI to summarize a conference talk but notices a subtle misinterpretation of a doctrinal point; they cross-reference the official transcript to correct the error. 
+
+
+
+[BYU-Idaho Prompt Library](https://promptlibrary.byui.edu/welcome)
+
+
+Prompt Engineering: Key Takeaways
+
+Markdown is Your Friend: Using things like # for headers, **bold** text, and bullet points (- or *) helps the AI understand the structure and important parts of your request. Think of it like giving the AI a clear outline!
+How AI Reads: AI models break down your words into "tokens." The way your prompt is tokenized affects how the AI interprets it. Clear formatting and correct spelling help the AI "see" your prompt accurately.
+Tips for Great Prompts:
+Be Specific: The more detail you give, the closer the AI's answer will be to what you want.
+Give Context: Don't make the AI guess! Tell it what it needs to know (like your location for weather).
+Show, Don't Just Tell: Use examples of the output format you're looking for. This is a super effective way to guide the AI.
+Explain the Output: Clearly describe how you want the final response to look or be organized.
+Setting Rules (Be Firm!): You can tell the AI exactly what to do or not to do.
+Use "YOU MUST" to enforce a rule.
+Use "YOU MUST NOT" to prevent something.
+Different Prompting Styles:
+Zero-Shot: Just ask the question. Good for simple tasks the AI knows well (like basic math).
+One-Shot: Give one example, then ask. Useful when the task needs a bit more guidance.
+Few-Shot: Give a couple of examples, then ask. Best for complex tasks where patterns are important.
+Make Content "AI-Friendly": Writing clearly and using formatting like bullet points makes it easier for the AI to understand, leading to more accurate and consistent results.
+Additional Tips for Prompt Engineering
+Here are a few more things that can help you get the best results when working with AI:
+Iterate and Refine: Your first prompt might not be perfect. Think of it as a conversation – try a prompt, see the result, and then make small adjustments to get closer to what you want. It's a process of tweaking and improving!
+Define the AI's Role: Sometimes it helps to tell the AI who it should be. For example, you could say "Act as a helpful study buddy" or "You are a creative writing assistant." This can guide its style and focus.
+Understand Limitations: Remember that AI models are powerful tools, but they aren't perfect. They can sometimes generate incorrect information (called "hallucinations") or reflect biases from the data they were trained on. Always double-check important details.
+Experiment! Don't be afraid to try different ways of phrasing your prompts, using different formats, or experimenting with the zero-shot, one-shot, and few-shot techniques. The more you practice, the better you'll get at understanding how the AI responds.
+Remember, practicing with different prompts and seeing how the AI responds is the best way to improve your prompt engineering skills!
+

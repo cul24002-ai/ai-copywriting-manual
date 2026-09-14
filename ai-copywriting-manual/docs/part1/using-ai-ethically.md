@@ -279,33 +279,33 @@ One of the purposes of copywriting is to close the knowledge gap between the aud
 
 The responsibility of research cannot be passed off. Even simple fact-checks can easily become overlooked if Copywriters are over reliant on AI. When Copywriters use GenAI to complete tasks on their behalf that they cannot verify, it creates a gap in responsibility and knowledge.
 
-Overreliance on AI-generated research robs Copywriters important research, reading, and writing skills. The long-term affects of deskilling important steps in the Copywriting process are not currently known, but evidence suggests that offloading cognitive labor to GenAI is slowly driving cognitive decline.</sup><a id="ref-35"></a><sup>[35](#cite-35)</sup> This may impact Copywriters' ability to critically evaluate research on their own, further driving more reliance of AI-generated research and knowledge. In this case, the gap between GenAI and human writers would become permanent, not just situational, and all the risks remain with no means of mitigation.
+Overreliance on AI-generated research robs Copywriters important research, reading, and writing skills. The long-term affects of deskilling important steps in the Copywriting process are not currently known, but evidence suggests that offloading cognitive labor to GenAI is slowly driving cognitive decline.</sup><a id="ref-35"></a><sup>[35](#cite-35),</sup></sup><a id="ref-36"></a><sup> [36](#cite-36),</sup>This may impact Copywriters' ability to critically evaluate research on their own, further driving more reliance of AI-generated research and knowledge. In this case, the gap between GenAI and human writers would become permanent, not just situational, and all the risks remain with no means of mitigation.
 
-GenAI still has a role to play in the research process, but not in AI-generated research. More strategies and tools for using AI in the research process efficiently, effectively, and ethically are detailed in the next chapter.
+GenAI still has a role to play in the research process, but not in AI-generated research. If the cost of saving time should be at the expense of understanding, then there was never a point to research in the first place. GenAI should be used to save time, so that more can be spent to increase understanding. The strategies and tools for using AI in the research process efficiently, effectively, and ethically are detailed in the next chapter.
 
 ## Leveraging AI, Ethically
 The following five principles are meant to help guide Copywriters.
 
-BYU-Idaho Copywriters should reference the following principles for using GenAi ethically.
+GenAI is revolutionary technology with unforeseen consequences, both positive and negative. Copywriters should approach this technology skeptically, understanding that this tool is a model meant to resemble human-like intelligence, but incapable of replacing it. BYU-Idaho Copywriters should reference the following principles for using GenAi ethically.
 
-1. *Understand the risks and limitations of GenAI tools*
-
-
-2. *Understand data privacy, intellectual property, and research integrity concerns*
+#### 1. *Understand the risks and limitations of GenAI tools*
 
 
-3. *Practice effective Human-AI communication and collaboration strategies*
-
-
-4. *Keep track of and disclose GenAI usage*
-
-
-5. *Follow BYU-Idaho Honor Code*
+#### 2. *Practice effective Human-AI communication and collaboration strategies*
 
 
 
+#### 3. *Understand data privacy, intellectual property, and research integrity concerns*
 
-https://pmc.ncbi.nlm.nih.gov/articles/PMC12561928/
+
+#### 4. *Keep track of and disclose GenAI usage*
+
+
+
+#### 5. *Follow BYU-Idaho Honor Code*
+
+
+
 
 ## Trust Between Author & Audience
 
@@ -349,4 +349,5 @@ Next Chapter: [Using AI to Find](how-to-find.md)
 33. <a id="cite-33"></a> https://pmc.ncbi.nlm.nih.gov/articles/PMC12872602/ [↩ Back to text](#ref-33)
 34. <a id="cite-34"></a> https://journals.sagepub.com/doi/10.1177/18758789261463098 [↩ Back to text](#ref-34)
 35. <a id="cite-35"></a> https://doi.org/10.1002/acp.70269Digital Object Identifier (DOI) [↩ Back to text](#ref-35)
+36. <a id="cite-36"></a> https://pmc.ncbi.nlm.nih.gov/articles/PMC12561928/ [↩ Back to text](#ref-36)
 
