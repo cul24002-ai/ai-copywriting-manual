@@ -1,25 +1,106 @@
 # AI Skills For Copywriters
 
-## Prompt-Engineering
-
-### What Is A Prompt?
-
 1. Input -> Output
-2. Problem Decomposition
 
-#### Parts of a Prompt
+* **What is A Prompt?** A prompt is an input that uses GenAI's natural language processing to request it to perform a specific task. This is the foundation of modern human-AI communication. A prompt can be as simple as a word or phrase, or as complex as an elaborate essay. It can be a one-off prompt in the form of a simple question, or a chain of prompts in conversational style. Since prompts use natural language processing, prompting can be robotic and impersonal, or it can be like conversing with another human, except the interlocutor is GenAI. Effective prompts are able to deliberately direct and guide GenAI to complete specific tasks. Simple tasks need simple prompts, but more complicated tasks need more complicated prompts.
 
-1. Goal
-2. Format
-3. Style
-4. Role
-5. Context
+* **How Does AI Respond to Prompts?** Writing effective prompts requires understanding how GenAI reads, analyzes, and responds to prompts. Each prompt is broken down into tokens, and each token is given a specific weight. It is extremely difficult to track how GenAI actually weighs tokens and calculates answers, but to put it simply, it uses probability. Natural language processing allows for words to be treated like math equations and units of code. So, GenAI doesn't respond to the words of a prompt, but to the web of probability those prompts create. This means that all GenAI answers are randomly generated responses
 
-#### Ways to Prompt
+Effective prompting is meant to mitigate the randomness of GenAI responses by providing instructions to reinforce the tokenization process and generate relevant and focused responses. While responses are still randomly generated the tokens use to generate them are more focused on the prompt. The next step is to find the strategies and techniques for effective prompts. The process of creating and refining prompts is known as prompt engineering. Prompt engineering has three main components: 1. problem decomposition, 2. the parts of prompts, and 3. techniques for prompting. Copywriters who utilize the three components of prompt engineering will not only be able to use GenAI more effectively and efficiently, but will also be able to recognize when GenAI is helpful.
 
-1. Zero-Shot
-2. One-Shot
-3. Few-Shot
+## Prompt Engineering
+
+### Problem Decomposition
+Before using GenAI for its own sake, Copywriters should have a specific plan with a problem that they want to solve with GenAI. The should not become over reliant on GenAI by jumping to it for every problem. That increases the chances of misusing it in ineffective, inefficient, and unethical ways. GenAI tends to work better when it has less tokens and steps overwhelming it, so prompt engineering aims to give it one specific task at a time instead of the whole problem all at once. 
+
+The first step of prompt engineering is problem decomposition. Deciding when and how to use GenAI is an important step, but Copywriters will only find those instances if they are actively engaged with the problem themselves. Prompt Engineering breaks problem decomposition into two parts.
+
+**Part 1:** The Copywriter breaks a problem into manageable pieces, and then they propose potential solutions.
+
+```mermaid
+graph LR
+    A(What is the problem?) --> B(What are the desired outcomes?)
+    B --> C(What are possible solutions?)
+    C -->  D(What are the required steps to reach the solution?)
+```
+
+***What is the problem?*** Copywriters identify and define a goal in their own words, and then they identify its moving parts, major components, and potential challenges.
+
+* **Example:** A Copywriter is working on revising the newsletter inviting students to a cultural event . The newsletter needs grammar, style, and tone revisions, and the Copywriter was specifically requested to ensure that the text has inclusive language for a multicultural audience.
+
+***What are the desired outcomes?*** Copywriters think beyond the problem by critically evaluating the intended outcomes and whether they resolve pain points or create unintentional problems.
+
+* **Example:** After copyediting, the newsletter should be completely polished, adhere to BYUI style guides, and be warm and inviting — but still professional — to the multicultural student audience.
+
+***What are possible solutions?*** Copywriters find specific and alternative ways to meet the intended outcomes and then select the best one to resolve the problem.
+
+* **Example:** After reviewing the text, the Copywriter lists where it can be improved well as areas that the Copywriter needs to do more research in. Editing for compliance with the BYUI style guide is straightforward, but the Copywriter needs more information on the audience.
+
+***What are the required steps to reach the solution?*** Copywriters define each step to reaching the solution so they can work towards it efficiently and ethically.
+
+* **Example:** The Copywriter must review and revise the text, then research the audience, find inclusive language, and test possible edits with audience personas before selecting the final version.
+
+All of these steps do not require GenAI involvement to complete because they are here to determine if GenAI would even be required. Before GenAI becomes involved with the work, Copywriters should already have critically reviewed the work to their best ability.
+
+**Part 2:** The Copywriter determines that one of the steps can be appropriately completed with AI assistance, and then they identify exactly how it can help. Copywriters should work along the lines of *Find*, *Challenge*, and *Inspect.*
+
+```mermaid
+graph LR
+    A(Which steps can be completed with GenAI assistance?) --> B(Which GenAI tools and features will help?)
+    B --> C(Which prompts and techniques will best guide GenAI?)
+```
+***Which steps can be completed with GenAI assistance?*** Copywriters define which specific steps can be completed with GenAI assistance.
+
+* **Example:** The Copywriter uses GenAI to *inspect* the edits they made to the text, finding anything they might have missed, and double-checking style guide nuances. They can also use *find* to locate sources for research and *challenge* to try out different audience personas for the final text.
+
+***Which GenAI tools and features will help?*** Copywriters explore the various tools and features to determine which one will help complete the specific task.
+
+* **Example:** The Copywriter finds pre-created GenAI agents that are dedicated to the roles of *Find*, *Challenge*, and *Inspect.* They use these to help complete the tasks they defined earlier.
+
+***Which prompts and techniques will best guide GenAI?*** Copywriters experiment with effective prompt writing and prompting techniques. This is the only stage they are directly using the GenAI tools.
+
+* **Example:** The Copywriter submits the text they created and include in their prompt instructions on what the output is and isn't allowed to do and the persona it should adopt when evaluating the text. 
+
+### Parts of a Prompt
+
+#### 1. Goal: 
+
+The intent and objective of the prompt.
+
+
+
+#### 2. Format: 
+
+The framework and structure of the output.
+
+
+
+#### 3. Style: 
+
+The GenAI's tone, diction, and syntax choices in output.
+
+
+
+#### 4. Role: 
+
+The persona GenAI adopts to help direct the reasoning process, the context of the conversation,  the outcomes of said conversation.
+
+
+
+#### 5. Context: 
+
+The additional information required for the GenAI to complete the prompt.
+
+
+#### 6. Examples:
+
+
+1. Zero-Shot: Inputting a prompt with no exemplars
+2. One-Shot: Inputting a prompt with one exemplar
+3. Few-Shot: Inputting a prompt with two or more exemplars
+
+
+
 
 ### Prompt Techniques
 
@@ -27,7 +108,12 @@
 
 ## 
 
+## Markdown For Copywriters
 
+
+https://arxiv.org/abs/2511.05764
+https://learnprompting.org/docs/advanced/decomposition/introduction
+https://mitsloanedtech.mit.edu/ai/basics/effective-prompts/
 https://arxiv.org/pdf/2406.06608
 https://www.cell.com/patterns/fulltext/S2666-3899(25)00108-4
 file:///Users/andersoncullen/Downloads/161283-prompt-engineering-for-chatgpt-a-quick-guide-to-techniques-tips-and-best-practices.pdf
@@ -220,10 +306,9 @@ Explain the Output: Clearly describe how you want the final response to look or 
 Setting Rules (Be Firm!): You can tell the AI exactly what to do or not to do.
 Use "YOU MUST" to enforce a rule.
 Use "YOU MUST NOT" to prevent something.
-Different Prompting Styles:
-Zero-Shot: Just ask the question. Good for simple tasks the AI knows well (like basic math).
-One-Shot: Give one example, then ask. Useful when the task needs a bit more guidance.
-Few-Shot: Give a couple of examples, then ask. Best for complex tasks where patterns are important.
+
+
+
 Make Content "AI-Friendly": Writing clearly and using formatting like bullet points makes it easier for the AI to understand, leading to more accurate and consistent results.
 Additional Tips for Prompt Engineering
 Here are a few more things that can help you get the best results when working with AI:
@@ -232,4 +317,5 @@ Define the AI's Role: Sometimes it helps to tell the AI who it should be. For ex
 Understand Limitations: Remember that AI models are powerful tools, but they aren't perfect. They can sometimes generate incorrect information (called "hallucinations") or reflect biases from the data they were trained on. Always double-check important details.
 Experiment! Don't be afraid to try different ways of phrasing your prompts, using different formats, or experimenting with the zero-shot, one-shot, and few-shot techniques. The more you practice, the better you'll get at understanding how the AI responds.
 Remember, practicing with different prompts and seeing how the AI responds is the best way to improve your prompt engineering skills!
+
 
