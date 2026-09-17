@@ -59,9 +59,18 @@ graph LR
 
 ***Which prompts and techniques will best guide GenAI?*** Copywriters experiment with effective prompt writing and prompting techniques. This is the only stage they are directly using the GenAI tools.
 
-* **Example:** The Copywriter submits the text they created and include in their prompt instructions on what the output is and isn't allowed to do and the persona it should adopt when evaluating the text. 
+* **Example:** The Copywriter submits the text they created with multiple prompts instructing the GenAI chat to evaluate the text from multiple audience personas. They include specific instructions and use prompting techniques to improve outputs. Since they are using pre-made agents, they don't have to start prompting from scratch.
 
-### Parts of a Prompt
+While it is easy to use the chat interface with basic requests, such as: "does this newsletter sound good" or "how will this perform with SEO", it is generally more difficult to predict those outputs or use them efficiently, effectively, and ethically. Problem decomposition takes into account the risks and limitations of GenAI.
+
+When Copywriters start asking "Which steps can be completed with GenAI assistance?", they should take into account hallucinations before deciding to use it to summarize articles or provide reliable information. When they are using GenAI to assist them they should take into account how GenAI best receives instructions. Hence, after problem decomposition the next part of prompt engineering is writing the right prompt.
+
+### Designing Effective Prompts
+Designing effective prompts is straightforward because LLMs were primarily designed to process natural language. Overall, plain text is the most effective way to prompt GenAI tools, even when compared with other formats like Markdown or JSON.
+
+https://arxiv.org/pdf/2607.19257
+https://arxiv.org/abs/2505.12837
+https://arxiv.org/abs/2411.10541
 
 #### 1. Goal: 
 
@@ -108,7 +117,6 @@ The additional information required for the GenAI to complete the prompt.
 
 ## 
 
-## Markdown For Copywriters
 
 
 https://arxiv.org/abs/2511.05764
@@ -296,7 +304,6 @@ BYU-Idaho Course Example: A student uses AI to summarize a conference talk but n
 
 Prompt Engineering: Key Takeaways
 
-Markdown is Your Friend: Using things like # for headers, **bold** text, and bullet points (- or *) helps the AI understand the structure and important parts of your request. Think of it like giving the AI a clear outline!
 How AI Reads: AI models break down your words into "tokens." The way your prompt is tokenized affects how the AI interprets it. Clear formatting and correct spelling help the AI "see" your prompt accurately.
 Tips for Great Prompts:
 Be Specific: The more detail you give, the closer the AI's answer will be to what you want.
