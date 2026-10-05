@@ -2,11 +2,15 @@
 
 1. Input -> Output
 
-* **What is A Prompt?** A prompt is an input that uses GenAI's natural language processing to request it to perform a specific task. This is the foundation of modern human-AI communication. A prompt can be as simple as a word or phrase, or as complex as an elaborate essay. It can be a one-off prompt in the form of a simple question, or a chain of prompts in conversational style. Since prompts use natural language processing, prompting can be robotic and impersonal, or it can be like conversing with another human, except the interlocutor is GenAI. Effective prompts are able to deliberately direct and guide GenAI to complete specific tasks. Simple tasks need simple prompts, but more complicated tasks need more complicated prompts.
+**What is A Prompt?** A prompt is an input that uses GenAI's natural language processing to request it to perform a specific task. This is the foundation of modern human-AI communication, which  can be robotic and impersonal, or like conversing with another human, except the interlocutor is GenAI. 
 
-* **How Does AI Respond to Prompts?** Writing effective prompts requires understanding how GenAI reads, analyzes, and responds to prompts. Each prompt is broken down into tokens, and each token is given a specific weight. It is extremely difficult to track how GenAI actually weighs tokens and calculates answers, but to put it simply, it uses probability. Natural language processing allows for words to be treated like math equations and units of code. So, GenAI doesn't respond to the words of a prompt, but to the web of probability those prompts create. This means that all GenAI answers are randomly generated responses
+A prompt can be as simple as a word or phrase, or as complex as an elaborate essay. It can be a one-off prompt in the form of a simple question, or a chain of prompts in conversational style. Simple tasks need simple prompts, but more complicated tasks need more complicated prompts. Effective prompts are able to deliberately direct and guide GenAI to complete specific tasks. 
 
-Effective prompting is meant to mitigate the randomness of GenAI responses by providing instructions to reinforce the tokenization process and generate relevant and focused responses. While responses are still randomly generated the tokens use to generate them are more focused on the prompt. The next step is to find the strategies and techniques for effective prompts. The process of creating and refining prompts is known as prompt engineering. Prompt engineering has three main components: 1. problem decomposition, 2. the parts of prompts, and 3. techniques for prompting. Copywriters who utilize the three components of prompt engineering will not only be able to use GenAI more effectively and efficiently, but will also be able to recognize when GenAI is helpful.
+**How Does AI Respond to Prompts?** All GenAI answers are randomly generated responses. Natural language processing allows for words to be treated like math equations and units of code, meaning that GenAI doesn't respond to the words of a prompt, but to the web of probability those prompts create.
+
+Writing effective prompts requires understanding how GenAI reads, analyzes, and responds to prompts. Each prompt is broken down into tokens, and each token is given a specific weight. It is extremely difficult to track how GenAI actually weighs tokens and calculates answers, but to put it simply, it uses probability. It is meant to mitigate the randomness of GenAI responses by providing instructions to reinforce the tokenization process and generate relevant and focused responses.
+
+The process of creating and refining prompts is known as prompt engineering. Prompt engineering has three main components: *1. problem decomposition*, *2. the parts of prompts*, and *3. techniques for prompting*. Copywriters who utilize the three components of prompt engineering will not only be able to use GenAI more effectively and efficiently, but will also be able to recognize when GenAI is helpful.
 
 ## Prompt Engineering
 
@@ -66,50 +70,170 @@ While it is easy to use the chat interface with basic requests, such as: "does t
 When Copywriters start asking "Which steps can be completed with GenAI assistance?", they should take into account hallucinations before deciding to use it to summarize articles or provide reliable information. When they are using GenAI to assist them they should take into account how GenAI best receives instructions. Hence, after problem decomposition the next part of prompt engineering is writing the right prompt.
 
 ### Designing Effective Prompts
-Designing effective prompts is straightforward because LLMs were primarily designed to process natural language. Overall, plain text is the most effective way to prompt GenAI tools, even when compared with other formats like Markdown or JSON.
+Designing effective prompts is straightforward because LLMs were primarily designed to process natural language. Overall, plain text is the most effective way to prompt GenAI tools, even when compared with other formats like Markdown or JSON. In other words, using natural, grammatically correct text is the best known way to prompt GenAI.
 
 https://arxiv.org/pdf/2607.19257
 https://arxiv.org/abs/2505.12837
 https://arxiv.org/abs/2411.10541
 
-#### 1. Goal: 
+Well constructed prompts can be broken down into several parts. There is not a single definitive method for breaking prompts down into parts. The method presented here is meant to encompass parts of effective prompts that can help with Find, Challenge, and Inspect. Not every part will be required for every prompt because each task is different, but Copywriters that understand each part will be able to reduce the randomness of GenAI outputs.
 
-The intent and objective of the prompt.
+#### 1. Goal: The intent and objective of the prompt and the output.
+Effectively prompting GenAI requires that one be sure to include a specific, actionable directive for the output. Problem decomposition already provides an achievable task, but without a clearly stated goal that GenAI can understand, it will all the more difficult to accomplish.
+
+Think of it like this: when using GenAI chat, users are able to prompt the machine with little to no detail. For instance, a user could type "I really enjoyed my homemade pizza and want to make it again. Can you help me?" GenAI understands that the objective is to help, but it does not understand what actually is helpful. 
+
+The original prompt had a goal, which was to help the user, but the specifics were vague, so it guesses the users intention. A clear prompt states the desired outcome. Only then will the output be focused and helpful. To build off of the prior example, the revised prompt should include something along the lines of: "Help me organize the recipe for the homemade pizza I made. Here are the details..." 
+
+Here are a few principles for creating strong principles while prompt engineering:
+
+##### **State the task with a clear action verb**
+Start the goal with a verb that tells the model what operation to perform. The verb signals the kind of work you expect and helps the model choose a useful response. Words such as *find*, *compare*, *evaluate*, *revise*, and *classify* give clearer direction than broad requests such as *help*, *discuss*, or *look at*. For example:
+
+**Find:**
+
+* ***Vague:*** Help me find sources about copywriting,
+* ***Clear:*** Locate blogs and articles on the web about outdated copywriting practices.
+* ***Specific:*** Identify blogs and articles on the web that detail outdated copywriting practices and provide the five most recently published.
+
+**Challenge:**
+
+* ***Vague:*** React to this blog.
+* ***Clear:*** Evaluate this blog for readability.
+* ***Specific:*** Evaluate this blog for readability, identify sentences that are difficult to follow, and then explain why.
+
+**Inspect:**
+
+* ***Vague:*** Check the grammar.
+* ***Clear:*** Verify this blog according to BYU-Idaho's style guide.
+* ***Specific:*** Evaluate the grammar, syntax, and style guide of this blog according to BYU-Idaho's style guide and create a revision checklist.
+
+##### **Name the intended outcome**
+Tell the model what the task should help you accomplish. A task verb says what action to take; the intended outcome explains why that action matters or what the result should make possible. This context helps the model select relevant information and focus its response. For example: 
+
+**Find:**
+
+* ***Task only:*** Find examples of effective calls to action on nonprofit donation pages.
+* ***Task and Outcome:*** Find examples of effective calls to action on nonprofit donation pages so I can improve the donation page I’m writing.
+  
+**Challenge:**
+
+* ***Task only:*** Assess whether this event description clearly communicates the benefits to freshmen students.
+* ***Task and Outcome:*** Assess whether this event description clearly communicates the benefits to freshmen students so I can revise parts that may not persuade them.
+
+**Inspect:**
+
+* ***Task only:***  Check this email campaign for consistent product names, prices, and calls to action.
+* ***Task and Outcome:***  Check this email campaign for consistent product names, prices, and calls to action, then create a correction list so I can prepare it for publication.
+
+##### **Set the scope**
+Define the boundaries of the task so the model knows what to include and where to stop. Scope can specify the topic, time period, location, source types, number of items, or parts of a document to examine. Clear boundaries help keep the response relevant and prevent the model from making the task broader or narrower than intended.
+
+**Find:**
+
+* ***Broad:*** Find sources about student experiences at BYU-Idaho.
+* ***Scoped:*** Find five journal articles published since 2020 about student experiences at BYU-Idaho.
+
+**Challenge:**
+
+* ***Broad:*** Evaluate this from the perspective of a freshman student.
+* ***Scoped:*** Evaluate this web page's content from the perspective of a freshman student at BYU-Idaho from ages 18-22.
+
+**Inspect:**
+
+* ***Broad:*** Check this page for readability.
+* ***Scoped:*** Inspect this web article for readability according to the Flesch–Kincaid grade level calculator.
+
+##### **Separate complicated goals into multiple steps**
+When a task requires several kinds of work, break it into clear, ordered steps. A request that asks the model to research, analyze, draft, and revise all at once can make it harder to tell which parts matter most. A sequence helps the model complete each stage and use the results from one step in the next.
+
+**Find:**
+
+* ***Combined request:*** Research the audience, review our web page information, and find relevant sources about the topic.
+* ***Step-by-step goal:*** First, research the target audience and web page topics. Next, find the most relevant information about those topics.
+
+**Challenge:**
+
+* ***Combined request:*** Determine whether the language used in this web page is appropriate according to BYU-Idaho's honor code, and react to it with different audience personas from BYU-Idaho to see if this is clear, friendly, and compliant.
+* ***Step-by-step goal:*** First, identify BYU-Idaho's honor code. Next, review the web page's content is compliant with the honor code. Finally, test a variety of reactions from students at BYU-Idaho to see if this content is clear and friendly.
+
+**Inspect:**
+
+* ***Combined request:*** Review the email I am preparing to see if it is error-free and write me a checklist of all the mistakes. Also, look for sentences that are too long or confusing.
+* ***Step-by-step goal:*** First, identify BYU-Idaho's style guide. Second, review this email according to the style guide and conventional grammar rules and sentence structure. Third, identify sentences that are longer than 10 words, have passive voice misuse, or are not clearly stated. Finally, write an editing checklist.
+
+##### Bringing It Together
+The purpose of these principles is to provide an outline for creating and improving directives in prompts so that GenAI will generate better outputs. Each principle is effective on its own, but the best directives implement each of them. One reason for refining directives is that it forces the Copywriter to think deeper about the problem they are trying to solve, and they may find that the solution they have been considering can be improved or altered. The reason Copywriters start here is because they have not left problem decomposition, and creating a good directive is only one part.
+
+Even when bringing all the principles together, the process of refinement is still necessary. As demonstrated below, each prompt includes all four of the principles, and represent a real copywriting task. Copywriters may find that the first iteration is satisfactory, but depending on the output, further iterations may be needed:
+
+**Find:**
+
+***All Four Principles (First Goal):*** 
+
+To help me refine BYU-Idaho's scholarship information on their webpage, first, investigate official BYU-Idaho content that covers scholarship application for students from 2026; next, provide the relevant sources with links to those pages; and finally, identify all the official pages where this information can be found.
+
+***All Four Principles (Refined Goal):***
+
+I need to review all of BYU-Idaho's information regarding student scholarship application in 2026. Follow these steps: first, find official web pages and web articles from BYU-Idaho published during 2026 that discuss scholarship application; second, identify the pages that discuss the different types of scholarships; third, separate pages that discuss financial aid; forth, provide links to all of the pages.
+
+***All Four Principles (Final Goal):***
+
+Provide a comprehensive list to every page discussing scholarship and financial aid application for 2026-2027 at BYU-Idaho so that I can review them all; first, research every web page and article that addresses 2026-2027 scholarship and financial aid; second, separate those into three categories, pages that discuss scholarship, financial aid, or both: forth, provide links to all of the pages.
+
+**Challenge:**
+
+***All Four Principles (First Goal):*** 
+
+To help me review the revised web pages discussing financial aid and scholarship application for 2026-2027 at BYU-Idaho react as if you were a freshman student, international student, single student, married student, and married student starting a family; first, research student persona's and how they might react if they were in need of scholarship or financial aid; second, review the text from that perspective; third, identify pain points that this student persona might have and the specific pages that caused each pain point.
+
+***All Four Principles (Refined Goal):***
+
+To help me revise the official BYU-Idaho web pages discussing the 2026-2027 application for financial aid and scholarship, react as if you were a student at BYU-Idaho and desperately needed the information. First, research a variety of student persona's such as: freshman student, international student, single student, married student, and married student starting a family; second, choose one general persona; third, review all the official BYU-Idaho pages and articles about applying for scholarship and financial aid; third, react from the perspective of the student both positive and negative and point out what was clear or confusing, helpful or misleading; fourth, summarize each reaction to each page, and be sure to provide the page.
+
+***All Four Principles (Final Goal):***
+
+To ensure the BYU-Idaho web pages discussing the 2026-2027 application for financial aid and scholarship are informative, clear, and helpful, adopt a persona as a student BYU-Idaho who desperately needs the information. First, research a variety of student personas who need financial assistance and adopt them into your persona; second, research and review each official BYU-Idaho page about applying for scholarship and financial aid for 2026-2027; third, react to each page according to the persona: identify pain points, misleading sections, or missing information; and forth, provide the link to the page and the assessment of the page.
+
+**Inspect:**
+
+***All Four Principles (First Goal):*** 
+
+I have attached a blog post. To ensure it is ready for publication and that it meets BYU-Idaho's current style guide perfectly first, research BYU-Idaho's style guide; second, review the blog line-by-line and look for minor grammar, syntax, style, and tone mistakes; third, create a complete checklist of each mistake, explain why it doesn't align with the style guide, highlight what rule it is breaking, and identify the line it originates from in the blog. 
+
+***All Four Principles (Refined Goal):***
+
+To ensure it is ready for publication, review the attached blog post using the following process: First, reference BYU-Idaho's editorial style guide (including CES and AP style rules). Second, conduct a line-by-line audit for minor errors in grammar, syntax, punctuation, tone, and brand style. Third, provide a complete audit checklist. For every error found, list the line number, the original text, the specific style rule broken, and an explanation of why it fails standards.
+
+***All Four Principles (Final Goal):***
+
+Please perform a publication-readiness edit on the attached blog post following BYU-Idaho, CES, and AP Style guidelines. Conduct a line-by-line audit covering grammar, punctuation, brand terminology, number formatting, trademark usage, and tone. Conclude by providing your findings in a structured table listing the line number, original text, style rule violated, and reason/fix.
+
+#### 2. Format: The framework and structure of the output.
 
 
 
-#### 2. Format: 
 
-The framework and structure of the output.
-
-
-
-#### 3. Style: 
-
-The GenAI's tone, diction, and syntax choices in output.
+#### 3. Style: The GenAI's tone, diction, and syntax choices in output.
 
 
 
-#### 4. Role: 
-
-The persona GenAI adopts to help direct the reasoning process, the context of the conversation,  the outcomes of said conversation.
+#### 4. Role: The persona GenAI adopts to help direct the reasoning process, the context of the conversation, the outcomes of said conversation.
 
 
 
-#### 5. Context: 
-
-The additional information required for the GenAI to complete the prompt.
-
-
-#### 6. Examples:
-
-
-1. Zero-Shot: Inputting a prompt with no exemplars
-2. One-Shot: Inputting a prompt with one exemplar
-3. Few-Shot: Inputting a prompt with two or more exemplars
+#### 5. Context: The additional information required for the GenAI to complete the prompt.
 
 
 
+#### 6. Examples: The model that shows the GenAI what an output should look like.
+
+1. Zero-Shot: Inputting a prompt with no examples
+2. One-Shot: Inputting a prompt with one example
+3. Few-Shot: Inputting a prompt with two or more examples
+
+### Efficient vs Effective Prompting
+Writing effective prompts requires some revision. To keep GenAI use efficient, the previous principles should be employed on the first draft to reduce token expense and revision time. It may take several tries to get it 
 
 ### Prompt Techniques
 
@@ -181,121 +305,6 @@ Reduced ambiguity
 Consistency and reproducibility
 
 What is easier to read: a single, unconnected paragraph or a bulleted list?
-
-Writing in Markdown helps LLMs define a clear structure for how to interpret input.
-
-Writing prompts using Markdown inherently adds clarity to your prompt without adding extra tokens. 
-It gives structures to what an LLM can “see.” 
-Cleaner inputs → fewer misunderstandings → cleaner outputs
-
-Markdown provides emphasis on the tokens that are most important.
-Most LLMs use Markdown to output responses.
-
-Writing in Markdown helps LLMs define a clear structure for how to interpret input.
-
-Writing prompts using Markdown inherently adds clarity to your prompt without adding extra tokens. 
-It gives structures to what an LLM can “see.” 
-Cleaner inputs → fewer misunderstandings → cleaner outputs
-
-Markdown provides emphasis on the tokens that are most important.
-Most LLMs use Markdown to output responses.
-
-
-Established and Emerging AI Skills 
-
-AI Skills & Fluency 
-
-Faculty and students need strong definitions and descriptions of AI skills to best use them to support learning, not supplant it. 
-
-1. Prompt Engineering 
-
-Definition: Learning how to write inputs for generative AI tools in a way that produces specific, high-quality outputs. To enhance the relevance and accuracy of the generated content, give the machine: 
-
-Step-by-step instructions 
-
-Examples of what you want 
-
-Rules and restraints 
-
-The Hands-On Approach: Prompt engineering is a continual process. Continue to improve AI's outputs by reviewing and rewriting your prompts. Adopt a hands-on mindset by: 
-
-Not assuming that AI will give you high-quality results with little effort 
-
-Resisting the temptation to rely on simple, ineffective prompts 
-
-BYU-Idaho Course Example: A programming student writes a structured prompt to generate a Python test suite. In their input, they: 
-
-Include a sample of the code they have written 
-
-Provide specific details about the project 
-
-Ask for a review of the code (not a rewrite) 
-
-Give it the role of a QA Engineer 
-
-2. Problem Identification and Description 
-
-Definition: Understanding the tasks when generative AI tools are or aren't useful and appropriate. AI is better at completing specific tasks with clear instructions than vague, complex ones. 
-
-Identifying and Describing Tasks: AI is only as effective as your ability to use it. If you come across a task where AI assistance is appropriate and useful, then the next step is to identify and describe the specific assignment. When using AI to execute a task, employ: 
-
-Clear definitions to identify the task. 
-
-Task decomposition to split the tasks into smaller, actionable steps. 
-
-Prompt engineering to describe to AI how to complete each step. 
-
-If you aren't sure if a task is appropriate for AI use, ask yourself: 
-
-Does it require my original judgment or voice? 
-
-Would automating this task be more efficient and effective than doing it myself? 
-
-Am I using this to pass off AI-generated work as my own? 
-
-BYU-Idaho Course Example: A marketing student identifies that a case study's primary failure is brand dilution. Before consulting a generative AI tool, the student defines the specific demographics and market variables that could be causing failure. In their prompt, the student identifies that the best use of AI is helping to brainstorm repositioning strategies. 
-
-3. Role, Content, Context, and Format Expectations 
-
-Definition: Giving generative AI tools conditional elements during prompt engineering to help it complete tasks, such as: 
-
-Role: What it should act like, defining its expertise and tone.  
-
-Content: The facts it needs to know, giving it materials to work with. 
-
-Context: Background information that ensures relevance to the task and the audience. 
-
-Format: How the final answer should look, including how to construct the output. 
-
-Prompts With a Framework: While identifying and describing tasks is helpful, without a framework, generative AI will default to generic, surface-level output. Laying out these expectations makes your prompts more effective by reducing the:  
-
-Need for back-and-forth follow-up 
-
-Amount of prompts needed to complete a task 
-
-Off-target outputs  
-
-BYU-Idaho Course Example: A communication student prompts: "Act as a Creative Director (Role). Evaluate this draft based on Gestalt principles (Content) for a non-profit logo project (Context). Provide a bulleted list of 5 actionable improvements (Format)." 
-
-4. Critical AI Evaluation 
-
-Definition: Because generative AI is fallible, the ability to spot when an output is biased, hallucinating, or off target is extremely important. 
-
-Even with a refined prompt, AI will still make mistakes that require an overview with a critical eye. 
-
-Key Evaluation Criteria: AI systems, while powerful, are prone to several recurring errors and failures that can have serious consequences, such as: 
-
-Hallucinations 
-
-Bias 
-
-Ethical Missteps 
-
-Flawed Decision-Making 
-
-Since AI cannot be held accountable for the information it gives, you are responsible for factchecking and decision-making. This skill is about making sure the work is polished and reliable enough to put your name on it in a professional setting. 
-
-BYU-Idaho Course Example: A student uses AI to summarize a conference talk but notices a subtle misinterpretation of a doctrinal point; they cross-reference the official transcript to correct the error. 
 
 
 
