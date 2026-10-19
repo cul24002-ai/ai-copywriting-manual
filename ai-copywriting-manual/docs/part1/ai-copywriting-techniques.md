@@ -104,7 +104,7 @@ Effectively prompting GenAI requires that one be sure to include a specific, act
 
 Think of it like this: when using GenAI, users are able to prompt the machine with little to no detail. For instance, a user could type: "I really enjoyed my homemade pizza and want to make it again. Can you help me?" GenAI understands that the objective is to help, but it does not understand what actually is helpful. 
 
-The original prompt had a goal, which was to help the user, but the specifics were vague, so it guesses the users intention. A clear prompt states the desired outcome. Only then will the output be focused and helpful. To build off of the prior example, the revised prompt should include something along the lines of: "Help me organize the recipe for the homemade pizza I made. Here are the details..." 
+The original prompt had a goal, which was to help the user, but the specifics were vague, so it guesses the user's intention. A clear prompt states the desired outcome. Only then will the output be focused and helpful. To build off of the prior example, the revised prompt should include something along the lines of: "Help me organize the recipe for the homemade pizza I made. Here are the details..." 
 
 Here are a few principles for creating strong goals while prompt engineering:
 
@@ -138,16 +138,16 @@ When a task requires several kinds of work, break it into clear, ordered steps. 
 For example:
 
 * ***Combined request:*** Determine whether the language used in this web page is appropriate according to BYU-Idaho's honor code, and react to it with different audience personas from BYU-Idaho to see if this is clear, friendly, and compliant.
-* ***Step-by-step goal:*** First, identify BYU-Idaho's honor code. Next, review the web page's content is compliant with the honor code. Finally, test a variety of reactions from students at BYU-Idaho to see if this content is clear and friendly.
+* ***Step-by-step goal:*** First, identify BYU-Idaho's honor code. Next, review whether the web page's content is compliant with the honor code. Finally, test a variety of reactions from students at BYU-Idaho to see if this content is clear and friendly.
 
 ### 2. Format: The framework and structure of the output.
-Even when guided with a strong goal, GenAI is still probabilistically selecting the format of the output. For certain tasks this may not matter, but when crafting a prompt that requires a repetitive or specific outcome, including instructions for the format of the output will help hone similar results. The format and the goal are closely linked together, because the format ultimately frames what the completed task looks like. Even with the best goal, GenAI may still not generate a usable output.
+Even when guided with a strong goal, GenAI is still probabilistically selecting the format of the output. For certain tasks, this may not matter, but when crafting a prompt that requires a repetitive or specific outcome, including instructions for the format of the output will help hone similar results. The format and the goal are closely linked together, because the format ultimately frames what the completed task looks like. Even with the best goal, GenAI may still not generate a usable output.
 
-Think of it like this: users can input any amount of instructions which the GenAI can interpret. For instance, a user could type: "Help me organize the recipe for the homemade pizza I made. Here are the details..." GenAI understands what the goal is with all the necessary details, but it does not know the best way to format it.
+Think of it like this: users can input any amount of instructions that the GenAI can interpret. For instance, a user could type: "Help me organize the recipe for the homemade pizza I made. Here are the details..." GenAI understands what the goal is with all the necessary details, but it does not know the best way to format it.
 
-The original prompt had a specific goal, but it guesses the best way to format it in a way that completes the instructions. The instructions that a uses provides should be compatible the the format provided. 
+The original prompt had a specific goal, but it guesses the best way to format it in a way that completes the instructions. The instructions that a user provides should be compatible with the format provided. 
 
-The original prompt had a goal, which was to help the user, but the specifics were vague, so it guesses the users intention. A clear prompt states the desired outcome. Only then will the output be focused and helpful. To build off of the prior example, the revised prompt should include something along the lines of: "Help me organize the recipe for the homemade pizza I made. Here are 
+The original prompt had a goal, which was to help the user, but the specifics were vague, so it guesses the user's intention. A clear prompt states the desired outcome. Only then will the output be focused and helpful. To build off of the prior example, the revised prompt should include something along the lines of: "Help me organize the recipe for the homemade pizza I made. Here are 
 the details..."
 
 Here are a few principles for creating strong output formats while prompt engineering:
@@ -158,7 +158,7 @@ Tell GenAI how to organize the copy and what type of deliverable to produce. A c
 For example:
 
 * ***Vague:*** Help me edit this announcement about a student writing workshop.
-* ***Clear:*** Identify grammar mistakes in written announcement by creating a bulleted list of each mistake.
+* ***Clear:*** Identify grammar mistakes in the written announcement by creating a bulleted list of each mistake.
 
 #### **Define what the response must include**
 Identify the information, sections, or elements that the response must contain. A format may explain the overall structure, but required elements explain what belongs inside that structure. This helps prevent GenAI from leaving out important information or emphasizing details that are less useful to the audience.
@@ -166,8 +166,8 @@ Identify the information, sections, or elements that the response must contain. 
 For example:
 
 - **Vague:** Make this workshop announcement more useful for students.
-- **Clear:** Revise this announcement so it includes the information students need to attend the workshop.
-- **Specific:** Review this human-written announcement and organize it so it includes the workshop name, date, time, location, intended audience, registration instructions, contact information, and call to action. List any missing information separately rather than creating details.
+- **Clear:** Review this announcement for the missing information students need to attend the workshop.
+- **Specific:** Review this human-written announcement from the perspective of a student; check for the workshop name, date, time, location, intended audience, registration instructions, contact information, and call to action. List any missing information separately rather than creating details.
 
 #### **Guide exact or incomplete outputs**
 
@@ -175,13 +175,13 @@ Explain how GenAI should handle requirements that must be followed exactly and i
 
 For example:
 
-- **Vague:** Create social media copy from this workshop announcement.
-- **Clear:** Prepare three social media posts from this announcement, each under 280 characters.
-- **Specific:** Prepare three social media post options from this human-written announcement, each under 280 characters. Keep the workshop name, date, time, and registration link exactly as provided. Use a clear call to action, do not add information that is not in the source, and write **[NEEDS VERIFICATION]** wherever a required detail is missing. The Copywriter will review and revise the options before publishing.
+- **Vague:** Inspect this social media copy from this workshop announcement.
+- **Clear:** Inspect these three social media posts from this announcement, and identify confusing parts.
+- **Specific:** Inspect these three social media post options from this announcement. Check for the workshop name, date, time, and registration link. Identify whether it contains a clear call to action; do not add information that is not in the source, and write **[NEEDS VERIFICATION]** wherever a required detail is missing. The Copywriter will review and revise the options before publishing.
 
 
 ### 3. Style: The GenAI’s tone, diction, and syntax choices in the output.
-Even when the goal, format, and context are clear, GenAI still has to decide how the response should sound. It may produce an answer that is technically correct but too formal, too casual, too complex, or inconsistent with the audience. For certain tasks this may not matter, but when the wording and tone are important, style instructions help guide the way the output is communicated.
+Even when the goal, format, and context are clear, GenAI still has to decide how the response should sound. It may produce an answer that is technically correct but too formal, too casual, too complex, or inconsistent with the audience. For certain tasks, this may not matter, but when the wording and tone are important, style instructions help guide the way the output is communicated.
 
 Style is closely connected to the purpose of the prompt. A recipe written for a professional chef may use different language than a recipe written for someone who has never cooked before. Without guidance, GenAI guesses the appropriate level of formality, complexity, and detail based on the information it has received. Its guess may not match the user’s expectations.
 
@@ -198,18 +198,18 @@ Tell GenAI how the copy should sound and what personality it should communicate.
 
 For example:
 
-- **Vague:** Make this announcement sound better.
-- **Clear:** Revise this human-written announcement using a friendly and encouraging tone.
-- **Specific:** Revise this human-written announcement using a friendly, encouraging voice that makes students feel welcome and capable. Preserve the original meaning, avoid exaggerated claims, and identify any wording that may not match the university’s voice.
+- **Vague:** Adopt the voice of the audience persona.
+- **Clear:** While reviewing the announcement, be sure to use a casual voice that is appropriate for the audience persona.
+- **Specific:** Review this blog from the perspective of a student. When gauging the audience reaction, be sure to preserve the original meaning, avoid exaggerated claims, and identify any wording that may not match their voice.
 
 #### **Set the level of formality and complexity**
 Tell GenAI how formal the copy should be and how difficult it should be for the audience to understand. Formality affects word choice, sentence structure, and professionalism. Complexity affects vocabulary, sentence length, technical language, and the amount of explanation provided. These instructions help GenAI create copy that is appropriate for the intended audience.
 
 For example:
 
-- **Vague:** Rewrite this explanation so students can understand it.
-- **Clear:** Rewrite this human-written explanation in simple language for university students.
-- **Specific:** Rewrite this human-written explanation for first-year university students using plain language, short sentences, and familiar vocabulary. Avoid unnecessary technical terms, explain any specialized terms that must remain, and preserve the original facts and meaning. The Copywriter will review the revision for accuracy and tone before publication.
+- **Vague:** React to this blog with a professional tone.
+- **Clear:** Inspect this blog for writing errors. The output should be professional and avoid technical jargon.
+- **Specific:** Inspect this blog for grammatical errors according to BYU-Idaho's style guide. Identify mistakes using plain language, short sentences, and familiar vocabulary. Avoid unnecessary technical terms, explain any specialized terms, and preserve the original facts and meaning.
 
 
 ### 4. Role: The persona GenAI adopts to direct its reasoning, context, and outcomes.
@@ -265,27 +265,31 @@ Give GenAI the information it needs to understand the purpose, audience, subject
 
 For example:
 
-- **Vague:** Improve this announcement for our audience.
-- **Clear:** Revise this human-written announcement for university students.
-- **Specific:** Revise this human-written announcement for first-year university students who may be unfamiliar with the event. The goal is to explain what the event offers, why it may be useful, and how students can attend. Preserve the original facts, identify missing information, and do not invent event details.
+- **Vague:** Inspect this announcement for our audience.
+- **Clear:** Examine this human-written announcement for university students.
+- **Specific:** Reevaluate this human-written announcement for first-year university students who may be unfamiliar with the event. The goal is to explain what the event offers, why it may be useful, and how students can attend.
 
 #### **Supply trusted reference material**
 Give GenAI reliable sources, approved documents, or established guidelines that should inform the copywriting task. Reference material can help the model understand facts, terminology, brand requirements, and organizational standards. The Copywriter must still verify the information and ensure that the final copy does not reproduce protected material improperly.
 
 For example:
 
-- **Vague:** Write an announcement about the university’s new writing resources.
-- **Clear:** Use the university’s writing-center webpage as a source when reviewing this announcement.
-- **Specific:** Review this human-written announcement using the university’s official writing-center webpage as the factual reference. Compare the announcement against the source, identify unsupported or outdated claims, and recommend corrections. Do not copy sentences from the webpage or add information that cannot be verified from an approved source.
+- **Vague:** React to an announcement about the university's new writing resources.
+- **Clear:** Use the university's writing-center webpage as a source when checking this announcement.
+- **Specific:** Review this human-written announcement using the university's official writing center webpage as the factual reference. Compare the announcement against the source, identify unsupported or outdated claims, and recommend corrections. Do not copy sentences from the webpage or add information that cannot be verified from an approved source.
 
 #### **Explain specialized terms and requirements**
 Define unfamiliar terms, abbreviations, audiences, brand standards, and other requirements that affect the task. GenAI may interpret specialized language differently from the Copywriter or the intended audience. Explaining these terms gives the model the context it needs to make appropriate recommendations.
 
 For example:
 
-- **Vague:** Rewrite this copy using our usual terminology.
-- **Clear:** Rewrite this copy using university terminology that students can understand.
-- **Specific:** Rewrite this human-written copy for students using the term **“academic support”** to describe tutoring, writing assistance, and study resources. Do not use unexplained abbreviations, internal department names, or technical language. If a specialized term is necessary, define it in plain language before using it.
+- **Vague:** Analyze this copy using our usual terminology.
+- **Clear:** Analyze this copy using our usual terminology.
+Features vs. Benefits: A feature is a factual detail of what a product does; a benefit is how it improves the user's life.
+Pain Point: A specific problem, frustration, or challenge the audience faces.
+Unique Selling Proposition (USP): What makes an offer different from every competitor.
+Social Proof: Testimonials, reviews, or logos showing that others trust the product.
+Scarcity & Urgency: Using limited availability (scarcity) or time pressure (urgency) to drive immediate action.
 
 #### **Minimize and protect private data**
 
@@ -295,9 +299,8 @@ Minimizing data protects people and organizations while still giving GenAI enoug
 
 For example:
 
-- **Vague:** Analyze this student email and write a response.
-- **Clear:** Review this email and suggest a professional response without revealing the student’s identity.
-- **Specific:** Review this fictionalized student email and recommend a professional response. Replace names, student identification numbers, contact information, grades, health information, and other private details with placeholders before submitting it. Use only an institutionally approved AI tool and do not infer or include information that is not present in the email. The Copywriter will verify the response and make the final decision.
+- **Inappropriate:** Analyze this student email. 
+- **Appropriate:** Review this fictionalized student email and recommend a professional response.
 
 ### 6. Examples: The model that shows the GenAI what an output should look like.
 Examples give GenAI a concrete model for how to complete a task. While written instructions explain what the model should do, examples demonstrate what the result should look like. This can be especially helpful when the desired organization, level of detail, wording, or transformation is difficult to describe with instructions alone. Examples can be used in different amounts:
@@ -406,28 +409,21 @@ In general, use zero-shot prompting when the task is straightforward, one-shot p
 Here are a few principles for using strong examples while prompt engineering:
 
 #### **Choose examples that match the task**
-
 Use examples that represent the type of copywriting work GenAI is being asked to support. Relevant examples help the model identify the right pattern, audience, tone, and level of detail. Examples should be human-created, accurate, and appropriate for reuse. They should not be copied from protected work or contain private information.
 
 For example:
 
-- **Vague:** Use examples to help revise this copy.
-- **Clear:** Use examples of university announcements to guide the revision of this human-written announcement.
-- **Specific:** Use two human-created university announcements that have a clear headline, a concise introduction, event details, and a call to action. Use them only to identify organizational patterns and tone. Do not copy their wording, introduce claims from the examples, or treat them as factual sources. The Copywriter will review and revise the final recommendations.
+* **Input:** Act as an advanced search engine. Help me find boolean terms to use
+  * **Example Output:** "BYU-Idaho" AND "student demographics" AND "higher education"
 
 #### **Show the expected input and output**
-
 Provide both the material GenAI should work from and an example of the desired result. Showing the input and output makes the transformation clear and reduces the amount of guesswork required. This is especially helpful for editing, restructuring, summarizing, classifying, or adapting copy for a different audience.
 
 For example:
 
-* **Vague:** Rewrite this announcement in the same way as the example.
-* **Clear:** Use the example to revise this announcement into a shorter version with a headline and call to action.
-* **Specific:**  
-  * **Example input:** “The Writing Center offers appointments to help students improve their papers.”  
-  * **Example output:** “Strengthen your writing with help from the Writing Center. Schedule an appointment today.”  
-  * **New input:** “The Career Center offers appointments to help students improve their résumés.”  
-  Revise the new input using the same structure and level of detail. Preserve the original meaning, do not add unsupported services, and have the Copywriter review the result before using it.
+* **Input:** Act as a BYU-Idaho Writing Style Guide. Use this provided example as a reference for how you should evaluate it.
+  * **Example Output:** "6.9 Em Dashes. *Accounting is more than just math–it's the process of analyzing, collecting, and processing financial information.* Explanation: Uses a hyphen or short dash instead of an em dash without surrounding spaces.   Suggestion: Replace the hyphen with a proper em dash: math—it's the process..."
+
 
 #### **Identify what the model should learn from each example**
 
@@ -435,14 +431,12 @@ Explain which qualities GenAI should notice and apply. An example can demonstrat
 
 For example:
 
-* **Vague:** Follow these examples when editing the announcement.
-* **Clear:** Use the examples to match the organization and tone of the announcement.
-* **Specific:** From the examples, follow the order of information, concise sentence structure, welcoming tone, and direct call to action. Do not copy their wording, claims, or specific details. Preserve the facts in the human-written announcement, identify any missing information, and present your changes as recommendations for the Copywriter to review.
+* **Input:** Your primary objective is to help Copywriters anticipate audience reception by identifying potential friction points, unmet expectations, rhetorical weaknesses, credibility concerns, and awareness mismatches.
+  * **Example Output:** "Our revolutionary AI-powered platform will instantly eliminate all communication friction and double your team’s output overnight." Audience Reaction: Skeptical and weary. Over-promising causes an immediate loss of trust for a busy founder who knows software transitions take effort. Exaggerated Claims: Promising "instant" elimination of friction and "overnight" doubled output triggers skepticism.
 
 Clear examples teach GenAI how to approach a task without asking it to reproduce someone else’s work. The Copywriter should select appropriate examples, explain what each example demonstrates, verify the output, and make the final decisions about the copy.
 
 ### **Bringing It Together**
-
 The purpose of these principles is to help Copywriters create and improve directives in prompts so GenAI can provide more useful and predictable support. Each principle can improve a prompt on its own, but the strongest prompts combine all six: **Goal, Format, Style, Role, Context, and Examples**.
 
 Refining a prompt also helps the Copywriter understand the task more clearly. As the prompt develops, the Copywriter may discover that the original goal was too broad, the required information was incomplete, or the desired output needed a different structure. Prompt refinement is therefore part of problem decomposition. A directive is only one part of the Copywriter’s larger process of thinking, researching, reviewing, and making decisions.
@@ -455,7 +449,7 @@ The following examples demonstrate how a prompt can develop through three stages
 
 ### **First Prompt**
 
-> **Goal:** Find official BYU-Idaho webpages about scholarship and financial-aid applications for 2026–2027.  
+> **Goal:** Find official BYU-Idaho webpages about scholarship and financial aid applications for 2026–2027.  
 > **Format:** Provide a list of the pages and their links.  
 > **Style:** Write a concise, professional summary.  
 > **Role:** Act as a research assistant.  
@@ -466,7 +460,7 @@ This prompt identifies the general task, but it does not define the categories, 
 
 ### **Refined Prompt**
 
-> Research official BYU-Idaho webpages and articles about scholarship and financial-aid applications for the 2026–2027 academic year. Act as a research assistant supporting a Copywriter. Separate the results into three categories: scholarship, financial aid, and both. For each page, provide the title, URL, publication or update date if available, category, and a one-sentence description. Use a concise, professional tone and identify information that cannot be verified. Present the results in a table.
+> Research official BYU-Idaho webpages and articles about scholarship and financial-aid applications for the 2026–2027 academic year—act as a research assistant supporting a Copywriter. Separate the results into three categories: scholarship, financial aid, and both. For each page, provide the title, URL, publication or update date if available, category, and a one-sentence description. Use a concise, professional tone and identify information that cannot be verified. Present the results in a table.
 
 This version clarifies the goal, structure, role, context, and required information. It also tells GenAI how to handle missing information.
 
@@ -513,7 +507,7 @@ This version prevents GenAI from treating a fictional perspective as a factual r
 
 > **Goal:** Evaluate whether official BYU-Idaho webpages about applying for scholarships and financial aid during 2026–2027 are clear, informative, and useful to a student who needs financial assistance.  
 >
-> **Format:** First create one clearly labeled fictional student persona using relevant characteristics from several possible audiences, such as a first-year student, international student, single student, married student, or married student with a family. Then present the assessment in a table with these columns: page title, URL, helpful information, confusing information, missing information, potential student pain points, and recommended questions for the Copywriter to investigate.  
+> **Format:** First, create one clearly labeled fictional student persona using relevant characteristics from several possible audiences, such as a first-year student, international student, single student, married student, or married student with a family. Then present the assessment in a table with these columns: page title, URL, helpful information, confusing information, missing information, potential student pain points, and recommended questions for the Copywriter to investigate.  
 >
 > **Style:** Use an empathetic, objective, and accessible tone. Clearly separate the persona’s perspective from factual observations about the webpages. Do not exaggerate the student’s situation or claim that the assessment represents all students.  
 >
@@ -553,7 +547,7 @@ This version defines the scope of the inspection and provides a usable output fo
 
 > **Goal:** Conduct a publication-readiness inspection of the attached blog post using the applicable BYU-Idaho, CES, and AP style guidelines. Identify problems that could affect grammar, clarity, accuracy, tone, brand consistency, or publication standards.  
 >
-> **Format:** Present the findings in a structured table with these columns: line number, original text, issue category, applicable style rule, explanation, recommended revision, and verification status. Organize the findings by line number. Conclude with a short summary of recurring issues and a list of questions that require the Copywriter or editor to verify.  
+> **Format:** Present the findings in a structured table with these columns: line number, original text, issue category, applicable style rule, explanation, recommended revision, and verification status. Organize the findings by line number. Conclude with a summary of recurring issues and a list of questions that require the Copywriter or editor to verify.  
 >
 > **Style:** Use a neutral, precise, and professional editorial tone. Explain each recommendation clearly without criticizing the author. Preserve the author’s meaning and do not make unsupported factual changes.  
 >
@@ -570,7 +564,7 @@ This version defines the scope of the inspection and provides a usable output fo
 > **Recommended revision:** Provide a concise revision for the Copywriter to review.  
 > **Verification status:** Confirmed by source or **[NEEDS VERIFICATION]**.  
 >
-> Inspect the blog post line by line, cite the relevant source or rule when possible, and distinguish confirmed errors from editorial recommendations. The final copywriter or editor remains responsible for verifying the findings and approving the published version.
+> Inspect the blog post line by line, cite the relevant source or rule when possible, and distinguish confirmed errors from editorial recommendations. The final Copywriter or editor remains responsible for verifying the findings and approving the published version.
 
 ## Prompt Techniques
 Problem decomposition helps Copywriters determine what problem they are solving and which steps may benefit from GenAI. Prompt engineering then helps them construct a directive that communicates the task. Prompt techniques are the next part of the process: they are repeatable strategies for using prompts to guide, test, compare, and improve GenAI responses. Prompt techniques are different from prompt components:
@@ -604,11 +598,11 @@ The Copywriter may use GenAI to assist with some of these steps, but should not 
 
 Decomposition can also be performed within a prompt. For example:
 
-> First identify the newsletter’s primary audience and communication goal. Next list any information that appears to be missing. Then evaluate the draft for tone, clarity, and inclusive language. Do not rewrite the newsletter.
+> First identify the newsletter’s primary audience and communication goal. Next, list any information that appears to be missing. Then evaluate the draft for tone, clarity, and inclusive language. Do not rewrite the newsletter.
 
 This approach gives GenAI a plan and makes the response easier to inspect. For particularly complex tasks, the Copywriter can use a sequence of prompts in which the output from one step becomes context for the next.
 
-Decomposition is most useful when the task involves several types of work, such as research, analysis, drafting, and editing. It is less useful when a task is already simple and well defined. Adding unnecessary steps can make the process slower without improving the result.
+Decomposition is most useful when the task involves several types of work, such as research, analysis, drafting, and editing. It is less useful when a task is already simple and well-defined. Adding unnecessary steps can make the process slower without improving the result.
 
 ### 2. Clarification and rephrasing
 Clarification and rephrasing techniques help resolve ambiguity before GenAI produces a final response. GenAI may respond to an unclear prompt by making assumptions about the audience, purpose, tone, source material, or desired output. Those assumptions may not match the Copywriter’s intentions.
@@ -642,7 +636,7 @@ For example, a Copywriter evaluating a webpage could use this chain:
 
 **Prompt 3: Evaluate the content**
 
-> Based on the evaluation, create a prioritized list of recommendations. Separate confirmed problems from issues that require human verification.
+> Based on the evaluation, create a prioritized list of recommendations—separate confirmed problems from issues that require human verification.
 
 Prompt chaining gives the Copywriter opportunities to review the work between stages. The Copywriter can correct a mistaken audience assumption before allowing it to influence the recommendations or draft.
 
@@ -666,7 +660,7 @@ The Copywriter can then compare the responses using criteria such as:
 Multiple responses can also be used to examine a factual or editorial question from different perspectives:
 Evaluate this announcement as a first-year student, an international student, and an editor responsible for institutional style. Identify points of agreement and disagreement among the three evaluations.
 
-The purpose of comparison is not to assume that the most common answer is correct. GenAI can produce the same incorrect claim multiple times, and several similar responses may simply reflect the same assumption. The Copywriter must compare responses against reliable sources, project requirements, and human expertise.
+The purpose of comparison is not to assume that the most common answer is correct. GenAI can produce the same incorrect claim multiple times, and several similar responses may reflect the same assumption. The Copywriter must compare responses against reliable sources, project requirements, and human expertise.
 
 Generating multiple responses also requires additional time and resources. It should be used when the value of comparison justifies that cost, such as when the task is creative, ambiguous, high-impact, or difficult to evaluate using only one response.
 
@@ -727,13 +721,15 @@ For example:
 - **Refined prompt:** “Review this announcement for clarity for first-year students. Identify sentences that may be difficult to understand and explain why.”
 - **Further refined prompt:** “Review this announcement for first-year students who may be unfamiliar with university terminology. Present each concern in a table with the original sentence, concern, reader impact, and recommended revision. Preserve the original facts and identify missing information separately.”
 
-Each refinement addresses a specific weakness in the earlier instruction. The Copywriter should avoid adding instructions simply to make the prompt longer. The goal is to make the task, criteria, boundaries, and expected output clearer.
+Each refinement addresses a specific weakness in the earlier instruction. The Copywriter should avoid adding instructions to make the prompt longer. The goal is to make the task, criteria, boundaries, and expected output clearer.
 
 Prompt refinement is also a form of problem decomposition. As the Copywriter revises a prompt, they may discover that the original goal was too broad, the audience was undefined, the source material was incomplete, or the output required several separate tasks. In this way, prompting remains part of the Copywriter’s larger process of thinking, researching, reviewing, and making decisions.
 
 The final response is not necessarily the final product. Prompt techniques help GenAI provide more useful support, but the Copywriter remains responsible for evaluating the output, verifying important information, applying professional judgment, and approving any copy before publication.
 
+Next Chapter: [How To Find](how-to-find.md)
 
+## Citations
 
 https://arxiv.org/abs/2511.05764
 https://learnprompting.org/docs/advanced/decomposition/introduction
