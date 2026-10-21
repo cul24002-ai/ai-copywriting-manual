@@ -727,7 +727,7 @@ Prompt refinement is also a form of problem decomposition. As the Copywriter rev
 
 The final response is not necessarily the final product. Prompt techniques help GenAI provide more useful support, but the Copywriter remains responsible for evaluating the output, verifying important information, applying professional judgment, and approving any copy before publication.
 
-Next Chapter: [How To Find](how-to-find.md)
+Next Chapter: [How To Find With AI](how-to-find.md)
 
 ## Citations
 
