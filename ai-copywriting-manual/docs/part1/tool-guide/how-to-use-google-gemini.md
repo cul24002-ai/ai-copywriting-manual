@@ -1,19 +1,5 @@
----
-title: "Features of Google Gemini"
-description: "This is the in-depth how-to guide for Copywriters using Google Gemini."
-tags:
-  - ai-tools
-  - google-gemini
-  - byui-license
-author:
-  name: Ander Cullen
-  email: cul24002@byui.edu
-section: part1
-published: false
----
-
 # Features of Google Gemini
-One of the Chatbots available to BYU-Idaho students is Google Gemini, a multimodal GenAI tool developed by Google. It functions as a family of AI models built to process and generate text, code, images, audio, and video that can access Google Workspace, Search, and developer tools.
+One of the Chatbots available to BYU-Idaho students is Google Gemini, a multimodal GenAI tool developed by Google. It functions as a family of AI models built to process and generate text, code, images, audio, and video, and can access Google Workspace, Search, and developer tools.
 
 Beyond the basics of using AI Tools, found here: [How To Use AI Tools](how-to-use-ai-tools.md), this guide helps Copywriters understand and use the features of Google Gemini.
 
@@ -25,12 +11,12 @@ Beyond the basics of using AI Tools, found here: [How To Use AI Tools](how-to-us
 **Why Use Gemini?**
 
 * **Google Workspace:** Gemini is useful for Copywriters who are accessing materials from their Google Drive or utilizing other Google Products.
-* **Google Search:** Gemini grounds its responses in Google Search, making it easy for Copywriters to fact-check information with direct link citations. You can ask natural questions and Gemini can find sources for you to read.
+* **Google Search:** Gemini grounds its responses in Google Search, making it easy for Copywriters to fact-check information with direct link citations. You can ask natural questions, and Gemini can find sources for you to read.
 * **NotebookLM:** Gemini powers and utilizes **[NotebookLM](https://notebook.google.com/)**, allowing Copywriters to ground their data in specific documents and notes.
 
 ##### *Note On Data Privacy*
 
-> Official *@byui.edu* accounts are protected by enterprise-grade data boundaries. Unlike free personal accounts where prompts can be used to train public models, any submissions on the university network are completely private.
+> Enterprise-grade data boundaries protect official *@byui.edu* accounts. Unlike free personal accounts where prompts can be used to train public models, any submissions on the university network are completely private.
 > 
 > They are never used to train Google's models, never reviewed by humans, and remain strictly within university control. However, data such as SSNs, bank account information, or anything else should never be shared with these tools.
 
@@ -38,7 +24,7 @@ Beyond the basics of using AI Tools, found here: [How To Use AI Tools](how-to-us
 
 ### Signing Up
 
-Here is the step-by-step instructions to setting up Gemini:
+Here are the step-by-step instructions for setting up Gemini:
 
 > #### 1. **Go to Gemini**.
 > * Navigate to **[https://gemini.google.com/app](https://gemini.google.com/app)**. Click the **"Sign In"** button in the top-right corner.  
@@ -61,7 +47,7 @@ Here is the step-by-step instructions to setting up Gemini:
 > ***If you use a personal Google account, no institutional data protections are in place—treat it as public-level only. Remember it will train on your conversations.***
 
 ### Library 
-Gemini has a *Library* feature that holds your saved, pinned, and recent assets stored for easy access found in the sidebar. Key components include:
+Gemini has a *Library* feature that holds your saved, pinned, and recent assets for easy access in the sidebar. Key components include:
 
 * **Pinned & Recent Chats:** Access to important conversation threads, research sessions, or ongoing projects.
 * **Custom Gems:** A collection of all the personalized AI assistants you have created or copied with the *Gem* tool.
@@ -69,14 +55,14 @@ Gemini has a *Library* feature that holds your saved, pinned, and recent assets 
 * **Notebooks:** Direct links to your created *Gemini Notebooks (NotebookLM)*.
 
 ### Connected Apps
-Gemini has an opt-in *Connected Apps* feature that connects to your account to other Google apps. 
+Gemini has an opt-in *Connected Apps* feature that connects to your account and other Google apps. 
 
 After you have signed in to your *@byui.edu* account, navigate to the Settings icon: :gear:, and find and click the icon labeled *"Connected Apps"*.
 
-Once you are at that page you will be able to toggle the switch, allowing you the ability to provide access to the account or not.
+Once you are on that page, you will be able to toggle the switch, allowing you to provide access to the account or not.
 
  #### Shortcut Tags
- Shortcut tags (e.g., the `@` symbol) are used to pull information form or execute commands across specific **Connected Apps** directly within your prompt thread, allowing you to direct Gemini to query specific apps. Connected Apps feature must be enabled to use this feature.
+ Shortcut tags (e.g., the `@` symbol) are used to pull information from or execute commands across specific **Connected Apps** directly within your prompt thread, allowing you to direct Gemini to query specific apps. Connected Apps feature must be enabled to use this feature.
  
  | Common `@` Commands | What It Does | Example |
  |:---:|:-----|:-----|
@@ -90,9 +76,9 @@ Gemini has a feature called *Gems*, custom versions of Google Gemini designed to
 
 Google includes built-in Gems ready to use, such as Brainstormer, Career Guide, Coding Partner, and Writing Editor. You can use them right away, or you can copy them and tailor them to suit your needs.
 
-After you have signed in to your *@byui.edu* account, navigate to the Settings icon: :gear:, and find and click the icon labeled *"Gems"*. Near the top you will see a list of premade gems. If you click the three-dots (ellipsis menu) you can make a copy to edit, or if you click the *"+ New Gem"* button you can create a new one from scratch.
+After you have signed in to your *@byui.edu* account, navigate to the Settings icon: :gear:, and find and click the icon labeled *"Gems"*. Near the top, you will see a list of premade gems. If you click the three-dots (ellipsis menu), you can make a copy to edit, or if you click the *"+ New Gem"* button, you can create a new one from scratch.
 
-More on creating a Gem for Copywriters will be found here: [AI Agents for Copywriters]()
+More on creating a Gem for Copywriters can be found here: [AI Agents for Copywriters]()
 
 **Key Features of Gems:** 
 
@@ -104,7 +90,7 @@ Gemini has a feature called *Your Public Links*, a settings management menu that
 
 After you have signed in to your *@byui.edu* account, navigate to the Settings icon: :gear:, and find and click the icon labeled *"Your Public Links"*.
 
-> #### Removing Access:
+> #### Removing access:
 > You can delete individual public links or click *"Delete all links"* to invalidate them. Once deleted, anyone trying to open the link will see a message stating that the chat no longer exists. 
 
 **How It Works:**
@@ -123,7 +109,7 @@ The model you should use depends on how advanced the task is and how much help y
 **Differences Between the Models**
 
 * **Flash:** Designed to be responsive and efficient. It handles routine, everyday tasks nearly instantaneously.
-* **Thinking:** Features built-in logical reasoning steps. Before returning a response it breaks down prompts and cross-checks its own answers. It excels at math, troubleshooting, prompt execution, and problem-solving.
+* **Thinking:** Features built-in logical reasoning steps. Before returning a response, it breaks down prompts and cross-checks its own answers. It excels at math, troubleshooting, prompt execution, and problem-solving.
 * **Pro:** Provides contextual analysis for multi-file projects and maintains coherence across long conversations.
 
 **How To Access**: At the top of the chat interface, click the `^` icon (by default, it may display Flash) to manually switch between Flash, Thinking, or Pro.
@@ -138,29 +124,28 @@ An interactive study mode built for training comprehension rather than directly 
 A dedicated workspace within Gemini, meant to allow you to work side-by-side with the interactive chat feature. Canvas opens a split view where you can directly modify text or code on one side while prompting Gemini on the other, making inline editing and formatting much easier.
 
 #### Deep Research
-An autonomous research agent within Gemini. When given a complex prompt, Deep Research creates a multi-step research plan. Once you approve the research plan it gathers and analyzes data from web search and uploaded documents, synthesizing it into a full cited report.
+An autonomous research agent within Gemini. When given a complex prompt, Deep Research creates a multi-step research plan. Once you approve the research plan, it gathers and analyzes data from web search and uploaded documents, synthesizing it into a fully cited report.
 
 #### Session Management & Forking
 Organizational features for managing your chat history and exploring different ideas. Session Management and Forking work together to allow you to label, save, and jump between conversation threads. 
 
 ## How To Use Gemini Notebook
-Gemini has a feature called Gemini Notebook (otherwise known as NotebookLM), an AI-powered research and note-taking assistant. Unlike the standard Gemini chatbot which integrates Google Search exclusively, Gemini Notebook is built specifically for implementing your selected sources.
+Gemini has a feature called Gemini Notebook (otherwise known as NotebookLM), an AI-powered research and note-taking assistant. Unlike the standard Gemini chatbot, which integrates Google Search exclusively, Gemini Notebook is built specifically for implementing your selected sources.
 
 After you have signed in to your *@byui.edu* account, navigate to the Settings icon: :gear:, and find and click the icon labeled *"Gemini Notebook"*. You can then access any notebooks that you have created in Gemini Notebook.
 
 ### How Notebook Operates
-The website and app **[https://notebook.google/](https://notebook.google/)** functions as an multimodal GenAI chatbot that is connected to Google Gemini through the cloud. It has three main features that work in tandem: Sources, Chat, and Studio. These features are found in three tabs at the top of the screen, once you have created a new notebook:
+The website and app **[https://notebook.google/](https://notebook.google/)** function as a multimodal GenAI chatbot that is connected to Google Gemini through the cloud. It has three main features that work in tandem: Sources, Chat, and Studio. These features are found in three tabs at the top of the screen, once you have created a new notebook:
 
 #### Sources
-The Source Tab is the first and most important step in building a notebook. This is where the source materials are uploaded, organized, and maintained. These can sources can be PDFs, text files, Google Docs, web links, YouTube URLs, and more. Source materials can be gathered in two ways—manually or automatically:
+The Source Tab is the first and most important step in building a notebook. This is where the source materials are uploaded, organized, and maintained. These sources can be PDFs, text files, Google Docs, web links, YouTube URLs, and more. Source materials can be gathered in two ways—manually or automatically:
 
 * **Automatically:** The search feature uses Gemini to search the Web or your Drive and automatically find sources based on the prompt you have given. 
 
-* **Manually:** You can manually select sources from the Web, your Drive, or filed you upload directly for the GenAI to use in the chat feature.
+* **Manually:** You can manually select sources from the Web, your Drive, or files you upload directly for the GenAI to use in the chat feature.
 
 #### Chat
 The chat feature functions like a normal GenAI chatbot, but it uses the compendium of sources you have already provided. It will analyze the provided source materials whenever it generates a response, using them as contextual reinforcement for the tokenization process, instead of relying on its own database directly. 
 
 #### Studio
 The studio feature converts the content of the provided sources into specific tools for analysis and studying. These tools include: audio and video overview, mind maps, flash cards, reports, slide decks, infographics, and data tables. Like the chat feature, the studio will primarily draw from the source materials.
-
