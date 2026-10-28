@@ -403,7 +403,7 @@ It's excellent for writing, editing, brainstorming, and building Custom GPTs. It
   * Confidential:✅
   * Restricted:❗
 
-Find out more about ChatGPT here: [Features of ChatGPT](tool-guide/how-to-use-chatgpt.md)
+Find out more about ChatGPT here: <a id="ref-gpt"></a>[Features of ChatGPT](#cite-gpt)
   
 #### Microsoft Copilot
 It can see emails, files, meetings, and calendar, making it powerful for work tasks tied to the M365 environment. Copywriters must use their BYU-Idaho Microsoft account.
@@ -413,7 +413,7 @@ It can see emails, files, meetings, and calendar, making it powerful for work ta
   * Confidential:✅
   * Restricted:❗
 
-Find out more about Microsoft Copilot here: [Features of Microsoft Copilot](tool-guide/how-to-use-microsoft-copilot.md)
+Find out more about Microsoft Copilot here: <a id="ref-msoft"></a>[Features of Microsoft Copilot](#cite-msoft)
 
 #### Google Gemini
 It integrates with Google Workspace and Google Search. Copywriters must use their BYU-Idaho Google account.
@@ -423,7 +423,7 @@ It integrates with Google Workspace and Google Search. Copywriters must use thei
   * Confidential:✅
   * Restricted:❗
 
-Find out more about Google Gemini here: [Features of Google Gemini](tool-guide/how-to-use-google-gemini.md)
+Find out more about Google Gemini here: <a id="ref-gem"></a>[Features of Google Gemini](#cite-gem)
 
 ## Copyright & AI
 Copyright law is the legal right that gives creators control over their original works of authorship, stopping others from plagiarizing and using those works without explicit permission.<a id="ref-32"></a><sup>[32](#cite-32)</sup> Under US law, everyone is a copyright owner, inasmuch as they have produced an original work.<a id="ref-33"></a><sup>[33](#cite-33)</sup> Intellectual property, which is an intangible, often digital, artifact that communicates ideas originating from the human mind, is obtained through copyright laws.<a id="ref-34"></a><sup>[34](#cite-34)</sup> (Artifacts refer to materials created to carry and communicate ideas and information.)<a id="ref-35"></a><sup>[35](#cite-35)</sup> A copywriter's copy falls under copyright laws. When they write for a company, like BYU-Idaho, the company automatically owns it if the work is under "work made for hire."<a id="ref-36"></a><sup>[36](#cite-36)</sup> Individual copywriters don't own their copy because BYU-Idaho is paying them for the rights to ownership.
@@ -1331,6 +1331,448 @@ Each refinement addresses a specific weakness in the earlier instruction. The co
 Prompt refinement is also a form of problem decomposition. As the copywriter revises a prompt, they may discover that the original goal was too broad, the audience was undefined, the source material was incomplete, or the output required several separate tasks. In this way, prompting remains part of the copywriter's larger process of thinking, researching, reviewing, and making decisions.
 
 The final response is not necessarily the final product. Prompt techniques help GenAI provide more useful support, but the copywriter remains responsible for evaluating the output, verifying important information, applying professional judgment, and approving any copy before publication.
+
+# <a id="cite-gpt"></a> [Features of ChatGPT](#ref-gpt)
+One of the chatbots available to BYU-Idaho students is ChatGPT, a multimodal GenAI tool developed by OpenAI. It functions as a family of AI models built to process and generate text, code, images, audio, and video, and can access custom GPTs and Plugins.
+
+Beyond the basics of using AI Tools, found here: [How To Use AI Tools](how-to-use-ai-tools.md), this guide helps Copywriters understand and use the features of ChatGPT.
+
+**How ChatGPT Operates**
+* The website and app **[https://chatgpt.com/](https://chatgpt.com/)** functions as an multimodal GenAI chatbot.
+* Beyond the stand-alone chat window, ChatGPT supports voice on the web, iOS, and Android; it can also work with browsers and computers through agent tools.
+* ChatGPT provides the AI features in developer platforms like **[Open AI Developers](https://developers.openai.com/)**.
+
+**Why Use ChatGPT?**
+
+* **Custom GPTs:** Copywriters can use or create custom GPTs that give AI a specific role or function. These can also be given content that it will always reference and access when generating responses. 
+* **AI Agents:** Operate as an independent and automatic assistant that can complete specific tasks in various software applications such as Outlook, Teams, or even Google Workspace  
+* **Plugins:** Allow specific tasks to be connected with specific apps, integrating external applications into chats and projects.
+* **Models:** Allow precise control over a variety of models with different capabilities by giving the user control over the rate of tokenization.
+
+##### *Note On Data Privacy*
+
+> Enterprise-grade data boundaries protect official *@byui.edu* accounts. Unlike free personal accounts where prompts can be used to train public models, any submissions on the university network are completely private.
+> 
+> They are never used to train OpenAI's models, never reviewed by humans, and remain strictly within university control. However, data such as SSNs, bank account information, or anything else should never be shared with these tools.
+
+## Getting Started With ChatGPT
+
+### Signing Up
+
+Here are the step-by-step instructions for setting up ChatGPT:
+
+> #### 1. **Go to ChatGPT**.
+> * Navigate to **[https://chatgpt.com](https://chatgpt.com)**. Click the **"Log In"** button.  
+> * *(If you are already signed in to a personal account, click your profile icon and select Log out or switch accounts).*
+
+
+> #### 2. **Enter Your BYU-Idaho Email Address**.
+> * On the sign-in page, enter your full **BYU-Idaho email address** (e.g., *username@byui.edu*) and click Continue.
+> * *(You must use your full **@byui.edu email** address rather than just your username).*
+
+
+> #### 3. **Complete Authentication**.
+> * You will be redirected to the single sign-on page. Enter your Church account credentials and complete **Multi-Factor Authentication (MFA)** if prompted.
+> * Once authenticated, you will return to ChatGPT. Click your profile icon to ensure your *@byui.edu* email is listed.
+> * *(You may be signed in automatically if you already have an active BYU-Idaho SSO session in your browser).*
+
+> [!WARNING]
+>:warning: **Use Your Institutional Account**
+> 
+> ***If you use a personal account, no institutional data protections are in place—treat it as public-level only. Remember it will train on your conversations.***
+
+### Library
+
+ChatGPT has a *Library* feature that stores generated images, files, and other saved assets for easy access. Copywriters can quickly revisit content they have created or uploaded without searching through previous conversations.
+
+### Projects
+
+ChatGPT has a *Projects* feature that allows users to organize related chats, files, and instructions into a dedicated workspace. Projects are useful for long-term writing assignments, ongoing research, and recurring workflows.
+
+After you have signed in to your *@byui.edu* account, select **Projects** from the sidebar and create a new project.
+
+**Key Features of Projects:**
+
+* **Shared Context:** Files, instructions, and related conversations remain available throughout the project.
+* **File Management:** Upload source materials once and reference them across multiple chats.
+* **Persistent Instructions:** Create project-specific guidelines that remain active throughout the workspace.
+* **Long-Term Organization:** Keep research, drafts, notes, and conversations together.
+
+### Scheduled Tasks
+
+ChatGPT has a *Scheduled Tasks* feature that allows users to create reminders and recurring tasks. Notifications can be delivered on supported devices even when ChatGPT is not actively open.
+
+After you have signed in to your *@byui.edu* account, navigate to the sidebar and select **Tasks** to create and manage reminders.
+
+### GPTs
+
+ChatGPT has a feature called *GPTs* (Custom GPTs), specialized versions of ChatGPT configured for particular purposes. Instead of repeatedly providing the same instructions at the beginning of every chat, a GPT can retain custom instructions, knowledge files, and enabled capabilities.
+
+OpenAI provides a large catalog of GPTs for common use cases, and organizations can create additional GPTs tailored to their own workflows.
+
+After you have signed in to your *@byui.edu* account, navigate to **GPTs** in the sidebar to browse available GPTs.
+
+More on creating a GPT for Copywriters can be found here: [AI Agents for Copywriters]()
+
+**Key Features of GPTs:**
+
+* **Custom Instructions & Personas:** Define specific behavior, tone, rules, and response formats.
+* **Knowledge Base Uploads:** Attach files that the GPT consistently references when generating responses.
+* **Capabilities:** Enable features such as web search, image generation, and data analysis.
+* **External Actions:** Connect GPTs to approved third-party services or APIs.
+
+### Sharing Conversations
+
+ChatGPT allows users to create shareable links for conversations and generated content.
+
+> #### Removing access:
+>
+> Shared conversations can be deleted or unshared at any time. Once removed, previously generated links will no longer provide access to the conversation.
+
+**How It Works:**
+
+* **Generating Links:** ChatGPT creates a shareable URL containing a snapshot of a conversation.
+* **What Others See:** Anyone with Access to the link can view the shared conversation content.
+* **Privacy & Anonymity:** Personal account information is not displayed within the shared conversation.
+
+### Models: Luna, Terra, Sol, and More
+
+ChatGPT provides access to multiple model families with different capabilities and strengths. OpenAI periodically introduces new models so that the available options may change over time.
+
+Model families determine the core capabilities of the AI, while computational modes determine how much reasoning effort the model applies to a task.
+
+**Model Families**
+
+* **Luna:** Optimized for fast general-purpose conversation and content creation.
+* **Terra:** Designed for stronger reasoning, research, and analytical work.
+* **Sol:** Flagship model family intended for advanced writing, problem-solving, and multimodal workflows.
+
+### Chat vs. Work Models
+
+ChatGPT Edu includes multiple computational modes designed for different levels of speed, reasoning, and analysis.
+
+The mode you choose determines how much computational effort ChatGPT spends working through your prompt before generating a response.
+
+#### The Model Scale
+
+ChatGPT models generally exist along the following spectrum:
+
+* **Light:** Fastest responses and lowest computational effort.
+* **Standard:** Balanced speed and quality.
+* **Work:** Increased reasoning and analysis.
+* **Max:** Highest level of reasoning and computational effort available.
+
+#### Differences Between the Modes
+
+* **Light:** Optimized for speed and efficiency. Best for quick questions, brainstorming, summaries, and routine drafting.
+
+* **Standard:** Balances response quality and performance. Suitable for most copywriting, editing, and research tasks.
+
+* **Work:** Allocates additional reasoning resources to a task. Better for research-heavy writing, source analysis, outlining complex projects, and detailed content development.
+
+* **Max:** Uses the greatest amount of reasoning and processing available. Best for advanced research, multi-source synthesis, strategy documents, difficult coding tasks, and complex analytical work.
+
+## More Tools For Copywriters
+
+ChatGPT has many other tools that assist with advanced workflow, but there are only a few that are directly applicable for Copywriters. You can find these by clicking the Tools button beneath the chat input box.
+
+#### Study Mode
+
+An interactive learning mode built for developing understanding rather than directly providing answers. Study Mode acts as a tutor or thought partner, breaking down complex topics into guided questions, explanations, quizzes, exercises, and other learning activities.
+
+#### Canvas
+
+A dedicated workspace within ChatGPT meant to allow you to work side-by-side with the interactive chat feature. Canvas opens a separate editing workspace where you can directly modify text or code while collaborating with ChatGPT, making drafting, revision, and formatting much easier.
+
+#### Deep Research
+
+An autonomous research agent within ChatGPT. When given a complex prompt, Deep Research creates a multi-step research process, gathers information from online sources, analyzes findings, and synthesizes the material into a detailed cited report.
+
+#  <a id="cite-gem"></a> [Features of Google Gemini](#ref-gem) 
+One of the chatbots available to BYU-Idaho students is Google Gemini, a multimodal GenAI tool developed by Google. It functions as a family of AI models built to process and generate text, code, images, audio, and video, and can access Google Workspace, Search, and developer tools.
+
+Beyond the basics of using AI Tools, found here: [How To Use AI Tools](how-to-use-ai-tools.md), this guide helps Copywriters understand and use the features of Google Gemini.
+
+**How Gemini Operates**
+* The website and app **[https://gemini.google.com/app](https://gemini.google.com/app)** functions as an multimodal GenAI chatbot.
+* Beyond the stand-alone chat window, Gemini can also function as an agent on Android, Wear OS, and Chrome.
+* Gemini provides the AI features in **[Google Search](https://www.google.com/webhp)**, **[Google Cloud](https://cloud.google.com/?_gl=1*1iynvdg*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjw4orUBhCjARIsAIbF3qx_Vr61r-29PSSPpVkuJyQ5tkAXZTw8c_loJ9x18MgThwv_U2QhPhMaAga4EALw_wcB&gclsrc=aw.ds)**, and developer platforms like **[Google AI Studio](https://aistudio.google.com/prompts/new_chat?project=gen-lang-client-0122606831)**.
+
+**Why Use Gemini?**
+
+* **Google Workspace:** Gemini is useful for Copywriters who are accessing materials from their Google Drive or utilizing other Google Products.
+* **Google Search:** Gemini grounds its responses in Google Search, making it easy for Copywriters to fact-check information with direct link citations. You can ask natural questions, and Gemini can find sources for you to read.
+* **NotebookLM:** Gemini powers and utilizes **[NotebookLM](https://notebook.google.com/)**, allowing Copywriters to ground their data in specific documents and notes.
+
+##### *Note On Data Privacy*
+
+> Enterprise-grade data boundaries protect official *@byui.edu* accounts. Unlike free personal accounts where prompts can be used to train public models, any submissions on the university network are completely private.
+> 
+> They are never used to train Google's models, never reviewed by humans, and remain strictly within university control. However, data such as SSNs, bank account information, or anything else should never be shared with these tools.
+
+## Getting Started With Gemini
+
+### Signing Up
+
+Here are the step-by-step instructions for setting up Gemini:
+
+> #### 1. **Go to Gemini**.
+> * Navigate to **[https://gemini.google.com/app](https://gemini.google.com/app)**. Click the **"Sign In"** button in the top-right corner.  
+> * *(If you are already signed in to a personal Google account, click your profile icon in the top right and select Add another account).*
+
+
+> #### 2. **Enter Your BYU-Idaho Email Address**.
+> * On the Google sign-in page, enter your full **BYU-Idaho email address** (e.g., *username@byui.edu*) and click Next.
+> * *(You must use your full **@byui.edu email** address rather than just your username).*
+
+
+> #### 3. **Complete Authentication**.
+> * You will be redirected to the single sign-on page. Enter your Church account credentials and complete **Multi-Factor Authentication (MFA)** if prompted.
+> * Once authenticated, you will return to Gemini. Click your profile icon in the top-right corner to ensure your *@byui.edu* email is listed.
+> * *(You may be signed in automatically if you already have an active BYU-Idaho SSO session in your browser).*
+
+> [!WARNING]
+>:warning: **Use Your Institutional Account**
+> 
+> ***If you use a personal Google account, no institutional data protections are in place—treat it as public-level only. Remember it will train on your conversations.***
+
+### Library 
+Gemini has a *Library* feature that holds your saved, pinned, and recent assets for easy access in the sidebar. Key components include:
+
+* **Pinned & Recent Chats:** Access to important conversation threads, research sessions, or ongoing projects.
+* **Custom Gems:** A collection of all the personalized AI assistants you have created or copied with the *Gem* tool.
+* **Saved Prompts & Canvas Files:** Links to prompt templates or draft documents you are developing with the *Canvas* tool.
+* **Notebooks:** Direct links to your created *Gemini Notebooks (NotebookLM)*.
+
+### Connected Apps
+Gemini has an opt-in *Connected Apps* feature that connects to your account and other Google apps. 
+
+After you have signed in to your *@byui.edu* account, navigate to the Settings icon: :gear:, and find and click the icon labeled *"Connected Apps"*.
+
+Once you are on that page, you will be able to toggle the switch, allowing you to provide access to the account or not.
+
+ #### Shortcut Tags
+ Shortcut tags (e.g., the `@` symbol) are used to pull information from or execute commands across specific **Connected Apps** directly within your prompt thread, allowing you to direct Gemini to query specific apps. Connected Apps feature must be enabled to use this feature.
+ 
+ | Common `@` Commands | What It Does | Example |
+ |:---:|:-----|:-----|
+ | `@Gmail` | Search, summarize, or draft emails from your primary inbox. | *`@Gmail` summarize the key points from the latest email sent by John*
+ | `@Google Drive` | Retrieve notes, analyze spreadsheets, or extract details from files stored in your Drive. | *`@Google Drive` find the project proposal draft and outline the budget section.*
+ | `@Google Calendar` | Check availability or manage upcoming schedule details. | *`@Google Calendar` what meetings do I have scheduled for tomorrow afternoon?* |
+ | `@Youtube` | Find specific video summaries, pull timestamps, or search for video topics. | *`@Youtube` find a beginner tutorial on Python functions and summarize it.* |
+
+### Gems
+Gemini has a feature called *Gems*, custom versions of Google Gemini designed to act as specialized AI assistants for specific, repetitive tasks. Instead of repeating similar instructions from previous tasks every time you start a new chat, a custom Gem retains those baseline rules.
+
+Google includes built-in Gems ready to use, such as Brainstormer, Career Guide, Coding Partner, and Writing Editor. You can use them right away, or you can copy them and tailor them to suit your needs.
+
+After you have signed in to your *@byui.edu* account, navigate to the Settings icon: :gear:, and find and click the icon labeled *"Gems"*. Near the top, you will see a list of premade gems. If you click the three-dots (ellipsis menu), you can make a copy to edit, or if you click the *"+ New Gem"* button, you can create a new one from scratch.
+
+More on creating a Gem for Copywriters can be found here: [AI Agents for Copywriters]()
+
+**Key Features of Gems:** 
+
+* **Custom Instructions & Personas:** You can define a specific role, tone, output structure, or strict set of rules for the Gem to follow.
+* **Knowledge Base Uploads:** You can attach source files (PDFs, style guides, product specs) or connect Google Drive documents directly to a Gem so it always grounds its responses in your specific references.
+
+### Your Public Links
+Gemini has a feature called *Your Public Links*, a settings management menu that allows you to view, manage, and delete all shareable URL links you have previously created for your chat sessions.
+
+After you have signed in to your *@byui.edu* account, navigate to the Settings icon: :gear:, and find and click the icon labeled *"Your Public Links"*.
+
+> #### Removing access:
+> You can delete individual public links or click *"Delete all links"* to invalidate them. Once deleted, anyone trying to open the link will see a message stating that the chat no longer exists. 
+
+**How It Works:**
+
+* **Generating Links:** When you click the Share icon underneath a response or chat session, Gemini creates a unique, public webpage containing that conversation snapshot.
+* **What Others See:** Anyone who receives the link can view the shared text, generated images, or artifacts. Unless restricted by account type, they can also click "Continue this chat" to fork the prompt thread into their own Gemini workspace.
+* **Privacy & Anonymity:** Your name, email, and Google account details are not attached to the public page or URL—only the chat content itself is visible.
+
+### Flash vs. Thinking vs. Pro
+Google offers different Gemini model variants tailored to distinct speeds, reasoning capabilities, and complexity levels: 3.6 Flash, 3.6 Thinking, and 3.1 Pro.
+
+These models differ in token usage, with the more advanced models taking up more space in the context window faster because of the reasoning tokens being used.
+
+The model you should use depends on how advanced the task is and how much help you need in a given time.
+
+**Differences Between the Models**
+
+* **Flash:** Designed to be responsive and efficient. It handles routine, everyday tasks nearly instantaneously.
+* **Thinking:** Features built-in logical reasoning steps. Before returning a response, it breaks down prompts and cross-checks its own answers. It excels at math, troubleshooting, prompt execution, and problem-solving.
+* **Pro:** Provides contextual analysis for multi-file projects and maintains coherence across long conversations.
+
+**How To Access**: At the top of the chat interface, click the `^` icon (by default, it may display Flash) to manually switch between Flash, Thinking, or Pro.
+
+## More Tools For Copywriters
+Gemini has many other tools that assist with advanced workflow, but there are only a few that are directly applicable for Copywriters. You can find these by clicking the ➕ icon on the chat interface.
+
+#### Guided Learning
+An interactive study mode built for training comprehension rather than directly offering answers. Guided learning acts as a tutor or thought partner, breaking down complex topics into multi-step problems, questions, quizzes, diagrams, and interactive activities.
+
+#### Canvas
+A dedicated workspace within Gemini, meant to allow you to work side-by-side with the interactive chat feature. Canvas opens a split view where you can directly modify text or code on one side while prompting Gemini on the other, making inline editing and formatting much easier.
+
+#### Deep Research
+An autonomous research agent within Gemini. When given a complex prompt, Deep Research creates a multi-step research plan. Once you approve the research plan, it gathers and analyzes data from web search and uploaded documents, synthesizing it into a fully cited report.
+
+#### Session Management & Forking
+Organizational features for managing your chat history and exploring different ideas. Session Management and Forking work together to allow you to label, save, and jump between conversation threads. 
+
+## How To Use Gemini Notebook
+Gemini has a feature called Gemini Notebook (otherwise known as NotebookLM), an AI-powered research and note-taking assistant. Unlike the standard Gemini chatbot, which integrates Google Search exclusively, Gemini Notebook is built specifically for implementing your selected sources.
+
+After you have signed in to your *@byui.edu* account, navigate to the Settings icon: :gear:, and find and click the icon labeled *"Gemini Notebook"*. You can then access any notebooks that you have created in Gemini Notebook.
+
+### How Notebook Operates
+The website and app **[https://notebook.google/](https://notebook.google/)** function as a multimodal GenAI chatbot that is connected to Google Gemini through the cloud. It has three main features that work in tandem: Sources, Chat, and Studio. These features are found in three tabs at the top of the screen, once you have created a new notebook:
+
+#### Sources
+The Source Tab is the first and most important step in building a notebook. This is where the source materials are uploaded, organized, and maintained. These sources can be PDFs, text files, Google Docs, web links, YouTube URLs, and more. Source materials can be gathered in two ways—manually or automatically:
+
+* **Automatically:** The search feature uses Gemini to search the Web or your Drive and automatically find sources based on the prompt you have given. 
+
+* **Manually:** You can manually select sources from the Web, your Drive, or files you upload directly for the GenAI to use in the chat feature.
+
+#### Chat
+The chat feature functions like a normal GenAI chatbot, but it uses the compendium of sources you have already provided. It will analyze the provided source materials whenever it generates a response, using them as contextual reinforcement for the tokenization process, instead of relying on its own database directly. 
+
+#### Studio
+The studio feature converts the content of the provided sources into specific tools for analysis and studying. These tools include: audio and video overview, mind maps, flash cards, reports, slide decks, infographics, and data tables. Like the chat feature, the studio will primarily draw from the source materials.
+
+# #  <a id="cite-msoft"></a> [Features of Microsoft Copilot 365](#ref-msoft)
+One of the AI tools available to BYU-Idaho students is Microsoft Copilot 365, Microsoft's multimodal GenAI assistant. Copilot can understand and generate text, code, images, and other content while integrating with Microsoft 365 apps, web search, and enterprise data sources.
+
+Beyond the basics of using AI Tools, found here: [How To Use AI Tools](how-to-use-ai-tools.md), this guide helps Copywriters understand and use the features of Microsoft Copilot 365.
+
+**How Copilot 365 Operates**
+- The website and app **[https://copilot.microsoft.com/](https://copilot.microsoft.com/)** functions as an multimodal GenAI chatbot.
+- Beyond the stand-alone chat window, Copilot is available across web browsers, Windows, Mac, mobile devices, and Microsoft Edge, allowing users to access the same AI assistant across multiple platforms.
+- Copilot provides AI features throughout the Microsoft ecosystem, including Microsoft 365 apps such as Word, Excel, PowerPoint, Outlook, OneNote, and Teams. Depending on licensing, Copilot can also access organizational data through Microsoft Graph.
+
+**Why Use Copilot 365?**
+- **Microsoft 365 Integration:** Copilot is especially useful for Copywriters who work with Word, PowerPoint, Outlook, Teams, OneNote, or files stored in Microsoft 365. It can help draft content, summarize documents, and streamline everyday tasks.
+- **Enterprise Security and Permissions:** Copilot respects existing Microsoft 365 security, compliance, and permission settings, ensuring users only access information they are authorized to view.
+
+##### *Note On Data Privacy*
+
+> Enterprise-grade data boundaries protect official *@byui.edu* accounts. Unlike free personal accounts where prompts can be used to train public models, any submissions on the university network are completely private.
+> 
+> They are never used to train models, never reviewed by humans, and remain strictly within university control. However, data such as SSNs, bank account information, or anything else should never be shared with these tools.
+
+## Getting Started With Copilot
+
+### Signing Up
+
+Here are the step-by-step instructions for setting up Copilot:
+
+> #### 1. **Go to Copilot**.
+> * Navigate to **https://copilot.microsoft.com**. Click the **"Sign In"** button in the top-right corner.
+> * *(If you are already signed in to a personal Microsoft account, click your profile icon in the top right and select Add account or Sign in with another account.)*
+
+> #### 2. **Enter Your BYU-Idaho Email Address**.
+> * On the Microsoft sign-in page, enter your full **BYU-Idaho email address** (e.g., *username@byui.edu*) and click Next.
+> * *(You must use your full **@byui.edu email** address rather than just your username.)*
+
+> #### 3. **Complete Authentication**.
+> * You will be redirected to the BYU-Idaho single sign-on page. Enter your Church account credentials and complete **Multi-Factor Authentication (MFA)** if prompted.
+> * Once authenticated, you will return to Copilot. Click your profile icon in the top-right corner to ensure your *@byui.edu* email is listed.
+> * *(You may be signed in automatically if you already have an active BYU-Idaho SSO session in your browser.)*
+
+> [!WARNING]
+> :warning: **Use Your Institutional Account**
+>
+> ***If you use a personal Microsoft account, institutional data protections may not apply. Use your BYU-Idaho account when working with university-related content and data.***
+
+### Library
+Copilot has a *Library* feature that stores images and documents for easy access, found in the sidebar. Copywriters can reference both uploaded and generated materials here.
+
+### Microsoft 365 Integration
+Copilot is deeply integrated with Microsoft 365 applications and services. Depending on your license and permissions, Copilot can access information from Microsoft apps and organizational data.
+
+After you have signed in to your *@byui.edu* account, Copilot can work with content stored in your Microsoft 365 environment.
+
+#### Connected Microsoft Apps
+
+Copilot can interact with information from various Microsoft applications.
+
+| Application | What It Does | Example |
+|:---:|:-----|:-----|
+| **Outlook** | Search, summarize, prioritize, and draft emails. | *Summarize unread emails related to the Fall Campaign project.* |
+| **Word** | Create, summarize, rewrite, and edit documents. | *Create a first draft based on this project outline.* |
+| **Excel** | Analyze data, generate formulas, identify trends, and create charts. | *Analyze this spreadsheet and identify enrollment trends.* |
+| **PowerPoint** | Build presentations and summarize slide decks. | *Create a presentation from this article draft.* |
+| **Teams** | Summarize meetings, chats, and action items. | *What decisions were made during yesterday's marketing meeting?* |
+| **OneNote** | Search notes and organize information. | *Summarize my notes from the content planning notebook.* |
+| **SharePoint & OneDrive** | Find, retrieve, and summarize organizational files. | *Locate the style guide and summarize the brand voice section.* |
+
+### Agents
+Copilot includes a feature called *Agents*, custom AI assistants designed to perform specialized or repetitive tasks. Agents allow users to save instructions, workflows, and business processes so they do not need to be re-entered for every conversation.
+
+Microsoft provides a growing collection of prebuilt agents, and organizations can create their own custom agents tailored to specific roles and responsibilities.
+
+After you have signed in to your *@byui.edu* account, select **Agents** from the Copilot interface or Agent Store to browse available agents.
+
+More on creating an agent for Copywriters can be found here: [AI Agents for Copywriters]()
+
+**Key Features of Agents:**
+
+- **Custom Instructions & Roles:** Define specific tasks, workflows, response structures, and operating rules.
+- **Organizational Knowledge:** Agents can use approved Microsoft 365 content and business data.
+- **Workflow Automation:** Agents can automate recurring business processes and multi-step tasks.
+- **Reusable Expertise:** Build specialized assistants for research, marketing, documentation, project management, and more.
+
+### Sharing Conversations
+Copilot allows users to share conversations and generated content with others.
+
+> #### Removing access:
+>
+> Shared content can be managed or deleted from your Copilot history. Once removed, previously shared content may no longer be accessible through the generated link.
+
+**How It Works:**
+
+- **Generating Links:** Shared conversations generate a unique URL containing the selected chat content.
+- **What Others See:** Recipients can view the shared conversation, generated content, and attached outputs.
+- **Privacy & Permissions:** Shared content follows the permissions and policies associated with your Microsoft account and organization.
+
+## Working with Files and Microsoft 365 Content
+
+One of Copilot's strongest capabilities is grounding responses in uploaded files and Microsoft 365 content. Unlike a standard chatbot that relies primarily on web data and model knowledge, Copilot can analyze the specific documents you provide.
+
+### How File Grounding Operates
+
+Files can be uploaded directly into chat or accessed through Microsoft 365 applications, depending on permissions and licensing.
+
+Common supported sources include:
+
+- PDFs
+- Word documents
+- Excel spreadsheets
+- PowerPoint presentations
+- OneNote content
+- SharePoint files
+- OneDrive files
+
+### Chat
+
+The chat experience functions like a standard GenAI chatbot but can incorporate uploaded files and Microsoft 365 content into its responses. Copilot references these materials when generating answers, summaries, analyses, or recommendations.
+
+## More Tools For Copywriters
+
+Copilot has many other tools that assist with advanced workflow, but there are only a few that are directly applicable for Copywriters. You can find these throughout the Copilot interface, depending on your license and enabled features.
+
+#### Copilot Pages
+
+A dedicated workspace within Copilot that allows you to work side-by-side with AI-generated content. Pages creates a persistent collaborative canvas where you can collect responses, refine drafts, organize research, and continuously build on previous work without losing context.
+
+#### Deep Research
+
+An autonomous research tool within Copilot. When given a complex prompt, Deep Research creates a multi-step research process, gathers information from approved sources, analyzes findings, and synthesizes the results into a comprehensive cited report.
+
+#### Session Management
+
+Organizational features for managing chat history and ongoing projects. Session Management allows you to save, revisit, and continue previous conversations while maintaining context across related work.
+
 
 ## Citations
 1. <a id="cite-1"></a> https://www.goldmansachs.com/insights/articles/how-will-ai-affect-the-us-labor-market [↩ Back to text](#ref-1)
