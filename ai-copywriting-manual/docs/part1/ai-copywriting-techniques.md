@@ -96,10 +96,6 @@ Designing effective prompts requires breaking down inputs into a framework for c
  
 If the output is still incomplete or unsuitable, the copywriter can refine the prompt again. As each task is different, not every prompt will require each part, but in order to reduce the randomness of GenAI outputs, you will generally need **Goal** plus two to three other parts.
 
-https://arxiv.org/pdf/2607.19257
-https://arxiv.org/abs/2505.12837
-https://arxiv.org/abs/2411.10541
-
 ### 1. Goal: The intent and objective of the prompt and the output.
 Effectively prompting GenAI requires that one be sure to include a specific, actionable directive for the output. Problem decomposition already provides an achievable task, but without a clearly stated goal that GenAI can understand, it will be all the more difficult to accomplish.
 
@@ -727,23 +723,4 @@ Each refinement addresses a specific weakness in the earlier instruction. The co
 Prompt refinement is also a form of problem decomposition. As the copywriter revises a prompt, they may discover that the original goal was too broad, the audience was undefined, the source material was incomplete, or the output required several separate tasks. In this way, prompting remains part of the copywriter's larger process of thinking, researching, reviewing, and making decisions.
 
 The final response is not necessarily the final product. Prompt techniques help GenAI provide more useful support, but the copywriter remains responsible for evaluating the output, verifying important information, applying professional judgment, and approving any copy before publication.
-
-Next Chapter: [How To Find With AI](how-to-find.md)
-
-
-
-
-
-https://arxiv.org/abs/2511.05764
-https://learnprompting.org/docs/advanced/decomposition/introduction
-https://mitsloanedtech.mit.edu/ai/basics/effective-prompts/
-https://arxiv.org/pdf/2406.06608
-https://www.cell.com/patterns/fulltext/S2666-3899(25)00108-4
-file:///Users/andersoncullen/Downloads/161283-prompt-engineering-for-chatgpt-a-quick-guide-to-techniques-tips-and-best-practices.pdf
-https://jet.scholasticahq.com/article/161283.pdf
-
-
-How to Use AI to Create Content Outlines
-How to Get Ideas from AI without the Output Sounding Generic, Formulaic, or Robotic
-How to Write Effective Prompts that Captures Specific Brand, Tone, Voice, and Audience Pain Points
 
