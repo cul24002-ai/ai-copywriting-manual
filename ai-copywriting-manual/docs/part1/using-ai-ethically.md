@@ -12,9 +12,9 @@ Personal accountability is crucial in the age of GenAI. This is revolutionary te
 > - **Research integrity:** GenAI hallucinations can lead to research misconduct, including fabrication and falsification. Copywriters should not use GenAI to summarize, explain, or analyze professional research.
 
 ## Data Privacy & AI
-Many GenAI tools treat the text in the chat interface as training data for future models. The price for using these tools for free is any data that users might be sharing. This includes names, phone numbers, emails, and any private information that users share. These models may not deliberately store this data in their storage to share with others later; nevertheless, this information becomes a part of the model and creates a security risk if the information shared was sensitive or private. Giving GenAI private information freely, without data protection, acts as consent for its internal systems to use that data to train.<a id="ref-7"></a><sup>[7](#cite-7)</sup> 
 
-BYU-Idaho is committed to safeguarding data privacy. The official `@byui.edu` account gives students and faculty access to authorized AI tools, each approved with a specific data classification level: *public*, *internal*, *confidential*, and *restricted*.<a id="ref-8"></a><sup>[8](#cite-8)</sup> Copywriters who are accessing the authorized tools with their BYU-Idaho accounts are safe to share data across the public, internal, and confidential classes. 
+Many GenAI tools treat the text in the chat interface as training data for future models. The price for using these tools for free is any data that users might be sharing. This includes names, phone numbers, emails, and any private information that users share. These models may not deliberately store this data in their storage to share with others later; nevertheless, this information becomes a part of the model and creates a security risk if the information shared was sensitive or private. Giving GenAI private information freely, without data protection, acts as consent for its internal systems to use that data to train.<a id="ref-28"></a><sup>[28](#cite-28)</sup> 
+BYU-Idaho is committed to safeguarding data privacy. The official `@byui.edu` account gives students and faculty access to authorized AI tools, each approved with a specific data classification level: *public*, *internal*, *confidential*, and *restricted*.<a id="ref-29"></a><sup>[29](#cite-29)</sup> Copywriters who are accessing the authorized tools with their BYU-Idaho accounts are safe to share data across the public, internal, and confidential classes. 
 
 ### Data Privacy Practices for Copywriters
 *Don't Feed University Data or Private Information to Unapproved AI Tools*
@@ -27,7 +27,7 @@ Personally Identifiable Information and confidential or restricted university in
 
 *Always Self-Check*
 
-The Church Education System (CES) provides six principles for protecting data—Purpose Limitation, Data Minimization, Lawfulness, Transparency, Protection, and Duration—which are meant to encourage members to self-check their work.<a id="ref-9"></a><sup>[9](#cite-9)</sup> If you are working with confidential information, you can use this [self-check guide](https://cesprivacy.org/00000193-1d0f-d940-adf7-dfcfa2e20001/cpc-global-privacy-principles-self-check-pdf) to ensure your work is safe.
+The Church Education System (CES) provides six principles for protecting data—Purpose Limitation, Data Minimization, Lawfulness, Transparency, Protection, and Duration—which are meant to encourage members to self-check their work.<a id="ref-30"></a><sup>[30](#cite-30)</sup> If you are working with confidential information, you can use this [self-check guide](https://cesprivacy.org/00000193-1d0f-d940-adf7-dfcfa2e20001/cpc-global-privacy-principles-self-check-pdf) to ensure your work is safe.
 
 *Ask For Help If You Are Not Sure*
   
@@ -48,7 +48,7 @@ When in doubt, leave it out. If you aren't sure whether something is appropriate
 | `News` `Maps` `Events` `Public Websites` `Catalogs` | `Budgets` `Policies` `Procedures` `Survey Data` `Meeting Notes` `Course Content` `Authenticated Websites` | `Names` `Photos` `Grades` `Usernames` `I-Numbers` `Addresses` `Contact Info` `Transcripts` `Authenticated Websites` | `SSNs` `Bank Info` `Passwords` `Tax Records` `Legal Files` `Medical Records` `Credit Card Info` |
 
 ### Authorized Tools
-The AI tools approved by BYU-Idaho are *ChatGPT*, *Copilot*, and *Gemini*. These three are standard GenAI tools.<a id="ref-10"></a><sup>[10](#cite-10)</sup> The key differences are where they live, what they can see, and how they handle data:
+The AI tools approved by BYU-Idaho are *ChatGPT*, *Copilot*, and *Gemini*. These three are standard GenAI tools.<a id="ref-31"></a><sup>[31](#cite-31)</sup> The key differences are where they live, what they can see, and how they handle data:
 
 #### OpenAI ChatGPT Edu
 It's excellent for writing, editing, brainstorming, and building Custom GPTs. It requires a CES Edu license, which is available through student accounts, but must be accessed directly.
@@ -81,23 +81,23 @@ It integrates with Google Workspace and Google Search. Copywriters must use thei
 Find out more about Google Gemini here: [Features of Google Gemini](tool-guide/how-to-use-google-gemini.md)
 
 ## Copyright & AI
-Copyright law is the legal right that gives creators control over their original works of authorship, stopping others from plagiarizing and using those works without explicit permission.<a id="ref-11"></a><sup>[11](#cite-11)</sup> Under US law, everyone is a copyright owner, inasmuch as they have produced an original work.<a id="ref-12"></a><sup>[12](#cite-12)</sup> Intellectual property, which is an intangible, often digital, artifact that communicates ideas originating from the human mind, is obtained through copyright laws.<a id="ref-2"></a><sup>[2](#cite-2)</sup> (Artifacts refer to materials created to carry and communicate ideas and information.)<a id="ref-1"></a><sup>[1](#cite-1)</sup> A copywriter's copy falls under copyright laws. When they write for a company, like BYU-Idaho, the company automatically owns it if the work is under "work made for hire."<a id="ref-13"></a><sup>[13](#cite-13)</sup> Individual copywriters don't own their copy because BYU-Idaho is paying them for the rights to ownership.
+Copyright law is the legal right that gives creators control over their original works of authorship, stopping others from plagiarizing and using those works without explicit permission.<a id="ref-32"></a><sup>[32](#cite-32)</sup> Under US law, everyone is a copyright owner, inasmuch as they have produced an original work.<a id="ref-33"></a><sup>[33](#cite-33)</sup> Intellectual property, which is an intangible, often digital, artifact that communicates ideas originating from the human mind, is obtained through copyright laws.<a id="ref-34"></a><sup>[34](#cite-34)</sup> (Artifacts refer to materials created to carry and communicate ideas and information.)<a id="ref-35"></a><sup>[35](#cite-35)</sup> A copywriter's copy falls under copyright laws. When they write for a company, like BYU-Idaho, the company automatically owns it if the work is under "work made for hire."<a id="ref-36"></a><sup>[36](#cite-36)</sup> Individual copywriters don't own their copy because BYU-Idaho is paying them for the rights to ownership.
 
 Even with the institutional data privacy protections put in place, the copyright and plagiarism issues of GenAI authorship remain. When the main author of written work is GenAI, even if a series of thoughtful prompts produced it, the question remains: *Who owns this?*
 
-According to the US Copyright Office, human authorship facilitates ownership of intellectual property, but when authorship originates with GenAI instead, ownership rights are lost.<a id="ref-3"></a><sup>[3](#cite-3),</sup><a id="ref-4"></a><sup>[4](#cite-4)</sup> GenAI interrupts the traditional copyright workflow because it challenges the definition of author and introduces complications with plagiarism, authorship, and ownership. Even well-constructed, effortful prompts don't translate to ownership of generated artifacts because the machine, not the human, created the expressive work.<a id="ref-14"></a><sup>[14](#cite-14)</sup> GenAI-created artifacts belong to the public domain and do not count as intellectual property for individuals or organizations. 
+According to the US Copyright Office, human authorship facilitates ownership of intellectual property, but when authorship originates with GenAI instead, ownership rights are lost.<a id="ref-37"></a><sup>[37](#cite-37),</sup><a id="ref-38"></a><sup>[38](#cite-38)</sup> GenAI interrupts the traditional copyright workflow because it challenges the definition of author and introduces complications with plagiarism, authorship, and ownership. Even well-constructed, effortful prompts don't translate to ownership of generated artifacts because the machine, not the human, created the expressive work.<a id="ref-39"></a><sup>[39](#cite-39)</sup> GenAI-created artifacts belong to the public domain and do not count as intellectual property for individuals or organizations. 
 
-Deceptively hiding GenAI involvement or using GenAI to create an artifact while claiming it as original work is plagiarism, which violates BYU-Idaho's Honor Code.<a id="ref-5"></a><sup>[5](#cite-5),</sup> 
-<a id="ref-15"></a><sup>[15](#cite-15)</sup> These kinds of artifacts cannot be copyrighted because they have no human authorship.<a id="ref-6"></a><sup>[6](#cite-6)</sup> In extreme cases, using AI-generated artifacts may create copyright infringement by reproducing a copyrighted work without attribution, which goes from being an internal compliance issue to being a violation of copyright law.<a id="ref-16"></a><sup>[16](#cite-16)</sup>
+Deceptively hiding GenAI involvement or using GenAI to create an artifact while claiming it as original work is plagiarism, which violates BYU-Idaho's Honor Code.<a id="ref-40"></a><sup>[40](#cite-40),</sup> 
+<a id="ref-41"></a><sup>[41](#cite-41)</sup> These kinds of artifacts cannot be copyrighted because they have no human authorship.<a id="ref-42"></a><sup>[42](#cite-42)</sup> In extreme cases, using AI-generated artifacts may create copyright infringement by reproducing a copyrighted work without attribution, which goes from being an internal compliance issue to being a violation of copyright law.<a id="ref-43"></a><sup>[43](#cite-43)</sup>
 
-The principle for protecting intellectual property is avoiding GenAI authorship. In general, if GenAI creates text and then it is heavily edited, revised, or rearranged by humans, copyright will only protect the human-authored portion of the work.<a id="ref-17"></a><sup>[17](#cite-17)</sup> To enforce this practice, if a company tries to register a major asset with the copyright office, it must disclose any GenAI involvement. This creates a gray area where certain parts of an artifact may count as intellectual property and other parts may be public domain.
+The principle for protecting intellectual property is avoiding GenAI authorship. In general, if GenAI creates text and then it is heavily edited, revised, or rearranged by humans, copyright will only protect the human-authored portion of the work.<a id="ref-44"></a><sup>[44](#cite-44)</sup> To enforce this practice, if a company tries to register a major asset with the copyright office, it must disclose any GenAI involvement. This creates a gray area where certain parts of an artifact may count as intellectual property and other parts may be public domain.
 
 The *find*, *challenge*, and *inspect* methods comply with university and legal standards for using GenAI, because they don't place GenAI in a role of authorship in any form.
 
 ### Copyright Infringement vs. Plagiarism
 Though GenAI complicates both plagiarism and copyright, they are not the same thing. Plagiarism is an issue of intellectual honesty. Copyright is an issue of intellectual property. The following case study demonstrates how a copywriter using GenAI may plagiarize, infringe copyright law, or do both, and then how they can avoid it entirely.
 
-*Important Note:* When referring to plagiarism, the term "ideas" doesn't refer to the concept or notion of something, but to explanations, hypotheses, theories, and original thought.<a id="ref-18"></a><sup>[18](#cite-18)</sup> Under BYU-Idaho's Honor Code, stealing AI-generated ideas is plagiarism, but the practice of using GenAI to brainstorm only becomes a legal violation if it starts to perform the cognitive labor of developing that idea into an artifact.<a id="ref-19"></a><sup>[19](#cite-19)</sup>
+*Important Note:* When referring to plagiarism, the term "ideas" doesn't refer to the concept or notion of something, but to explanations, hypotheses, theories, and original thought.<a id="ref-45"></a><sup>[45](#cite-45)</sup> Under BYU-Idaho's Honor Code, stealing AI-generated ideas is plagiarism, but the practice of using GenAI to brainstorm only becomes a legal violation if it starts to perform the cognitive labor of developing that idea into an artifact.<a id="ref-46"></a><sup>[46](#cite-46)</sup>
 
 **Plagiarism:** A copywriter uses Google Gemini to generate a paragraph for an article that they are writing. They use prompt-engineering techniques, including samples of their own writing and sources, to construct a strong prompt. Once the paragraph is generated, the copywriter edits sentences and double-checks the facts. They include this paragraph in their blog without citing GenAI, incidentally taking credit for ideas in the paragraph generated by GenAI. This copywriter has committed plagiarism by presenting the reasoning capabilities of GenAI as their own without citations. However, since the paragraph isn't using intellectual property without permission, it isn't a copyright infringement.
 
@@ -114,7 +114,7 @@ Though GenAI complicates both plagiarism and copyright, they are not the same th
 Since the copywriter properly attributed each source and authored the blog with minimal GenAI assistance, they did not plagiarize any work or infringe another author's rights. The university is able to register the blog with the copyright office for protection without any issues of ownership or authorship.
 
 ### Transparency & Disclosure
-The risks and limitations of GenAI as a tool, along with its ethical and legal problems, mean that copywriters should assume that using AI tools to directly influence the text is inappropriate unless it is otherwise stated. Organization leadership must approve when it's acceptable for a copywriter to use GenAI, but in general ***GenAI should never be used as an author or coauthor.***<a id="ref-20"></a><sup>[20](#cite-20)</sup> In the case that permission is warranted or granted to use GenAI, copywriters are fully accountable for fully disclosing the use of AI in their work in a succinct but comprehensive statement.<a id="ref-21"></a><sup>[21](#cite-21)</sup>
+The risks and limitations of GenAI as a tool, along with its ethical and legal problems, mean that copywriters should assume that using AI tools to directly influence the text is inappropriate unless it is otherwise stated. Organization leadership must approve when it's acceptable for a copywriter to use GenAI, but in general ***GenAI should never be used as an author or coauthor.***<a id="ref-47"></a><sup>[47](#cite-47)</sup> In the case that permission is warranted or granted to use GenAI, copywriters are fully accountable for fully disclosing the use of AI in their work in a succinct but comprehensive statement.<a id="ref-48"></a><sup>[48](#cite-48)</sup>
 
 A transparent disclosure statement should include the following:
 
@@ -141,13 +141,13 @@ For the second example, the GenAI didn't author anything, so the disclosure stat
 Copywriters should ask their supervisors and project managers about when to include a GenAI disclosure statement. Ultimately, it is up to the organization whether it will provide a statement or not; regardless, copywriters should always track GenAI usage in their work.
 
 ### AI Citation Style Guide
-Since AI doesn't have clear authorship standards, the standards for citing have been adjusted to accommodate these tools. The impermanence of AI chats makes citations less helpful than standard citations. Each citation should be paired with a disclosure statement. Below is a guide to citing AI in common styles. BYU-Idaho copywriters will use Chicago, but APA and MLA are provided for exceptions.<a id="ref-22"></a><sup>[22](#cite-22)</sup>
+Since AI doesn't have clear authorship standards, the standards for citing have been adjusted to accommodate these tools. The impermanence of AI chats makes citations less helpful than standard citations. Each citation should be paired with a disclosure statement. Below is a guide to citing AI in common styles. BYU-Idaho copywriters will use Chicago, but APA and MLA are provided for exceptions.<a id="ref-49"></a><sup>[49](#cite-49)</sup>
 
 * <a id="ref-cs"></a>[Chicago Style](#cite-cs)
 * <a id="ref-mla"></a>[MLA Style](#cite-mla)
 * <a id="ref-apa"></a>[APA Style](#cite-apa)
 
-##### <a id="cite-cs"></a> [Chicago Style](#ref-cs)<a id="ref-23"></a><sup>[23](#cite-23)</sup>
+##### <a id="cite-cs"></a> [Chicago Style](#ref-cs)<a id="ref-50"></a><sup>[50](#cite-50)</sup>
 According to Chicago Style, AI tools do not need to be credited as a source, but authors should disclose AI usage with a brief statement. However, it does provide instructions for creating a formal citation if desired.
 
 1. **Author:** The author will be labeled as the company that created the model, such as *Microsoft* for *Copilot*, *OpenAI* for *ChatGPT*, etc...
@@ -171,7 +171,7 @@ Text generated by ChatGPT, OpenAI, July 4, 2026, https://chatgpt.com/
 
 ChatGPT, response to "Where do I find fireworks," OpenAI, July 4, 2026, https://chatgpt.com/
 
-##### <a id="cite-mla"></a> [MLA Style](#ref-mla)<a id="ref-24"></a><sup>[24](#cite-24)</sup>
+##### <a id="cite-mla"></a> [MLA Style](#ref-mla)<a id="ref-51"></a><sup>[51](#cite-51)</sup>
 1. **Title of Source:** In MLA, AI-generated content is considered a source with *no author*.
 Instead of providing an author,  create a title for the source, such as a brief, descriptive phrase detailing what was created by AI or the prompt. Use this as the title for in-text citations.
 2. **Name of AI Tool:** The brand name of the AI tool, such as *ChatGPT, Copilot, Gemini, etc.* 
@@ -184,7 +184,7 @@ Instead of providing an author,  create a title for the source, such as a brief,
 
 **Example:** "Analyze this text from the perspective of a student" prompt. *Gemini*, Gemini 3.6 Thinking, Google, March 3, 2026, https://gemini.google.com/.
 
-##### <a id="cite-apa"></a> [APA Style](#ref-apa)<a id="ref-25"></a><sup>[25](#cite-25)</sup>
+##### <a id="cite-apa"></a> [APA Style](#ref-apa)<a id="ref-52"></a><sup>[52](#cite-52)</sup>
 1. **Author:** The author will be labeled as the company that created the model, such as *Microsoft* for *Copilot*, *OpenAI* for *ChatGPT*, etc...
 2. **Date:** The date the content was generated.
 3. **Name of AI Tool:** The brand name of the AI tool, such as *ChatGPT, Copilot, Gemini, etc.*
@@ -213,15 +213,15 @@ Research integrity is an important part of copywriting. The content copywriters 
 One of the things GenAI is promised to do is to hasten the research process, and that on its own is not a bad thing, but it depends on how that research is being performed. If GenAI is being used to allow researchers to find relevant, peer-reviewed, authentic articles at a faster rate, then that is fine. However, if GenAI is being used to summarize, compartmentalize, and even experiment with sources, then there are serious risks involved.
 
 ### AI Hallucination as Research Misconduct
-GenAI is built on unreliable mechanics, which compromise its ability to summarize and understand articles. AI Hallucination means that all research performed by LLMs must at least be intensely scrutinized through human oversight.<a id="ref-26"></a><sup>[26](#cite-26),</sup><a id="ref-27"></a><sup>[27](#cite-27)</sup>
+GenAI is built on unreliable mechanics, which compromise its ability to summarize and understand articles. AI Hallucination means that all research performed by LLMs must at least be intensely scrutinized through human oversight.<a id="ref-53"></a><sup>[53](#cite-53),</sup><a id="ref-54"></a><sup>[54](#cite-54)</sup>
 
-The tokenization process means that when GenAI is analyzing a source and finding results, conclusions, or data, it is algorithmically and arbitrarily stringing together an output that is meant to appear authoritative and accurate, but has no realistic way to verify it. Beyond plagiarism, which has been discussed above, it breaches into other areas of research misconduct: fabrication and falsification.<a id="ref-28"></a><sup>[28](#cite-28),</sup><a id="ref-29"></a><sup>[29](#cite-29),</sup><a id="ref-30"></a><sup>[30](#cite-30)</sup>
+The tokenization process means that when GenAI is analyzing a source and finding results, conclusions, or data, it is algorithmically and arbitrarily stringing together an output that is meant to appear authoritative and accurate, but has no realistic way to verify it. Beyond plagiarism, which has been discussed above, it breaches into other areas of research misconduct: fabrication and falsification.<a id="ref-55"></a><sup>[55](#cite-55),</sup><a id="ref-56"></a><sup>[56](#cite-56),</sup><a id="ref-57"></a><sup>[57](#cite-57)</sup>
 
 GenAI commits other forms of research misconduct beyond plagiarism, fabrication, and falsification. Instead of only claiming credit for original work, it will also hallucinate original information and give credit to fabricated sources. Since GenAI is trained to sound authoritative, it reflects the appearance of scholarship and research integrity by backing claims up with sources. The problem is that its claims and sources may not match, or be completely made up.
 
 GenAI doesn't cognitively research. Whatever source it is using is transformed into tokens so that the underlying LLM structure can generate text. It uses probability to calculate how a summary might look, but repeatedly makes mistakes because it doesn't recognize the tokens as facts, only data points. This system lays the foundation for two risks: fabrication and falsification.
 
-**Fabrication:** Making up sources, information, or results and using them to support an artifact as if they were real.</sup><a id="ref-31"></a><sup>[31](#cite-31)</sup> For instance:
+**Fabrication:** Making up sources, information, or results and using them to support an artifact as if they were real.</sup><a id="ref-58"></a><sup>[58](#cite-58)</sup> For instance:
 
 * Creating false information and citing it from an official source. 
 * Citing a source that does not exist. 
@@ -229,7 +229,7 @@ GenAI doesn't cognitively research. Whatever source it is using is transformed i
 
 GenAI fabricates information when it hallucinates sources, information, and results that don't exist.
 
-**Falsification:** Altering existing information from a real source to support a claim that it would not otherwise support.</sup><a id="ref-32"></a><sup>[32](#cite-32)</sup> For instance:
+**Falsification:** Altering existing information from a real source to support a claim that it would not otherwise support.</sup><a id="ref-59"></a><sup>[59](#cite-59)</sup> For instance:
 
 * Taking words, claims, or information from a source out of context.
 * Citing a source in a reference section when it does not support the artifact, especially if it wasn't explicitly referenced.
@@ -240,7 +240,7 @@ GenAI falsifies information when it hallucinates altered information from a real
 ### Limits of AI in Original Research
 Copywriters are not always experts in the things that they write about. Whether it be the audience, the content, or even the style they are working in, sometimes difficult research is necessary. GenAI appears to be a convenient tool because it can analyze, synthesize, and write about text almost instantaneously. Compare that to the hours a copywriter might have spent on that task, and it looks like the trade-off is great.
 
-That is the appeal of using AI in research, but it undermines the necessity of the copywriter's responsibilities, knowledge, and skills. Using GenAI in research inappropriately creates a gap between the information and the researcher that wouldn't exist otherwise.</sup><a id="ref-33"></a><sup>[33](#cite-33)</sup>
+That is the appeal of using AI in research, but it undermines the necessity of the copywriter's responsibilities, knowledge, and skills. Using GenAI in research inappropriately creates a gap between the information and the researcher that wouldn't exist otherwise.</sup><a id="ref-60"></a><sup>[60](#cite-60)</sup>
 
 For instance, the author of this manual was experimenting with using AI to find scholarly sources. The particular model was Copilot 365, and during this chat, the AI mentioned an acronym called p.o.t.a.t.o, which it said stood for *plain old text autoregressive text oracle*. It provided two sources for this phrase, sources that the author used previously and knew were reliable. 
 
@@ -253,51 +253,51 @@ That example was a small circumstance with a phrase that would be easy to fact-c
 #### Understanding The Gap
 Generated content might seem simple and easy to understand, but that is evidence of GenAI's ability to appeal to the user through its deployment training, not evidence of accuracy. Again, the appeal isn't even that GenAI is persuasive or well-written, but that it appears to take away a burden from the copywriter. As demonstrated beforehand, it should not be used for research. That includes answering questions, summarizing articles, processing data, or any area where human judgment, understanding, and overview are required.
 
-One of the purposes of copywriting is to close the knowledge gap between the audience and the thing that they need. The copywriter is meant to make sure the gap is closed and that audiences understand everything they need. When GenAI performs the research, it may sound like it is bridging the gap, but the text is likely to introduce errors that a non-expert could not catch unless they had done the research themselves.</sup><a id="ref-34"></a><sup>[34](#cite-34)</sup> 
+One of the purposes of copywriting is to close the knowledge gap between the audience and the thing that they need. The copywriter is meant to make sure the gap is closed and that audiences understand everything they need. When GenAI performs the research, it may sound like it is bridging the gap, but the text is likely to introduce errors that a non-expert could not catch unless they had done the research themselves.</sup><a id="ref-61"></a><sup>[61](#cite-61)</sup> 
 
 The responsibility of research cannot be passed off. Even simple fact-checks can easily be overlooked if copywriters are over-reliant on GenAI. When copywriters use GenAI to complete tasks on their behalf that they cannot verify, it creates a gap in responsibility and knowledge.
 
-Overreliance on GenAI research robs copywriters of important research, reading, and writing skills. The long-term effects of deskilling important steps in the copywriting process are not currently known, but evidence suggests that offloading cognitive labor to GenAI is slowly driving cognitive decline.</sup><a id="ref-35"></a><sup>[35](#cite-35),</sup></sup><a id="ref-36"></a><sup> [36](#cite-36)</sup> This may impact copywriters' ability to critically evaluate research on their own, further driving more reliance on generated research and knowledge. In this case, the gap between GenAI and human writers would become permanent, not just situational, and all the risks remain with no means of mitigation.
+Overreliance on GenAI research robs copywriters of important research, reading, and writing skills. The long-term effects of deskilling important steps in the copywriting process are not currently known, but evidence suggests that offloading cognitive labor to GenAI is slowly driving cognitive decline.</sup><a id="ref-62"></a><sup>[62](#cite-62),</sup></sup><a id="ref-63"></a><sup> [63](#cite-63)</sup> This may impact copywriters' ability to critically evaluate research on their own, further driving more reliance on generated research and knowledge. In this case, the gap between GenAI and human writers would become permanent, not just situational, and all the risks remain with no means of mitigation.
 
 GenAI still has a role to play in the research process, but not in generating research. If the cost of saving time should be at the expense of understanding, then there was never a point to research in the first place. GenAI should be used to save time, so that more can be spent on increasing understanding.
 
 Next Chapter: [The Basic Features of AI](how-to-use-ai-tools.md)
 
 ## Citations
-1. <a id="cite-1"></a> https://doi.org/10.25300/MISQ/2013/37.2.02 [↩ Back to text](#ref-1)
-2. <a id="cite-2"></a> https://www.wipo.int/en/web/about-ip [↩ Back to text](#ref-2)
-3. <a id="cite-3"></a> https://brandfolder.com/resources/digital-rights-management/ [↩ Back to text](#ref-3)
-4. <a id="cite-4"></a> https://www.copyright.gov/ai/ai_policy_guidance.pdf [↩ Back to text](#ref-4)
-5. <a id="cite-5"></a> https://www.byui.edu/student-honor-office/academic-honesty [↩ Back to text](#ref-5)
-6. <a id="cite-6"></a> https://law.justia.com/cases/federal/appellate-courts/cadc/23-5233/23-5233-2025-03-18.html [↩ Back to text](#ref-6)
-7. <a id="cite-7"></a> https://link.springer.com/article/10.1007/s43681-026-01144-w [↩ Back to text](#ref-7)
-8. <a id="cite-8"></a> https://www.byui.edu/ai/data-classifications [↩ Back to text](#ref-8)
-9. <a id="cite-9"></a> https://cesprivacy.org/global-privacy-principles  [↩ Back to text](#ref-9)
-10. <a id="cite-10"></a> https://www.byui.edu/ai/tools [↩ Back to text](#ref-10)
-11. <a id="cite-11"></a> https://platform.openai.com/tokenizer [↩ Back to text](#ref-11)
-12. <a id="cite-12"></a> https://cesprivacy.org/global-privacy-principles [↩ Back to text](#ref-12)
-13. <a id="cite-13"></a> https://www.copyright.gov/circs/circ30.pdf [↩ Back to text](#ref-13)
-14. <a id="cite-14"></a> https://copyrightalliance.org/ai-report-part-2-copyrightability/ [↩ Back to text](#ref-14)
-15. <a id="cite-15"></a> https://www.byui.edu/ai/academics/integrity [↩ Back to text](#ref-15)
-16. <a id="cite-16"></a> https://martensenip.com/blog/2025/10/ai-copyright-infringement-understanding-ai-copyright/ [↩ Back to text](#ref-16)
-17. <a id="cite-17"></a> https://www.copyright.gov/ai/ai_policy_guidance.pdf [↩ Back to text](#ref-17)
-18. <a id="cite-18"></a> https://ori.hhs.gov/plagiarism-ideas [↩ Back to text](#ref-18)
-19. <a id="cite-19"></a> https://www.copyright.gov/what-is-copyright/ [↩ Back to text](#ref-19)
-20. <a id="cite-20"></a> https://www.cdc.gov/ai/resources/considerations-for-generative-ai-use-in-scientific-work.html [↩ Back to text](#ref-20)
-21. <a id="cite-21"></a> https://bradley.libguides.com/genAI/citing [↩ Back to text](#ref-21)
-22. <a id="cite-22"></a> https://content.byui.edu/file/869c6648-a3b7-4ecc-8987-852c6b710763/1/BYU-I%20AI%20Citation%20Style%20Guide.pdf  [↩ Back to text](#ref-22)
-23. <a id="cite-23"></a> https://www.chicagomanualofstyle.org/qanda/data/faq/topics/Documentation/faq0422.html  [↩ Back to text](#ref-23)
-24. <a id="cite-24"></a>  https://apastyle.apa.org/blog/cite-generative-ai-reference  [↩ Back to text](#ref-24)
-25. <a id="cite-25"></a> https://style.mla.org/citing-generative-ai-updated-revised/  [↩ Back to text](#ref-25)
-26. <a id="cite-26"></a> https://pmc.ncbi.nlm.nih.gov/articles/PMC11224801/ [↩ Back to text](#ref-26)
-27. <a id="cite-27"></a> https://pmc.ncbi.nlm.nih.gov/articles/PMC13051339/ [↩ Back to text](#ref-27)
-28. <a id="cite-28"></a> https://ori.hhs.gov/definition-research-misconduct [↩ Back to text](#ref-28)
-29. <a id="cite-29"></a> https://www.kff.org/health-information-trust/how-ai-can-both-detect-and-enable-fraudulent-research/ [↩ Back to text](#ref-29)
-30. <a id="cite-30"></a> https://courses.ems.psu.edu/bioet533/node/654 [↩ Back to text](#ref-30)
-31. <a id="cite-31"></a> https://embassy.science/wiki/Theme:5f65272f-6e95-4768-8236-bc821a97f3d8 [↩ Back to text](#ref-31)
-32. <a id="cite-32"></a> https://embassy.science/wiki/Theme:047c3bec-1747-499b-b6d5-684cbfb81edd [↩ Back to text](#ref-32)
-33. <a id="cite-33"></a> https://pmc.ncbi.nlm.nih.gov/articles/PMC12872602/ [↩ Back to text](#ref-33)
-34. <a id="cite-34"></a> https://journals.sagepub.com/doi/10.1177/18758789261463098 [↩ Back to text](#ref-34)
-35. <a id="cite-35"></a> https://doi.org/10.1002/acp.70269Digital Object Identifier (DOI) [↩ Back to text](#ref-35)
-36. <a id="cite-36"></a> https://pmc.ncbi.nlm.nih.gov/articles/PMC12561928/ [↩ Back to text](#ref-36)
+28. <a id="cite-28"></a> https://link.springer.com/article/10.1007/s43681-026-01144-w [↩ Back to text](#ref-28)
+29. <a id="cite-29"></a> https://www.byui.edu/ai/data-classifications [↩ Back to text](#ref-29)
+30. <a id="cite-30"></a> https://cesprivacy.org/global-privacy-principles  [↩ Back to text](#ref-30)
+31. <a id="cite-31"></a> https://www.byui.edu/ai/tools [↩ Back to text](#ref-31)
+32. <a id="cite-32"></a> https://platform.openai.com/tokenizer [↩ Back to text](#ref-32)
+33. <a id="cite-33"></a> https://cesprivacy.org/global-privacy-principles [↩ Back to text](#ref-33)
+34. <a id="cite-34"></a> https://www.wipo.int/en/web/about-ip [↩ Back to text](#ref-34)
+35. <a id="cite-35"></a> https://doi.org/10.25300/MISQ/2013/37.2.02 [↩ Back to text](#ref-35)
+36. <a id="cite-36"></a> https://www.copyright.gov/circs/circ30.pdf [↩ Back to text](#ref-36)
+37. <a id="cite-37"></a> https://brandfolder.com/resources/digital-rights-management/ [↩ Back to text](#ref-37)
+38. <a id="cite-38"></a> https://www.copyright.gov/ai/ai_policy_guidance.pdf [↩ Back to text](#ref-38)
+39. <a id="cite-39"></a> https://copyrightalliance.org/ai-report-part-2-copyrightability/ [↩ Back to text](#ref-39)
+40. <a id="cite-40"></a> https://www.byui.edu/student-honor-office/academic-honesty [↩ Back to text](#ref-40)
+41. <a id="cite-41"></a> https://www.byui.edu/ai/academics/integrity [↩ Back to text](#ref-41)
+42. <a id="cite-42"></a> https://law.justia.com/cases/federal/appellate-courts/cadc/23-5233/23-5233-2025-03-18.html [↩ Back to text](#ref-42)
+43. <a id="cite-43"></a> https://martensenip.com/blog/2025/10/ai-copyright-infringement-understanding-ai-copyright/ [↩ Back to text](#ref-43)
+44. <a id="cite-44"></a> https://www.copyright.gov/ai/ai_policy_guidance.pdf [↩ Back to text](#ref-44)
+45. <a id="cite-45"></a> https://ori.hhs.gov/plagiarism-ideas [↩ Back to text](#ref-45)
+46. <a id="cite-46"></a> https://www.copyright.gov/what-is-copyright/ [↩ Back to text](#ref-46)
+47. <a id="cite-47"></a> https://www.cdc.gov/ai/resources/considerations-for-generative-ai-use-in-scientific-work.html [↩ Back to text](#ref-47)
+48. <a id="cite-48"></a> https://bradley.libguides.com/genAI/citing [↩ Back to text](#ref-48)
+49. <a id="cite-49"></a> https://content.byui.edu/file/869c6648-a3b7-4ecc-8987-852c6b710763/1/BYU-I%20AI%20Citation%20Style%20Guide.pdf  [↩ Back to text](#ref-49)
+50. <a id="cite-50"></a> https://www.chicagomanualofstyle.org/qanda/data/faq/topics/Documentation/faq0422.html  [↩ Back to text](#ref-50)
+51. <a id="cite-51"></a>  https://apastyle.apa.org/blog/cite-generative-ai-reference  [↩ Back to text](#ref-51)
+52. <a id="cite-52"></a> https://style.mla.org/citing-generative-ai-updated-revised/  [↩ Back to text](#ref-52)
+53. <a id="cite-53"></a> https://pmc.ncbi.nlm.nih.gov/articles/PMC11224801/ [↩ Back to text](#ref-53)
+54. <a id="cite-54"></a> https://pmc.ncbi.nlm.nih.gov/articles/PMC13051339/ [↩ Back to text](#ref-54)
+55. <a id="cite-55"></a> https://ori.hhs.gov/definition-research-misconduct [↩ Back to text](#ref-55)
+56. <a id="cite-56"></a> https://www.kff.org/health-information-trust/how-ai-can-both-detect-and-enable-fraudulent-research/ [↩ Back to text](#ref-56)
+57. <a id="cite-57"></a> https://courses.ems.psu.edu/bioet533/node/654 [↩ Back to text](#ref-57)
+58. <a id="cite-58"></a> https://embassy.science/wiki/Theme:5f65272f-6e95-4768-8236-bc821a97f3d8 [↩ Back to text](#ref-58)
+59. <a id="cite-59"></a> https://embassy.science/wiki/Theme:047c3bec-1747-499b-b6d5-684cbfb81edd [↩ Back to text](#ref-59)
+60. <a id="cite-60"></a> https://pmc.ncbi.nlm.nih.gov/articles/PMC12872602/ [↩ Back to text](#ref-60)
+61. <a id="cite-61"></a> https://journals.sagepub.com/doi/10.1177/18758789261463098 [↩ Back to text](#ref-61)
+62. <a id="cite-62"></a> https://doi.org/10.1002/acp.70269Digital Object Identifier (DOI) [↩ Back to text](#ref-62)
+63. <a id="cite-63"></a> https://pmc.ncbi.nlm.nih.gov/articles/PMC12561928/ [↩ Back to text](#ref-63)
 
