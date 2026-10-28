@@ -404,16 +404,6 @@ It's excellent for writing, editing, brainstorming, and building Custom GPTs. It
   * Restricted:❗
 
 Find out more about ChatGPT here: <a id="ref-gpt"></a>[Features of ChatGPT](#cite-gpt)
-  
-#### Microsoft Copilot
-It can see emails, files, meetings, and calendar, making it powerful for work tasks tied to the M365 environment. Copywriters must use their BYU-Idaho Microsoft account.
-
-  * Public:✅
-  * Internal:✅
-  * Confidential:✅
-  * Restricted:❗
-
-Find out more about Microsoft Copilot here: <a id="ref-msoft"></a>[Features of Microsoft Copilot](#cite-msoft)
 
 #### Google Gemini
 It integrates with Google Workspace and Google Search. Copywriters must use their BYU-Idaho Google account.
@@ -424,6 +414,16 @@ It integrates with Google Workspace and Google Search. Copywriters must use thei
   * Restricted:❗
 
 Find out more about Google Gemini here: <a id="ref-gem"></a>[Features of Google Gemini](#cite-gem)
+  
+#### Microsoft Copilot
+It can see emails, files, meetings, and calendar, making it powerful for work tasks tied to the M365 environment. Copywriters must use their BYU-Idaho Microsoft account.
+
+  * Public:✅
+  * Internal:✅
+  * Confidential:✅
+  * Restricted:❗
+
+Find out more about Microsoft Copilot here: <a id="ref-msoft"></a>[Features of Microsoft Copilot](#cite-msoft)
 
 ## Copyright & AI
 Copyright law is the legal right that gives creators control over their original works of authorship, stopping others from plagiarizing and using those works without explicit permission.<a id="ref-32"></a><sup>[32](#cite-32)</sup> Under US law, everyone is a copyright owner, inasmuch as they have produced an original work.<a id="ref-33"></a><sup>[33](#cite-33)</sup> Intellectual property, which is an intangible, often digital, artifact that communicates ideas originating from the human mind, is obtained through copyright laws.<a id="ref-34"></a><sup>[34](#cite-34)</sup> (Artifacts refer to materials created to carry and communicate ideas and information.)<a id="ref-35"></a><sup>[35](#cite-35)</sup> A copywriter's copy falls under copyright laws. When they write for a company, like BYU-Idaho, the company automatically owns it if the work is under "work made for hire."<a id="ref-36"></a><sup>[36](#cite-36)</sup> Individual copywriters don't own their copy because BYU-Idaho is paying them for the rights to ownership.
