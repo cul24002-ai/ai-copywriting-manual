@@ -26,7 +26,7 @@ Prompt Engineering breaks problem decomposition into two parts: first, understan
 #### *Part 1*
 The copywriter breaks a problem into manageable pieces, and then they propose potential solutions.
 
-"`mermaid
+```mermaid
 graph LR
     A(What is the problem?) --> B(What are the desired outcomes?)
     B --> C(What are possible solutions?)
@@ -66,11 +66,12 @@ When Copywriters start asking "Which steps can be completed with GenAI assistanc
 
 The copywriter determines that one of the steps can be appropriately completed with AI assistance, and then they identify exactly how it can help. Copywriters should work along the lines of *Find*, *Challenge*, and *Inspect.*
 
-"`mermaid
+```mermaid
 graph LR
     A(Which steps can be completed with GenAI assistance?) --> B(Which GenAI tools and features will help?)
     B --> C(Which prompts and techniques will best guide GenAI?)
 ```
+
 ##### Step 5: *Which steps can be completed with GenAI assistance?*
 The copywriter identifies three ways they can use GenAI to *find*, *challenge*, and *inspect*. For researching inclusive language and multicultural personas, the copywriter plans to use GenAI to *find* reputable and relevant articles and even professional research papers. Next, for testing the drafts against audience personas, the copywriter plans to have GenAI adopt each persona and *challenge* the newsletters. Finally, to ensure that the final draft is compliant with the writing style guide, the copywriter plans to have GenAI *inspect* it and identify any issues.
 
@@ -93,7 +94,7 @@ Designing effective prompts requires breaking down inputs into a framework for c
 
  The **Goal** identifies the task, **Format** organizes the output, **Style** controls how the response is written, **Role** establishes the model's perspective and boundaries, **Context** supplies the necessary information, and **Examples** demonstrate the expected result. 
  
- If the output is still incomplete or unsuitable, the copywriter can refine the prompt again. As each task is different, not every prompt will require each part, but in order to reduce the randomness of GenAI outputs, you will generally need **Goal** plus two to three other parts.
+If the output is still incomplete or unsuitable, the copywriter can refine the prompt again. As each task is different, not every prompt will require each part, but in order to reduce the randomness of GenAI outputs, you will generally need **Goal** plus two to three other parts.
 
 https://arxiv.org/pdf/2607.19257
 https://arxiv.org/abs/2505.12837
